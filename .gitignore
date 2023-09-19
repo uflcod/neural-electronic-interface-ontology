@@ -1,0 +1,77 @@
+target/
+site/
+venv/
+docs/*md
+docs/types/
+*/my_schema.*
+.env
+.venv
+local/
+
+# jupyter backups
+.ipynb_checkpoints/
+
+.DS_Store
+
+# PyCharm project config
+.idea/
+
+*.old
+
+# emacs backup files
+*~
+
+# ignore files needed for pypi distribution
+__pycache__/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ignore temp files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# temp files create during extract process
+temp-mirror.owl
+temp-mireot.owl
+temp-star-pain.owl
+
+# copied for .gitignore created by ODK
+*.tmp
+*.tmp.obo
+*.tmp.owl
+*.tmp.json
+
+src/ontology/mirror
+src/ontology/mirror/*
+src/ontology/reports/*
+src/ontology/pain.owl
+src/ontology/pain.obo
+src/ontology/pain.json
+src/ontology/pain-base.*
+src/ontology/pain-basic.*
+src/ontology/pain-full.*
+src/ontology/pain-simple.*
+src/ontology/pain-simple-non-classified.*
+
+src/ontology/seed.txt
+src/ontology/dosdp-tools.log
+src/ontology/ed_definitions_merged.owl
+src/ontology/ontologyterms.txt
+src/ontology/simple_seed.txt
+src/ontology/patterns
+src/ontology/merged-pain-edit.owl
+
+src/ontology/target/
+src/ontology/tmp/*
+!src/ontology/tmp/README.md
+
+src/ontology/imports/*_terms_combined.txt
+
+src/patterns/data/**/*.ofn
+src/patterns/data/**/*.txt
+src/patterns/pattern_owl_seed.txt
+src/patterns/all_pattern_terms.txt
