@@ -1,17 +1,16 @@
 # ----------------------------------------
-# Makefile for bionic-device-ontology (BDO)
+# Makefile for neural-electronic-interface-ontology (NEIO)
 # Originally generated using ontology-development-kit v1.3.1, but has been modified.
 # ----------------------------------------
 
 ### Workflow
 #
-# Tasks to edit and release BDO.
+# Tasks to edit and release NEIO.
 #
 # #### Edit
 #
 # 1. [Prepare release](prepare_release)
 # 2. [Refresh imports](all_imports)
-# 3. [Update repo to latest ODK](update_repo)
 
 
 # ----------------------------------------
@@ -19,9 +18,9 @@
 # ----------------------------------------
 # these can be overwritten on the command line
 
-URIBASE=                    https://w3id.org/bionic-device-ontology
+URIBASE=                    https://w3id.org/neural-electronic-interface-ontology
 OBO_BASE=					http://purl.obolibrary.org/obo
-ONT=                        bionic-device-ontology
+ONT=                        neio
 ONTBASE=                    $(URIBASE)/$(ONT)
 EDIT_FORMAT=                owl
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
@@ -171,10 +170,10 @@ endif
 # ----------------------------------------
 
 $(REPORTDIR)/$(SRC)-obo-report.tsv: $(SRCMERGED) | $(REPORTDIR)
-	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri $(URIBASE)/PAIN_ --base-iri $(URIBASE)/pain --print 5 -o $@
+	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri $(URIBASE)/NEIO_ --base-iri $(URIBASE)/neio --print 5 -o $@
 
 $(REPORTDIR)/%-obo-report.tsv: % | $(REPORTDIR)
-	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri $(URIBASE)/PAIN_ --base-iri $(URIBASE)/pain --print 5 -o $@
+	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri $(URIBASE)/NEIO_ --base-iri $(URIBASE)/neio --print 5 -o $@
 
 # ----------------------------------------
 # Release assets
@@ -357,7 +356,7 @@ SHARED_ROBOT_COMMANDS =
 
 $(ONTOLOGYTERMS): $(SRC) $(OTHER_SRC)
 	touch $(ONTOLOGYTERMS) && \
-	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/pain_terms.sparql $@
+	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/NEIO_terms.sparql $@
 
 # base: OTHER sources of interest, such as definitions owl
 $(ONT)-base.owl: $(SRC) $(OTHER_SRC)
@@ -428,7 +427,7 @@ normalize_src: $(SRC)
 
 .PHONY: validate_idranges
 validate_idranges:
-	amm $(SCRIPTSDIR)/validate_id_ranges.sc pain-idranges.owl
+	amm $(SCRIPTSDIR)/validate_id_ranges.sc neio-idranges.owl
 
 .PHONY: update_repo
 update_repo:
@@ -475,7 +474,7 @@ Imports management:
 
 Editor utilities:
 * validate_idranges:	Make sure your ID ranges file is formatted correctly
-* normalize_src:	Load and safe your pain-edit file after you to make sure its serialised correctly
+* normalize_src:	Load and safe your neio-edit file after you to make sure its serialised correctly
 * explain_unsat:	If you have unsatisfiable classes, this command will create a markdown file (tmp/explain_unsat.md) which will explain all your unsatisfiable classes
 * validate-all-tsv:	Check all your tsv files for possible problems in syntax. Use ALL_TSV_FILES variable to list files
 * validate-tsv:		Check a tsv file for syntactic problems with tsvalid. Use TSV variable to pass filepath, e.g. make TSV=../my.tsv validate-tsv.
@@ -483,13 +482,12 @@ Editor utilities:
 Additional build commands (advanced users)
 * all:			Run the entire pipeline (like prepare_release), but without copying the release files to the release directory.
 * all_subsets:		Build all subsets
-* custom_reports:	Generate all custom sparql reports you have configured in your pain-odk.yaml file.
 * all_assets:		Build all assets
 * show_assets:		Print a list of all assets that would be build by the release pipeline
 
 Additional QC commands (advanced users)
 * robot_reports:	Run all configured ROBOT reports
-* validate_profile_%:	Run an OWL2 DL profile validation check, for example validate_profile_pain-edit.owl.
+* validate_profile_%:	Run an OWL2 DL profile validation check, for example validate_profile_neio-edit.owl.
 
 Examples: 
 * make IMP=false prepare_release
@@ -503,4 +501,4 @@ Tricks:
 endef
 export data
 
-include bionic-device-ontology.Makefile
+include neio.Makefile

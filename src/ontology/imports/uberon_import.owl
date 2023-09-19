@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl#"
-     xml:base="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"
+<rdf:RDF xmlns="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl#"
+     xml:base="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -10,7 +10,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl">
+    <owl:Ontology rdf:about="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/uberon/releases/2023-09-05/uberon.owl"/>
     </owl:Ontology>
     
@@ -70,7 +70,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -78,7 +78,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -109,7 +109,7 @@
         <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>term_tracker_item</oboInOwl:shorthand>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>term tracker item</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -118,7 +118,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000425 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000425">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>expand assertion to</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -127,7 +127,7 @@
     <!-- http://purl.obolibrary.org/obo/OMO_0002000 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0002000">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -172,7 +172,7 @@ WHERE {
         <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>never_in_taxon</oboInOwl:shorthand>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>never in taxon</rdfs:label>
         <rdfs:label>never_in_taxon</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/Taxon-constraints"/>
@@ -225,7 +225,7 @@ WHERE {
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>present_in_taxon</oboInOwl:shorthand>
         <rdfs:comment>The SPARQL expansion for this relation introduces new named classes into the ontology. For this reason it is likely that the expansion should only be performed during a QC pipeline; the expanded output should usually not be included in a published version of the ontology.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label xml:lang="en">present in taxon</rdfs:label>
         <rdfs:label>present_in_taxon</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/Taxon-constraints"/>
@@ -249,7 +249,7 @@ WHERE {
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>external_definition</oboInOwl:shorthand>
         <rdfs:comment>This annotation property may be replaced with an annotation property from an external ontology such as IAO</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>external_definition</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
@@ -270,7 +270,7 @@ WHERE {
         <oboInOwl:id>has_relational_adjective</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>has_relational_adjective</oboInOwl:shorthand>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>has_relational_adjective</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -286,7 +286,7 @@ WHERE {
         <oboInOwl:id>structure_notes</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>structure_notes</oboInOwl:shorthand>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>structure_notes</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
@@ -308,7 +308,7 @@ WHERE {
         <oboInOwl:id>external_ontology_notes</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>external_ontology_notes</oboInOwl:shorthand>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>external_ontology_notes</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
@@ -323,7 +323,7 @@ WHERE {
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -331,7 +331,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -339,7 +339,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -347,7 +347,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>has_alternative_id</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -356,7 +356,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -364,7 +364,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -373,7 +373,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>has_narrow_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -382,7 +382,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -391,7 +391,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -400,7 +400,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -408,7 +408,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>in_subset</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -417,7 +417,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#is_class_level -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -425,7 +425,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -433,7 +433,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>shorthand</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -442,7 +442,7 @@ WHERE {
     <!-- http://www.geneontology.org/formats/oboInOwl#source -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#source">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -450,7 +450,7 @@ WHERE {
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -458,7 +458,7 @@ WHERE {
     <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -466,7 +466,7 @@ WHERE {
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -480,7 +480,7 @@ WHERE {
         <oboInOwl:id>seeAlso</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>seeAlso</oboInOwl:shorthand>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>see also</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -494,7 +494,7 @@ WHERE {
         <oboInOwl:id>depicted_by</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>depicted_by</oboInOwl:shorthand>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>depicted by</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -514,7 +514,7 @@ WHERE {
     <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
 
     <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </rdf:Description>
     
 
@@ -522,7 +522,7 @@ WHERE {
     <!-- http://www.w3.org/2001/XMLSchema#anyURI -->
 
     <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyURI">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </rdf:Description>
     
 
@@ -530,7 +530,7 @@ WHERE {
     <!-- http://www.w3.org/2001/XMLSchema#boolean -->
 
     <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#boolean">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </rdf:Description>
     
 
@@ -571,7 +571,7 @@ WHERE {
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pombe"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_yeast"/>
         <rdfs:comment>Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code &apos;no data&apos; (ND), is used to indicate this.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>biological_process</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -593,7 +593,7 @@ WHERE {
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0009314</oboInOwl:id>
         <rdfs:comment>Note that &apos;radiation&apos; refers to electromagnetic radiation of any wavelength.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>response to radiation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -615,7 +615,7 @@ WHERE {
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0009416</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>response to light stimulus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -637,7 +637,7 @@ WHERE {
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>perception of external stimulus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0009581</oboInOwl:id>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>detection of external stimulus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -658,7 +658,7 @@ WHERE {
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>perception of abiotic stimulus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0009582</oboInOwl:id>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>detection of abiotic stimulus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -681,7 +681,7 @@ WHERE {
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>perception of light</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0009583</oboInOwl:id>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>detection of light stimulus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -701,7 +701,7 @@ WHERE {
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>perception of visible light</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0009584</oboInOwl:id>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>detection of visible light</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -726,7 +726,7 @@ WHERE {
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_drosophila"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
         <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>response to external stimulus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -751,7 +751,7 @@ WHERE {
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
         <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>response to abiotic stimulus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -779,7 +779,7 @@ WHERE {
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#prokaryote_subset"/>
         <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>response to stimulus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -804,7 +804,7 @@ WHERE {
         <oboInOwl:hasExactSynonym>sensory transduction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0050906</oboInOwl:id>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>detection of stimulus involved in sensory perception</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -834,7 +834,7 @@ WHERE {
         <oboInOwl:hasExactSynonym>visual perception, sensory transduction of light stimulus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0050908</oboInOwl:id>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>detection of light stimulus involved in visual perception</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -861,7 +861,7 @@ WHERE {
         <oboInOwl:hasExactSynonym>sensory transduction of light stimulus during sensory perception</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0050962</oboInOwl:id>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>detection of light stimulus involved in sensory perception</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -885,7 +885,7 @@ WHERE {
         <oboInOwl:hasRelatedSynonym>stimulus sensing</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0051606</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>detection of stimulus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -936,7 +936,7 @@ WHERE {
         <oboInOwl:hasRelatedSynonym>sensor</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0000020</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>sense organ</rdfs:label>
         <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/c/c0/Gray722.png</foaf:depicted_by>
     </owl:Class>
@@ -1038,7 +1038,7 @@ WHERE {
         <oboInOwl:id>UBERON:0000061</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#common_anatomy"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#upper_level"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>anatomical structure</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1086,7 +1086,7 @@ WHERE {
         <oboInOwl:id>UBERON:0000062</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#common_anatomy"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#upper_level"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>organ</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1144,7 +1144,7 @@ WHERE {
         <oboInOwl:id>UBERON:0000465</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#common_anatomy"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#upper_level"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>material anatomical entity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1187,7 +1187,7 @@ WHERE {
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#major_organ"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#organ_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>eye</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1220,7 +1220,7 @@ WHERE {
         <oboInOwl:id>UBERON:0010000</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#common_anatomy"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#upper_level"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/uberon_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
         <rdfs:label>multicellular anatomical structure</rdfs:label>
     </owl:Class>
     <owl:Axiom>

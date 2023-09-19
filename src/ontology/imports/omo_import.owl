@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl#"
-     xml:base="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"
+<rdf:RDF xmlns="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl#"
+     xml:base="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl">
+    <owl:Ontology rdf:about="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2023-08-23/omo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor xml:lang="en">Adam Goldstein</dc:contributor>
@@ -71,7 +71,7 @@
     <!-- http://protege.stanford.edu/plugins/owl/protege#defaultLanguage -->
 
     <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -84,7 +84,7 @@
         <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -98,7 +98,7 @@
         <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">example of usage</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -111,7 +111,7 @@
         <obo:IAO_0000115 xml:lang="en">An annotation property indicating which module the terms belong to. This is currently experimental and not implemented yet.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">GROUP:OBI</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OBI_0000277</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">in branch</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -124,7 +124,7 @@
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has curation status</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -158,7 +158,7 @@ Personally, I am more comfortable weakening definition to documentation, with in
 We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">definition</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -172,7 +172,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">editor note</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -187,7 +187,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -203,7 +203,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">alternative label</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -218,7 +218,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -231,7 +231,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">Relates an annotation property to an obsolescence reason. The values of obsolescence reasons come from a list of predefined terms, instances of the class obsolescence reason specification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has obsolescence reason</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -244,7 +244,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">curator note</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -260,7 +260,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
         <rdfs:comment xml:lang="en">The &apos;tracker item&apos; can associate a tracker with a specific ontology term.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">term tracker item</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -275,7 +275,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
         <rdfs:comment>The &apos;term requester&apos; can credit the person, organization or project who request the ontology term.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">ontology term requester</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -288,7 +288,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">Relates an class defined in an ontology, to the type of it&apos;s denotator</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">In OWL 2 add AnnotationPropertyRange(&apos;is denotator type&apos; &apos;denotator type&apos;)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">is denotator type</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -303,7 +303,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -319,7 +319,7 @@ Annotations: IAO_0000424 &quot;http://purl.obolibrary.org/obo/BFO_0000051 some (
 </obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A macro expansion tag applied to an object property (or possibly a data property)  which can be used by a macro-expansion engine to generate more complex expressions from simpler ones</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Chris Mungall</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">expand expression to</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -335,7 +335,7 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
 </obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A macro expansion tag applied to an annotation property which can be expanded into a more detailed axiom.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Chris Mungall</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">expand assertion to</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -346,7 +346,7 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000426">
         <obo:IAO_0000111 xml:lang="en">first order logic expression</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">first order logic expression</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -359,7 +359,7 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
         <obo:IAO_0000112 xml:lang="en">part_of antisymmetric property xsd:true</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Use boolean value xsd:true to indicate that the property is an antisymmetric property</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">antisymmetric property</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OMO_0001001"/>
     </owl:AnnotationProperty>
@@ -378,7 +378,7 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
         <obo:IAO_0000117 xml:lang="en">PERSON:Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBO Foundry &lt;http://obofoundry.org/&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -396,7 +396,7 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
      &apos;has ID policy for&apos;: &quot;RO&quot;</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Relates an ontology used to record id policy to the number of digits in the URI. The URI is: the &apos;has ID prefix&quot; annotation property value concatenated with an integer in the id range (left padded with &quot;0&quot;s to make this many digits)</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has ID digit count</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -412,7 +412,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 </obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Relates a datatype that encodes a range of integers to the name of the person or organization who can use those ids constructed in that range to define new terms</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has ID range allocated to</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -430,7 +430,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
      &apos;has ID policy for&apos;: &quot;RO&quot;</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Relating an ontology used to record id policy to the ontology namespace whose policy it manages</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has ID policy for</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -448,7 +448,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
      &apos;has ID policy for&apos;: &quot;RO&quot;</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Relates an ontology used to record id policy to a prefix concatenated with an integer in the id range (left padded with &quot;0&quot;s to make this many digits) to construct an ID for a term being created.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has ID prefix</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -461,7 +461,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Person:Barry Smith</obo:IAO_0000119>
         <obo:IAO_0000600 xml:lang="en">Primitive terms in a highest-level ontology such as BFO are terms which are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms</obo:IAO_0000600>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">elucidation</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -474,7 +474,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
         <obo:IAO_0000600 xml:lang="en">An axiom associated with a term expressed using natural language</obo:IAO_0000600>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -487,7 +487,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
         <obo:IAO_0000600 xml:lang="en">An axiom expressed in first order logic using CLIF syntax</obo:IAO_0000600>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -500,7 +500,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115 xml:lang="en">Relates an ontology IRI to an (inclusive) range of IRIs in an OBO name space. The range is give as, e.g. &quot;IAO_0020000-IAO_0020999&quot;</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Add as annotation triples in the granting ontology</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">is allocated id range</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -512,7 +512,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000111 xml:lang="en">has ontology root term</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Nicolas Matentzoglu</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has ontology root term</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -527,7 +527,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 xml:lang="en">#40</obo:IAO_0000233>
         <obo:IAO_0000234 xml:lang="en">VFB</obo:IAO_0000234>
         <rdfs:comment xml:lang="en">Edges asserting this should be annotated with to record evidence supporting the assertion and its provenance.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">may be identical to</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -542,7 +542,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 xml:lang="en">https://github.com/geneontology/go-ontology/issues/15532</obo:IAO_0000233>
         <obo:IAO_0000233 xml:lang="en">https://github.com/information-artifact-ontology/ontology-metadata/issues/32</obo:IAO_0000233>
         <obo:IAO_0000234 xml:lang="en">GO ontology</obo:IAO_0000234>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">scheduled for obsoletion on or after</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:AnnotationProperty>
@@ -556,7 +556,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
         <obo:IAO_0000600 xml:lang="en">A URI that is intended to be unique label for an axiom used for tracking change to the ontology. For an axiom expressed in different languages, each expression is given the same URI</obo:IAO_0000600>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has axiom label</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -571,7 +571,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
         <rdfs:comment xml:lang="en">Add as annotation triples in the granting ontology</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">term replaced by</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -583,7 +583,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115>This is an annotation used on an object property to indicate a logical characterstic beyond what is possible in OWL.</obo:IAO_0000115>
         <obo:IAO_0000119>OBO Operations call</obo:IAO_0000119>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>logical characteristic of object property</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -614,7 +614,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/ontodev/robot/issues/963"/>
         <dc:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <dc:contributor rdf:resource="https://orcid.org/0000-0002-8688-6599"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>defined by construct</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -628,7 +628,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/122"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>abbreviation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
@@ -642,7 +642,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/122"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>ambiguous synonym</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
@@ -656,7 +656,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/122"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>dubious synonym</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
@@ -671,7 +671,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/122"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>layperson synonym</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
@@ -686,7 +686,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/122"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>plural form</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
@@ -701,7 +701,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/122"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>UK spelling synonym</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
@@ -715,7 +715,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/132"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>misspelling</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
@@ -729,7 +729,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/133"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-03</terms:created>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>misnomer</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
@@ -744,7 +744,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/139"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-25</terms:created>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>previous name</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
@@ -759,7 +759,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/141"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-27</terms:created>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>legal name</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymType"/>
     </owl:AnnotationProperty>
@@ -769,7 +769,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -777,7 +777,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/coverage -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/coverage">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -785,7 +785,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -793,7 +793,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -801,7 +801,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -809,7 +809,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/format -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -817,7 +817,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/identifier -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -825,7 +825,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/language -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -833,7 +833,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/publisher -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -841,7 +841,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/relation -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/relation">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -849,7 +849,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/rights -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -857,7 +857,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -865,7 +865,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/subject -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -873,7 +873,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -881,7 +881,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/elements/1.1/type -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -889,7 +889,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/terms/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -897,7 +897,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/terms/created -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -905,7 +905,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -913,7 +913,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.geneontology.org/formats/oboInOwl#SynonymType -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymType">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -921,7 +921,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -929,7 +929,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -940,7 +940,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115>An alternative label for a class or property which has a more general meaning than the preferred name/primary label.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/18</obo:IAO_0000233>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has broad synonym</rdfs:label>
         <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/18</rdfs:seeAlso>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
@@ -954,7 +954,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115>An alternative label for a class or property which has the exact same meaning than the preferred name/primary label.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/20</obo:IAO_0000233>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has exact synonym</rdfs:label>
         <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/20</rdfs:seeAlso>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
@@ -968,7 +968,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115>An alternative label for a class or property which has a more specific meaning than the preferred name/primary label.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/19</obo:IAO_0000233>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has narrow synonym</rdfs:label>
         <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/19</rdfs:seeAlso>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
@@ -982,7 +982,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115>An alternative label for a class or property that has been used synonymously with the primary term name, but the usage is not strictly correct.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/21</obo:IAO_0000233>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">has related synonym</rdfs:label>
         <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/21</rdfs:seeAlso>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
@@ -993,7 +993,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </rdf:Description>
     
 
@@ -1001,7 +1001,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </rdf:Description>
     
 
@@ -1009,7 +1009,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </rdf:Description>
     
 
@@ -1017,7 +1017,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.w3.org/2002/07/owl#versionInfo -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </rdf:Description>
     
 
@@ -1036,7 +1036,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
 
     <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </rdf:Description>
     
 
@@ -1044,7 +1044,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.w3.org/2001/XMLSchema#date -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </rdfs:Datatype>
     
 
@@ -1064,7 +1064,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000002">
         <obo:IAO_0000111 xml:lang="en">example to be eventually removed</obo:IAO_0000111>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">example to be eventually removed</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1076,7 +1076,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000111 xml:lang="en">failed exploratory term</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">The term was used in an attempt to structure part of the ontology but in retrospect failed to do a good job</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">failed exploratory term</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1087,7 +1087,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000120">
         <obo:IAO_0000111 xml:lang="en">metadata complete</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.</obo:IAO_0000115>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">metadata complete</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1098,7 +1098,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000121">
         <obo:IAO_0000111 xml:lang="en">organizational term</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Term created to ease viewing/sort terms for development purpose, and will not be included in a release</obo:IAO_0000115>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">organizational term</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1109,7 +1109,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
         <obo:IAO_0000111 xml:lang="en">ready for release</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking &quot;ready_for_release&quot; should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed &quot;ready_for_release&quot; will also derived from a chain of ancestor classes that are also &quot;ready_for_release.&quot;</obo:IAO_0000115>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">ready for release</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1120,7 +1120,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000123">
         <obo:IAO_0000111 xml:lang="en">metadata incomplete</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.</obo:IAO_0000115>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">metadata incomplete</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1131,7 +1131,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000124">
         <obo:IAO_0000111 xml:lang="en">uncurated</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Nothing done yet beyond assigning a unique class ID and proposing a preferred term.</obo:IAO_0000115>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">uncurated</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1142,7 +1142,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
         <obo:IAO_0000111 xml:lang="en">pending final vetting</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor.</obo:IAO_0000115>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1152,7 +1152,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000226">
         <obo:IAO_0000111 xml:lang="en">placeholder removed</obo:IAO_0000111>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">placeholder removed</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1163,7 +1163,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000227">
         <obo:IAO_0000111 xml:lang="en">terms merged</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">An editor note should explain what were the merged terms and the reason for the merge.</obo:IAO_0000116>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">terms merged</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1174,7 +1174,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000228">
         <obo:IAO_0000111 xml:lang="en">term imported</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">This is to be used when the original term has been replaced by a term imported from an other ontology. An editor note should indicate what is the URI of the new term to use.</obo:IAO_0000116>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">term imported</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1185,7 +1185,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000229">
         <obo:IAO_0000111 xml:lang="en">term split</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split and indicate the URIs of the new terms created.</obo:IAO_0000116>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">term split</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1198,7 +1198,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000116 xml:lang="en">Hard to give a definition for. Intuitively a &quot;natural kind&quot; rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">A Formal Theory of Substances, Qualities, and Universals, http://ontology.buffalo.edu/bfo/SQU.pdf</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">universal</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1211,7 +1211,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115 xml:lang="en">A defined class is a class that is defined by a set of logically necessary and sufficient conditions but is not a universal</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">&quot;definitions&quot;, in some readings, always are given by necessary and sufficient conditions. So one must be careful (and this is difficult sometimes) to distinguish between defined classes and universal.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">defined class</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1224,7 +1224,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115 xml:lang="en">A named class expression is a logical expression that is given a name. The name can be used in place of the expression.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">named class expressions are used in order to have more concise logical definition but their extensions may not be interesting classes on their own. In languages such as OWL, with no provisions for macros, these show up as actuall classes. Tools may with to not show them as such, and to replace uses of the macros with their expansions</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">named class expression</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1237,7 +1237,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115 xml:lang="en">Terms with this status should eventually replaced with a term from another ontology.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">to be replaced with external ontology term</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1250,7 +1250,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115 xml:lang="en">A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label xml:lang="en">requires discussion</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1264,7 +1264,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/77</obo:IAO_0000233>
         <obo:IAO_0000234>https://orcid.org/0000-0001-5208-3432</obo:IAO_0000234>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>out of scope</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1278,7 +1278,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4142-7153"/>
         <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/136</obo:IAO_0000233>
         <obo:IAO_0000234>https://orcid.org/0000-0002-4142-7153</obo:IAO_0000234>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/omo_import.owl"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:label>domain entity does not exist</rdfs:label>
     </owl:NamedIndividual>
     
