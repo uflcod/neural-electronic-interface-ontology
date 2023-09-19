@@ -15,7 +15,8 @@ Ontology: <https://w3id.org/bionic-device-ontology/bionic-device-ontology-idrang
 
 
 Annotations: 
-    idprefix: "https://w3id.org/bionic-device-ontology/BDO_",
+	idsfor: "NEIO",
+    idprefix: "https://w3id.org/neural-electronic-interface-ontology/NEIO_",
     iddigits: 7
 
 AnnotationProperty: idprefix:
