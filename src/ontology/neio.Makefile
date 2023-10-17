@@ -29,6 +29,7 @@ $(IMPORTDIR)/omo_import.owl: $(MIRRORDIR)/omo.owl.gz
 	  annotate \
 		--annotate-defined-by true \
 		--ontology-iri $(URIBASE)/$(ONT)/$@ \
+		--version-iri $(URIBASE)/$(ONT)/$@ \
 	  --output $@.tmp.owl && mv $@.tmp.owl $@
 
 $(IMPORTDIR)/cob-native_import.owl: $(MIRRORDIR)/cob-native.owl.gz
@@ -47,25 +48,39 @@ $(IMPORTDIR)/cob-native_import.owl: $(MIRRORDIR)/cob-native.owl.gz
 		--ontology-iri $(URIBASE)/$(ONT)/$@ \
 	  --output $@.tmp.owl && mv $@.tmp.owl $@
 
-$(IMPORTDIR)/uberon_import.owl: $(MIRRORDIR)/uberon.owl.gz
+$(IMPORTDIR)/uberon_import.owl: $(MIRRORDIR)/uberon.owl.gz $(IMPORTDIR)/uberon_terms.txt
 	$(ROBOT) \
-	  extract \
-		--input $< \
-		--method MIREOT \
-		--upper-term GO:0008150 \
-		--upper-term UBERON:0000465 \
-		--lower-term GO:0050908 \
-		--lower-term UBERON:0000970 \
-		--individuals exclude \
-	  remove \
-		--select "owl:deprecated='true'^^xsd:boolean" \
-	  remove \
-		--select "<http://purl.obolibrary.org/obo/NCBITaxon_*>" \
-	  annotate \
-	  	--annotate-defined-by true \
-		--ontology-iri $(URIBASE)/$(ONT)/$@ \
-	  --output $@.tmp.owl && mv $@.tmp.owl $@
+		extract \
+			--method BOT \
+			--input $< \
+			--term-file $(word 2, $^) \
+		remove \
+			--select "owl:deprecated='true'^^xsd:boolean" \
+		remove \
+			--select "<http://purl.obolibrary.org/obo/NCBITaxon_*>" \
+		annotate \
+			--annotate-defined-by true \
+			--ontology-iri $(URIBASE)/$(ONT)/$@ \
+		--output $@.tmp.owl && mv $@.tmp.owl $@
 
+# previous robot command using MIREOT
+# $(ROBOT) \
+#   extract \
+# 	--input $< \
+# 	--method MIREOT \
+# 	--upper-term GO:0008150 \
+# 	--upper-term UBERON:0000465 \
+# 	--lower-term GO:0050908 \
+# 	--lower-term UBERON:0000970 \
+# 	--individuals exclude \
+#   remove \
+# 	--select "owl:deprecated='true'^^xsd:boolean" \
+#   remove \
+# 	--select "<http://purl.obolibrary.org/obo/NCBITaxon_*>" \
+#   annotate \
+#   	--annotate-defined-by true \
+# 	--ontology-iri $(URIBASE)/$(ONT)/$@ \
+#   --output $@.tmp.owl && mv $@.tmp.owl $@
 
 # ----------------------------------------
 # Mirroring upstream ontologies
