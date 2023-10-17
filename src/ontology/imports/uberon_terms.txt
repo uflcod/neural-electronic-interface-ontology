@@ -1,0 +1,2 @@
+http://purl.obolibrary.org/obo/UBERON_0000966 # retina
+http://purl.obolibrary.org/obo/GO_0009584     # detection of visible light
