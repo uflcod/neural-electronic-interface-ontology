@@ -50,10 +50,13 @@ $(IMPORTDIR)/cob-native_import.owl: $(MIRRORDIR)/cob-native.owl.gz
 
 $(IMPORTDIR)/uberon_import.owl: $(MIRRORDIR)/uberon.owl.gz $(IMPORTDIR)/uberon_terms.txt
 	$(ROBOT) \
-		extract \
-			--method BOT \
+		filter \
 			--input $< \
 			--term-file $(word 2, $^) \
+			--select "annotations self ancestors" \
+			--axioms logical \
+			--signature true \
+			--trim true \
 		remove \
 			--select "owl:deprecated='true'^^xsd:boolean" \
 		remove \
@@ -62,6 +65,7 @@ $(IMPORTDIR)/uberon_import.owl: $(MIRRORDIR)/uberon.owl.gz $(IMPORTDIR)/uberon_t
 			--annotate-defined-by true \
 			--ontology-iri $(URIBASE)/$(ONT)/$@ \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
+
 
 # previous robot command using MIREOT
 # $(ROBOT) \

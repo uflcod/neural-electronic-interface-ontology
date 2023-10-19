@@ -1,2 +1,11 @@
 http://purl.obolibrary.org/obo/UBERON_0000966 # retina
 http://purl.obolibrary.org/obo/GO_0009584     # detection of visible light
+http://purl.obolibrary.org/obo/GO_0007601     # visual perception
+http://purl.obolibrary.org/obo/UBERON_0000970 # eye
+http://purl.obolibrary.org/obo/UBERON_0002104 # visual system
+http://purl.obolibrary.org/obo/RO_0002215     # capable of
+http://purl.obolibrary.org/obo/BFO_0000051    # has part
+http://purl.obolibrary.org/obo/BFO_0000050    # part of
+http://purl.obolibrary.org/obo/UBERON_0001016 # nervous system
+http://purl.obolibrary.org/obo/CL_0009001     # compound eye retinal cell
+http://purl.obolibrary.org/obo/CL_0008028     # visual system neuron
