@@ -13,41 +13,64 @@ Prefix: owl: <http://www.w3.org/2002/07/owl#>
 
 Ontology: <https://w3id.org/neural-electronic-interface-ontology/neio-idranges.owl>
 
-
 Annotations: 
 	idsfor: "NEIO",
     idprefix: "https://w3id.org/neural-electronic-interface-ontology/NEIO_",
     iddigits: 7
 
 AnnotationProperty: idprefix:
-
-    
 AnnotationProperty: iddigits:
-
-    
 AnnotationProperty: idsfor:
-
-    
 AnnotationProperty: allocatedto:
 
 Datatype: idrange:1
-
     Annotations: 
         allocatedto: "Bill Duncan"
-    
     EquivalentTo: 
         xsd:integer[>= 0 , < 1000]
-
     
 Datatype: idrange:2
+    Annotations: 
+        allocatedto: "Daniel Rathbun"
+    EquivalentTo: 
+        xsd:integer[>= 1000 , < 2000]
+    
+Datatype: idrange:3
+    Annotations: 
+        allocatedto: "Alexander Diehl"
+    EquivalentTo: 
+        xsd:integer[>= 2000 , < 3000]
 
+Datatype: idrange:4
+    Annotations: 
+        allocatedto: "John Beverley"
+    EquivalentTo: 
+        xsd:integer[>= 3000 , < 4000]
+
+Datatype: idrange:5
+    Annotations: 
+        allocatedto: "Patrick Ray"
+    EquivalentTo: 
+        xsd:integer[>= 4000 , < 5000]
+
+Datatype: idrange:6
+    Annotations: 
+        allocatedto: "Ji Soo Seo"
+    EquivalentTo: 
+        xsd:integer[>= 5000 , < 6000]
+
+Datatype: idrange:7
+    Annotations: 
+        allocatedto: "Sam Smith"
+    EquivalentTo: 
+        xsd:integer[>= 6000 , < 7000]
+
+Datatype: idrange:7
     Annotations: 
         allocatedto: "ADDITIONAL EDITOR"
-    
     EquivalentTo: 
-        xsd:integer[>= 1000 , <= 1999999]
-    
-    
+        xsd:integer[>= 7000 , <= 1999999]
+
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
 
