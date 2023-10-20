@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/ogms_import.owl" uri="imports/ogms_import.owl"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio.owl" uri="imports/ogms_import.owl"/>
     <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl" uri="imports/omo_import.owl"/>
     <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/cob-native_import.owl" uri="imports/cob-native_import.owl"/>
     <uri id="Imports Wizard Entry" name="https://w3id.org/bionic-device-ontology/bionic-device-ontology/imports/cob-native_import.owl" uri="imports/cob-native_import.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>

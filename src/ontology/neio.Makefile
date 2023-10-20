@@ -98,6 +98,7 @@ $(IMPORTDIR)/uberon_import.owl: $(MIRRORDIR)/uberon.owl $(IMPORTDIR)/uberon_term
 		annotate \
 			--annotate-defined-by true \
 			--ontology-iri $(URIBASE)/$(ONT)/$@ \
+			--version-iri $(URIBASE)/$(ONT)/$@ \
 		convert --format ofn \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
@@ -112,6 +113,7 @@ $(IMPORTDIR)/ogms_import.owl: $(MIRRORDIR)/ogms.owl $(IMPORTDIR)/ogms_terms.txt
 		annotate \
 			--annotate-defined-by true \
 			--ontology-iri $(URIBASE)/$(ONT)/$@ \
+			--version-iri $(URIBASE)/$(ONT)/$@ \
 		convert --format ofn \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 

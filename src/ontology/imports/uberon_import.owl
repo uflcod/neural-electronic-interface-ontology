@@ -7,6 +7,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl>
+<https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
