@@ -11,7 +11,7 @@ Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/ogms_
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/omrse_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl>)
-Annotation(<http://purl.org/dc/elements/1.1/title> "Bionic Device Ontology")
+Annotation(<http://purl.org/dc/elements/1.1/title> "Neural Electronic Interface Ontology")
 
 
 
