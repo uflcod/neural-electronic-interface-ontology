@@ -96,20 +96,6 @@ SRCMERGED     = $(TMPDIR)/merged-$(SRC)
 .PHONY: all_main
 all_main: $(MAIN_FILES)
 
-# ----------------------------------------
-# Import assets
-# ----------------------------------------
-
-
-IMPORTS = 
-
-IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
-IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
-IMPORT_FILES = $(IMPORT_OWL_FILES)
-
-
-.PHONY: all_imports
-all_imports: $(IMPORT_FILES)
 
 # ----------------------------------------
 # Subset assets
@@ -254,60 +240,6 @@ $(IMPORTSEED): $(ALLSEED) | $(TMPDIR)
 	if [ $(IMP) = true ]; then cat $(ALLSEED) | sort | uniq > $@; fi
 
 ANNOTATION_PROPERTIES=
-
-# ----------------------------------------
-# Import modules
-# ----------------------------------------
-# Most ontologies are modularly constructed using portions of other ontologies
-# These live in the imports/ folder
-# This pattern uses ROBOT to generate an import module
-
-# Should be able to drop this if robot can just take a big messy list of terms as input.
-$(IMPORTDIR)/%_terms_combined.txt: $(IMPORTSEED) $(IMPORTDIR)/%_terms.txt
-	if [ $(IMP) = true ]; then cat $^ | grep -v ^# | sort | uniq >  $@; fi
-
-
-
-
-.PRECIOUS: $(IMPORTDIR)/%_import.owl
-
-
-.PHONY: refresh-imports
-refresh-imports:
-	$(MAKE) IMP=true MIR=true PAT=false IMP_LARGE=true all_imports -B
-
-.PHONY: no-mirror-refresh-imports
-no-mirror-refresh-imports:
-	$(MAKE) IMP=true MIR=false PAT=false IMP_LARGE=true all_imports -B
-
-.PHONY: refresh-imports-excluding-large
-refresh-imports-excluding-large:
-	$(MAKE) IMP=true MIR=true PAT=false IMP_LARGE=false all_imports -B
-
-.PHONY: refresh-%
-refresh-%:
-	$(MAKE) IMP=true IMP_LARGE=true MIR=true PAT=false $(IMPORTDIR)/$*_import.owl -B
-
-.PHONY: no-mirror-refresh-%
-no-mirror-refresh-%:
-	$(MAKE) IMP=true IMP_LARGE=true MIR=false PAT=false $(IMPORTDIR)/$*_import.owl -B
-
-# ----------------------------------------
-# Mirroring upstream ontologies
-# ----------------------------------------
-
-IMP=true # Global parameter to bypass import generation
-MIR=true # Global parameter to bypass mirror generation
-IMP_LARGE=true # Global parameter to bypass handling of large imports
-
-
-
-$(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
-	if [ $(IMP) = true ] && [ $(MIR) = true ] && [ -f $(TMPDIR)/mirror-$*.owl ]; then if cmp -s $(TMPDIR)/mirror-$*.owl $@ ; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." &&\
-		cp $(TMPDIR)/mirror-$*.owl $@; fi; fi
-
-
-
 
 # ----------------------------------------
 # Subsets

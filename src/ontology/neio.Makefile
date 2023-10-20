@@ -1,17 +1,49 @@
-## Customize Makefile settings for bionic-device-ontology
+## Customize Makefile settings for neural-electronic-interface ontology
 ## 
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
 # ----------------------------------------
-# ontology imports
+# Import modules
 # ----------------------------------------
+# Most ontologies are modularly constructed using portions of other ontologies
+# These live in the imports/ folder
+# This pattern uses ROBOT to generate an import module
 
-IMPORTS =  omo cob-native uberon
+IMPORTS =  omo uberon ogms
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
 IMPORT_FILES = $(IMPORT_OWL_FILES)
+
+IMP=true # Global parameter to bypass import generation
+MIR=true # Global parameter to bypass mirror generation
+IMP_LARGE=true # Global parameter to bypass handling of large imports
+
+.PRECIOUS: $(IMPORTDIR)/%_import.owl
+
+.PHONY: all_imports
+all_imports: $(IMPORT_FILES)
+
+.PHONY: refresh-imports
+refresh-imports:
+	$(MAKE) IMP=true MIR=true PAT=false IMP_LARGE=true all_imports -B
+
+.PHONY: no-mirror-refresh-imports
+no-mirror-refresh-imports:
+	$(MAKE) IMP=true MIR=false PAT=false IMP_LARGE=true all_imports -B
+
+.PHONY: refresh-imports-excluding-large
+refresh-imports-excluding-large:
+	$(MAKE) IMP=true MIR=true PAT=false IMP_LARGE=false all_imports -B
+
+.PHONY: refresh-%
+refresh-%:
+	$(MAKE) IMP=true IMP_LARGE=true MIR=true PAT=false $(IMPORTDIR)/$*_import.owl -B
+
+.PHONY: no-mirror-refresh-%
+no-mirror-refresh-%:
+	$(MAKE) IMP=true IMP_LARGE=true MIR=false PAT=false $(IMPORTDIR)/$*_import.owl -B
 
 .PHONY: all-imports
 all-imports:
@@ -19,7 +51,7 @@ all-imports:
 	make $(patsubst %, $(IMPORTDIR)/%_import.owl, $(IMPORTS))
 #	make  imports/omo_import.owl
 
-$(IMPORTDIR)/omo_import.owl: $(MIRRORDIR)/omo.owl.gz
+$(IMPORTDIR)/omo_import.owl: $(MIRRORDIR)/omo.owl
 	$(ROBOT) \
 	  remove \
 		--input $< \
@@ -30,9 +62,10 @@ $(IMPORTDIR)/omo_import.owl: $(MIRRORDIR)/omo.owl.gz
 		--annotate-defined-by true \
 		--ontology-iri $(URIBASE)/$(ONT)/$@ \
 		--version-iri $(URIBASE)/$(ONT)/$@ \
+	  convert --format ofn \
 	  --output $@.tmp.owl && mv $@.tmp.owl $@
 
-$(IMPORTDIR)/cob-native_import.owl: $(MIRRORDIR)/cob-native.owl.gz
+$(IMPORTDIR)/cob-native_import.owl: $(MIRRORDIR)/cob-native.owl
 	$(ROBOT) \
 	  filter \
 		--input $< \
@@ -46,9 +79,10 @@ $(IMPORTDIR)/cob-native_import.owl: $(MIRRORDIR)/cob-native.owl.gz
 	  annotate \
 		--annotate-defined-by true \
 		--ontology-iri $(URIBASE)/$(ONT)/$@ \
+	  convert --format ofn \
 	  --output $@.tmp.owl && mv $@.tmp.owl $@
 
-$(IMPORTDIR)/uberon_import.owl: $(MIRRORDIR)/uberon.owl.gz $(IMPORTDIR)/uberon_terms.txt
+$(IMPORTDIR)/uberon_import.owl: $(MIRRORDIR)/uberon.owl $(IMPORTDIR)/uberon_terms.txt
 	$(ROBOT) \
 		filter \
 			--input $< \
@@ -64,8 +98,22 @@ $(IMPORTDIR)/uberon_import.owl: $(MIRRORDIR)/uberon.owl.gz $(IMPORTDIR)/uberon_t
 		annotate \
 			--annotate-defined-by true \
 			--ontology-iri $(URIBASE)/$(ONT)/$@ \
+		convert --format ofn \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
+$(IMPORTDIR)/ogms_import.owl: $(MIRRORDIR)/ogms.owl $(IMPORTDIR)/ogms_terms.txt
+	$(ROBOT) \
+		extract \
+			--input $< \
+			--method MIREOT \
+			--lower-terms $(word 2, $^) \
+		remove \
+			--select "owl:deprecated='true'^^xsd:boolean" \
+		annotate \
+			--annotate-defined-by true \
+			--ontology-iri $(URIBASE)/$(ONT)/$@ \
+		convert --format ofn \
+		--output $@.tmp.owl && mv $@.tmp.owl $@
 
 # previous robot command using MIREOT
 # $(ROBOT) \
@@ -99,45 +147,29 @@ download-mirrors:
 #	@echo $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS)) # testing
 	make $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 
-# --- gzip ontology mirrors ---
+## ONTOLOGY: cob-native 
+## The IRI for cob-native has 'cob/'; i.e. $(OBO_BASE)/cob/cob-native.owl 
+## I couldn't figure out how ot use mirror-% to work with mirror-cob/native
+## So, if you want to use cob-native, it has to be a special target.
+# .PHONY: mirror-cob-native
+# .PRECIOUS: $(MIRRORDIR)/cob-native.owl
+# mirror-cob-native: | $(TMPDIR)
+# 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBO_BASE)/cob/cob-native.owl --create-dirs -o $(MIRRORDIR)/cob-native.owl --retry 4 --max-time 200 &&\
+# 		$(ROBOT) convert -i $(MIRRORDIR)/cob-native.owl -o $@.tmp.owl &&\
+# 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
-$(MIRRORDIR)/omo.owl.gz:
-	gzip -fk $(MIRRORDIR)/omo.owl
+.PRECIOUS: $(MIRRORDIR)/%.owl
+$(MIRRORDIR)/%.owl: 
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then \
+		$(MAKE) mirror-$*; fi
 
-$(MIRRORDIR)/cob-native.owl.gz: 
-	gzip -fk $(MIRRORDIR)/cob-native.owl
-
-
-$(MIRRORDIR)/uberon.owl.gz: 
-	gzip -fk $(MIRRORDIR)/uberon.owl
-
-## ONTOLOGY: omo
-.PHONY: mirror-omo
-.PRECIOUS: $(MIRRORDIR)/omo.owl
-mirror-omo: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBO_BASE)/omo.owl --create-dirs -o $(MIRRORDIR)/omo.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) convert -i $(MIRRORDIR)/omo.owl -o $@.tmp.owl &&\
-		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
-
-
-## ONTOLOGY: cob-native ### NOTE: you have to add 'cob/'
-.PHONY: mirror-cob-native
-.PRECIOUS: $(MIRRORDIR)/cob-native.owl
-mirror-cob-native: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBO_BASE)/cob/cob-native.owl --create-dirs -o $(MIRRORDIR)/cob-native.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) convert -i $(MIRRORDIR)/cob-native.owl -o $@.tmp.owl &&\
-		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
-
-
-## ONTOLOGY: uberon
-.PHONY: mirror-uberon
-.PRECIOUS: $(MIRRORDIR)/uberon.owl
-mirror-uberon: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then curl -L $(OBO_BASE)/uberon.owl --create-dirs -o $(MIRRORDIR)/uberon.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) convert -i $(MIRRORDIR)/uberon.owl -o $@.tmp.owl &&\
-		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
-
-
-$(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
-	if [ $(IMP) = true ] && [ $(MIR) = true ] && [ -f $(TMPDIR)/mirror-$*.owl ]; then if cmp -s $(TMPDIR)/mirror-$*.owl $@ ; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." &&\
-		cp $(TMPDIR)/mirror-$*.owl $@; fi; fi
+.PHONY: mirror-%
+mirror-%: | $(TMPDIR)
+	@echo "*** mirroring $* ***"
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then \
+		curl -L $(OBO_BASE)/$*.owl \
+			--create-dirs -o $(MIRRORDIR)/$(notdir $*).temp.owl --retry 4 --max-time 200 && \
+		$(ROBOT) convert \
+			--input $(MIRRORDIR)/$(notdir $*).temp.owl \
+			--output $(MIRRORDIR)/$(notdir $*).owl && \
+		rm  $(MIRRORDIR)/$*.temp.owl; fi
