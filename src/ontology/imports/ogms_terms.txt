@@ -1,0 +1,21 @@
+http://purl.obolibrary.org/obo/OGMS_0000083  # physical examination finding
+http://purl.obolibrary.org/obo/OGMS_0000018  # laboratory finding
+http://purl.obolibrary.org/obo/OGMS_0000017  # image finding
+http://purl.obolibrary.org/obo/OGMS_0000015  # clinical history
+http://purl.obolibrary.org/obo/OGMS_0000016  # clinical picture
+http://purl.obolibrary.org/obo/OGMS_0000073  # diagnosis
+http://purl.obolibrary.org/obo/OGMS_0000033  # genetic predisposition to disease of type X
+http://purl.obolibrary.org/obo/OGMS_0000038  # normal homeostasis
+http://purl.obolibrary.org/obo/OGMS_0000037  # abnormal homeostasis
+http://purl.obolibrary.org/obo/BFO_0000034   # function
+http://purl.obolibrary.org/obo/OGMS_0000035  # constitutional genetic disease
+http://purl.obolibrary.org/obo/OGMS_0000034  # acquired genetic disease
+http://purl.obolibrary.org/obo/OGMS_0000078  # pathological anatomical structure
+http://purl.obolibrary.org/obo/IDO_0000586   # infection
+http://purl.obolibrary.org/obo/OGMS_0000146  # tissue disorder
+http://purl.obolibrary.org/obo/OGMS_0000102  # injury
+http://purl.obolibrary.org/obo/IDO_0000504   # infectious disorder
+http://purl.obolibrary.org/obo/OGMS_0000051  # constitutional genetic disorder
+http://purl.obolibrary.org/obo/OGMS_0000050  # acquired genetic disorder
+http://purl.obolibrary.org/obo/OGMS_0000046  # epigenetic disorder
+http://purl.obolibrary.org/obo/OGMS_0000089  # congenital disorder
