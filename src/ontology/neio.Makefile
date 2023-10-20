@@ -117,6 +117,24 @@ $(IMPORTDIR)/ogms_import.owl: $(MIRRORDIR)/ogms.owl $(IMPORTDIR)/ogms_terms.txt
 		convert --format ofn \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
+$(IMPORTDIR)/omrse_import.owl: $(MIRRORDIR)/omrse.owl $(IMPORTDIR)/omrse_terms.txt
+	$(ROBOT) \
+		filter \
+			--input $< \
+			--term-file $(word 2, $^) \
+			--select "annotations self ancestors" \
+			--axioms logical \
+			--signature true \
+			--trim true \
+		remove \
+			--select "owl:deprecated='true'^^xsd:boolean" \
+		annotate \
+			--annotate-defined-by true \
+			--ontology-iri $(URIBASE)/$(ONT)/$@ \
+			--version-iri $(URIBASE)/$(ONT)/$@ \
+		convert --format ofn \
+		--output $@.tmp.owl && mv $@.tmp.owl $@
+
 # previous robot command using MIREOT
 # $(ROBOT) \
 #   extract \
