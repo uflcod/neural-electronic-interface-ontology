@@ -19,6 +19,7 @@ Declaration(NamedIndividual(<https://orcid.org/0000-0001-9990-8331>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-1118-1738>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-5260-9315>))
 Declaration(NamedIndividual(<https://orcid.org/0009-0008-8150-9779>))
+Declaration(NamedIndividual(<https://orcid.org/0009-0009-9778-4641>))
 
 
 ############################
@@ -48,6 +49,10 @@ AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-5260-9315> "Patrick 
 # Individual: <https://orcid.org/0009-0008-8150-9779> (Jisoo Seo)
 
 AnnotationAssertion(rdfs:label <https://orcid.org/0009-0008-8150-9779> "Jisoo Seo"@en)
+
+# Individual: <https://orcid.org/0009-0009-9778-4641> (Sam Smith)
+
+AnnotationAssertion(rdfs:label <https://orcid.org/0009-0009-9778-4641> "Sam Smith"@en)
 
 
 )
