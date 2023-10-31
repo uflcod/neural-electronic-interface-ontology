@@ -69,7 +69,7 @@ Datatype: idrange:7
     Annotations: 
         allocatedto: "ADDITIONAL EDITOR"
     EquivalentTo: 
-        xsd:integer[>= 7000 , <= 1999999]
+        xsd:integer[>= 20000 , <= 1999999]
 
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
