@@ -48,14 +48,14 @@ temp-star-pain.owl
 src/ontology/mirror
 src/ontology/mirror/*
 src/ontology/reports/*
-src/ontology/pain.owl
-src/ontology/pain.obo
-src/ontology/pain.json
-src/ontology/pain-base.*
-src/ontology/pain-basic.*
-src/ontology/pain-full.*
-src/ontology/pain-simple.*
-src/ontology/pain-simple-non-classified.*
+src/ontology/neio.owl
+src/ontology/neio.obo
+src/ontology/neio.json
+src/ontology/neio-base.*
+src/ontology/neio-basic.*
+src/ontology/neio-full.*
+src/ontology/neio-simple.*
+src/ontology/neio-simple-non-classified.*
 
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log
@@ -63,7 +63,7 @@ src/ontology/ed_definitions_merged.owl
 src/ontology/ontologyterms.txt
 src/ontology/simple_seed.txt
 src/ontology/patterns
-src/ontology/merged-pain-edit.owl
+src/ontology/merged-neio-edit.owl
 
 src/ontology/target/
 src/ontology/tmp/*
