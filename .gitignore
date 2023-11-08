@@ -37,7 +37,7 @@ temp/
 # temp files create during extract process
 temp-mirror.owl
 temp-mireot.owl
-temp-star-pain.owl
+temp-star-neio.owl
 
 # copied for .gitignore created by ODK
 *.tmp
