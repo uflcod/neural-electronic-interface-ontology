@@ -1,8 +1,8 @@
-robot template \
+robot merge \
+	  --input ../neio-edit.owl \
+	template \
 	  --prefix "neio: https://w3id.org/neural-electronic-interface-ontology/NEIO_" \
 	  --prefix "dcterms: http://purl.org/dc/terms/" \
-	  --input ../imports/obi_import.owl \
-	  --input ../neio-edit.owl \
 	  --template organizations.tsv \
 	  --ontology-iri https://w3id.org/neural-electronic-interface-ontology/neio/imports/organizations_import.owl \
 	convert --format ofn \
