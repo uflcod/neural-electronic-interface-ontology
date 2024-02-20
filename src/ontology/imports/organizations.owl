@@ -95,9 +95,9 @@ ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/ne
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000007> "Blackrock Microsystems Europe GmbH")
 ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000007>)
 
-# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008> ( Blackrock Microsystems LLC)
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008> (Blackrock Microsystems LLC)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008> " Blackrock Microsystems LLC")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008> "Blackrock Microsystems LLC")
 ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008>)
 
 # Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000009> (Cortigent, Inc.)
