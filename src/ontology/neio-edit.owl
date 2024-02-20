@@ -15,6 +15,7 @@ Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/ubero
 Annotation(<http://purl.org/dc/elements/1.1/title> "Neural Electronic Interface Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000245>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000304>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-7387-7944>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9625-1899>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9990-8331>))
@@ -22,6 +23,16 @@ Declaration(NamedIndividual(<https://orcid.org/0000-0002-1118-1738>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-5260-9315>))
 Declaration(NamedIndividual(<https://orcid.org/0009-0008-8150-9779>))
 Declaration(NamedIndividual(<https://orcid.org/0009-0009-9778-4641>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000304> (is_manufactured_by)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000304> "C is_manufactured_by o means that there was a process p in which c was built in which a person, or set of people or machines did the work(bore the \"Manufacturer Role\", and those people/and or machines were members or of directed by the organization to do this.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000304> "is_manufactured_by")
+
 
 
 ############################
