@@ -166,6 +166,8 @@ $(IMPORTDIR)/organizations_import.owl: $(TEMPLATEDIR)/organizations.tsv
 		convert --format ofn \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
+# NOTE: There is an implicit dependency between devices and organizations.
+# If you add an organization to devices, you need to make sure it is in organizations.
 $(IMPORTDIR)/bionic-vision-devices_import.owl: $(TEMPLATEDIR)/bionic-vision-devices.tsv
 	$(ROBOT) merge --input $(SRC) \
 		template \
