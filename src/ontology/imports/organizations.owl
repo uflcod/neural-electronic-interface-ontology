@@ -1,4 +1,4 @@
-Prefix(:=<https://w3id.org/neural-electronic-interface-ontology/neio/imports/organizations_import.owl#>)
+Prefix(:=<https://w3id.org/neural-electronic-interface-ontology/neio/imports/imports/organizations.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,7 +6,7 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/organizations_import.owl>
+Ontology(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/imports/organizations.owl>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000245>))
 Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000000>))

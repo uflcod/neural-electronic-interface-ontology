@@ -10,7 +10,7 @@
 # These live in the imports/ folder
 # This pattern uses ROBOT to generate an import module
 
-IMPORTS =  omo uberon ogms obi
+IMPORTS =  omo uberon ogms obi organizations bionic-vision-devices
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -147,6 +147,32 @@ $(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms.txt
 			--annotate-defined-by true \
 			--ontology-iri $(URIBASE)/$(ONT)/$@ \
 			--version-iri $(URIBASE)/$(ONT)/$@ \
+		convert --format ofn \
+		--output $@.tmp.owl && mv $@.tmp.owl $@
+
+# ----------------------------------------
+# Template modules
+# ----------------------------------------
+# When using templates (e.g. robot templates)
+# you need to use the template goal
+
+$(IMPORTDIR)/organizations.owl: $(TEMPLATEDIR)/organizations.tsv 
+	$(ROBOT) merge --input $(SRC) \
+		template \
+			--prefix "neio: https://w3id.org/neural-electronic-interface-ontology/NEIO_" \
+			--prefix "dcterms: http://purl.org/dc/terms/" \
+			--template $^ \
+			--ontology-iri https://w3id.org/neural-electronic-interface-ontology/neio/imports/$@ \
+		convert --format ofn \
+		--output $@.tmp.owl && mv $@.tmp.owl $@
+
+$(IMPORTDIR)/bionic-vision-devices_import.owl: $(TEMPLATEDIR)/bionic-vision-devices.tsv
+	$(ROBOT) merge --input $(SRC) \
+		template \
+			--prefix "neio: https://w3id.org/neural-electronic-interface-ontology/NEIO_" \
+			--prefix "dcterms: http://purl.org/dc/terms/" \
+			--template $^ \
+			--ontology-iri https://w3id.org/neural-electronic-interface-ontology/neio/imports/$@ \
 		convert --format ofn \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
