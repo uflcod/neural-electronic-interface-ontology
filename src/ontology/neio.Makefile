@@ -156,13 +156,13 @@ $(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms.txt
 # When using templates (e.g. robot templates)
 # you need to use the template goal
 
-$(IMPORTDIR)/organizations.owl: $(TEMPLATEDIR)/organizations.tsv 
+$(IMPORTDIR)/organizations_import.owl: $(TEMPLATEDIR)/organizations.tsv 
 	$(ROBOT) merge --input $(SRC) \
 		template \
 			--prefix "neio: https://w3id.org/neural-electronic-interface-ontology/NEIO_" \
 			--prefix "dcterms: http://purl.org/dc/terms/" \
 			--template $^ \
-			--ontology-iri https://w3id.org/neural-electronic-interface-ontology/neio/imports/$@ \
+			--ontology-iri  $(URIBASE)/$(ONT)/$@ \
 		convert --format ofn \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
@@ -172,7 +172,7 @@ $(IMPORTDIR)/bionic-vision-devices_import.owl: $(TEMPLATEDIR)/bionic-vision-devi
 			--prefix "neio: https://w3id.org/neural-electronic-interface-ontology/NEIO_" \
 			--prefix "dcterms: http://purl.org/dc/terms/" \
 			--template $^ \
-			--ontology-iri https://w3id.org/neural-electronic-interface-ontology/neio/imports/$@ \
+			--ontology-iri $(URIBASE)/$(ONT)/$@ \
 		convert --format ofn \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 

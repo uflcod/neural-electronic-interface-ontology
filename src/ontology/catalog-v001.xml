@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-devices_import.owl" uri="imports/bionic-vision-devices_import.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/obi_import.owl" uri="imports/obi_import.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/organizations_import.owl" uri="imports/organizations.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omrse_import.owl" uri="imports/omrse_import.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/ogms_import.owl" uri="imports/ogms_import.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio.owl" uri="imports/ogms_import.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl" uri="imports/omo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+		<uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/organizations_import.owl" uri="imports/organizations_import.owl"/>
+		<uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-devices_import.owl" uri="imports/bionic-vision-devices_import.owl"/>
+		<uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/ogranizations_import.owl" uri="imports/organizations_import.owl"/>
+		<uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/obi_import.owl" uri="imports/obi_import.owl"/>
+		<uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omrse_import.owl" uri="imports/omrse_import.owl"/>
+		<uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/ogms_import.owl" uri="imports/ogms_import.owl"/>
+		<uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl" uri="imports/omo_import.owl"/>
+		<uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>    
+    </group>
 </catalog>
