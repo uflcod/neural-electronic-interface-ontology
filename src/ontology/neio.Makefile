@@ -10,7 +10,7 @@
 # These live in the imports/ folder
 # This pattern uses ROBOT to generate an import module
 
-IMPORTS =  omo uberon ogms
+IMPORTS =  omo uberon ogms obi
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -126,6 +126,21 @@ $(IMPORTDIR)/omrse_import.owl: $(MIRRORDIR)/omrse.owl $(IMPORTDIR)/omrse_terms.t
 			--axioms logical \
 			--signature true \
 			--trim true \
+		remove \
+			--select "owl:deprecated='true'^^xsd:boolean" \
+		annotate \
+			--annotate-defined-by true \
+			--ontology-iri $(URIBASE)/$(ONT)/$@ \
+			--version-iri $(URIBASE)/$(ONT)/$@ \
+		convert --format ofn \
+		--output $@.tmp.owl && mv $@.tmp.owl $@
+
+$(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms.txt
+	$(ROBOT) \
+		extract \
+			--input $< \
+			--method MIREOT \
+			--lower-terms $(word 2, $^) \
 		remove \
 			--select "owl:deprecated='true'^^xsd:boolean" \
 		annotate \
