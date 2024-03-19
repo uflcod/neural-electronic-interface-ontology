@@ -17,6 +17,7 @@ Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/ubero
 Annotation(<http://purl.org/dc/elements/1.1/title> "Neural Electronic Interface Ontology")
 
 Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001000>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001001>))
 Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-7387-7944>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9625-1899>))
@@ -45,6 +46,11 @@ AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ont
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001000> (test)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001000> "test"@en)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001001> (AnotherClass)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001001> "AnotherClass"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001001> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001000>)
 
 
 ############################
