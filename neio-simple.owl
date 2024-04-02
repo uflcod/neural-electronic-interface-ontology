@@ -6,14 +6,24 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/neural-electronic-interface-ontology/neio/neio-simple.owl">
-        <owl:versionIRI rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-01/neio-simple.owl"/>
-        <dc:title>Neural Electronic Interface Ontology</dc:title>
-        <oboInOwl:date>01:04:2024 20:37</oboInOwl:date>
-        <owl:versionInfo>2024-04-01</owl:versionInfo>
+        <owl:versionIRI rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-02/neio-simple.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7387-7944"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1118-1738"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5260-9315"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3026"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0008-8150-9779"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0009-9778-4641"/>
+        <terms:created>2023-09-17</terms:created>
+        <terms:description>The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject&apos;s external environment, the conditions under which these devices should be employed, the assessment of a subject&apos;s sensory ability, and the metrics for evaluating the performance.</terms:description>
+        <terms:title>Neural Electronic Interface Ontology</terms:title>
+        <owl:versionInfo>2024-04-02</owl:versionInfo>
+        <foaf:homepage>https://github.com/uflcod/neural-electronic-interface-ontology</foaf:homepage>
     </owl:Ontology>
     
 
@@ -54,9 +64,27 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+    <!-- http://purl.org/dc/terms/creator -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
     
 
 

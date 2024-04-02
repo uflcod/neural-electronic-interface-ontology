@@ -1,9 +1,19 @@
 format-version: 1.2
-data-version: https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-01/neio-non-classified.owl
-date: 01:04:2024 20:37
+data-version: https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-02/neio-non-classified.owl
 ontology: https://w3id.org/neural-electronic-interface-ontology/neio/neio-non-classified.owl
-property_value: http://purl.org/dc/elements/1.1/title "Neural Electronic Interface Ontology" xsd:string
-property_value: owl:versionInfo "2024-04-01" xsd:string
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-7387-7944
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9990-8331
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-1118-1738
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-5260-9315
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0009-0006-7251-3026
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0009-0008-8150-9779
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0009-0009-9778-4641
+property_value: http://purl.org/dc/terms/created "2023-09-17" xsd:string
+property_value: http://purl.org/dc/terms/description "The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject's external environment, the conditions under which these devices should be employed, the assessment of a subject's sensory ability, and the metrics for evaluating the performance." xsd:string
+property_value: http://purl.org/dc/terms/title "Neural Electronic Interface Ontology" xsd:string
+property_value: http://xmlns.com/foaf/0.1/homepage "https://github.com/uflcod/neural-electronic-interface-ontology" xsd:string
+property_value: owl:versionInfo "2024-04-02" xsd:string
 
 [Term]
 id: BFO:0000001

@@ -15,10 +15,20 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://w3id.org/neural-electronic-interface-ontology/neio/neio-non-classified.owl">
-        <owl:versionIRI rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-01/neio-non-classified.owl"/>
-        <dc:title>Neural Electronic Interface Ontology</dc:title>
-        <oboInOwl:date>01:04:2024 20:37</oboInOwl:date>
-        <owl:versionInfo>2024-04-01</owl:versionInfo>
+        <owl:versionIRI rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-02/neio-non-classified.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7387-7944"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1118-1738"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5260-9315"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3026"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0008-8150-9779"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0009-9778-4641"/>
+        <terms:created>2023-09-17</terms:created>
+        <terms:description>The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject&apos;s external environment, the conditions under which these devices should be employed, the assessment of a subject&apos;s sensory ability, and the metrics for evaluating the performance.</terms:description>
+        <terms:title>Neural Electronic Interface Ontology</terms:title>
+        <owl:versionInfo>2024-04-02</owl:versionInfo>
+        <foaf:homepage>https://github.com/uflcod/neural-electronic-interface-ontology</foaf:homepage>
     </owl:Ontology>
     
 
@@ -1083,11 +1093,29 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
@@ -1114,12 +1142,6 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
     
 
 
@@ -1341,6 +1363,12 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depiction">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
     
 
 
@@ -6826,6 +6854,14 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5260-9315">
         <rdfs:label xml:lang="en">Patrick Ray</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0009-0006-7251-3026 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0009-0006-7251-3026">
+        <rdfs:label>Gopikrishnan M Chandrasekharan</rdfs:label>
     </owl:NamedIndividual>
     
 
