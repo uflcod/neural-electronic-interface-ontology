@@ -1,0 +1,14 @@
+format-version: 1.2
+data-version: https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-01/neio-base.owl
+date: 01:04:2024 20:37
+ontology: https://w3id.org/neural-electronic-interface-ontology/neio/neio-base.owl
+property_value: http://purl.org/dc/elements/1.1/title "Neural Electronic Interface Ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: owl:versionInfo "2024-04-01" xsd:string
+
+[Typedef]
+id: NEIO:0000100
+name: has commercial partner
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T16:42:25Z" xsd:dateTime
+

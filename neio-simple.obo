@@ -1,0 +1,313 @@
+format-version: 1.2
+data-version: https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-01/neio-simple.owl
+date: 01:04:2024 20:37
+ontology: https://w3id.org/neural-electronic-interface-ontology/neio/neio-simple.owl
+property_value: http://purl.org/dc/elements/1.1/title "Neural Electronic Interface Ontology" xsd:string
+property_value: owl:versionInfo "2024-04-01" xsd:string
+
+[Term]
+id: NEIO:0000101
+name: Alpha AMS
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000102
+name: Alpha IMS
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000103
+name: AmazingVision
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000104
+name: Argus I
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000105
+name: Argus II
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000106
+name: ASR Artificial Silicon Retina
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000107
+name: AV-DONE
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000108
+name: Bar-Ilan Prosthesis
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000109
+name: Biohybrid
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000110
+name: Boston Retinal Implant
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000111
+name: BS01
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000112
+name: C-Sight
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000113
+name: CORTIVIS
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000114
+name: Diamond Eye Implant
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000115
+name: Electronic Visual Cortical Stimulator
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000116
+name: ELVIS
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000117
+name: EPIRET1
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000118
+name: EPIRET2
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000119
+name: EPIRET3
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000120
+name: Gennaris
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000121
+name: HARP
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000122
+name: Intracortical Visual Prosthesis
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000123
+name: IMI Retinal Implant System
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000124
+name: IMIE 256 Channel Intelligent Micro Implant Eye
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000125
+name: IRIS I
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000126
+name: IRIS II
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000127
+name: Leuven Optic Nerve Visual Prosthesis
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000128
+name: Link N1
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000129
+name: Newcastle Visual Prosthesis
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000130
+name: NR600
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000131
+name: OpticSELINE
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000132
+name: Optoelectronic Nanowire Retinal Prosthesis
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000133
+name: OPTOEPIRET
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000134
+name: Orion Cortical Visual Prosthesis System
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000135
+name: OUReP
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000136
+name: Phoenix 99
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000137
+name: POLYRETINA
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000138
+name: PolySTIM
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000139
+name: PRIMA
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000140
+name: QuantumRetina
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000141
+name: Science Eye
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000142
+name: Seoul Artificial Retina
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000143
+name: SiBionics Prosthesis
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000144
+name: Stanford Artificial Retina Project
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000145
+name: STS Retinal Prosthesis
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000146
+name: Suprachoroidal Prosthesis (24-channel)
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000147
+name: Suprachoroidal Prosthesis (44-channel)
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000148
+name: Thalamic Visual Prosthesis
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000149
+name: Utah Intracortical Electrode Array
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Term]
+id: NEIO:0000150
+name: VISNE
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+
+[Typedef]
+id: NEIO:0000100
+name: has commercial partner
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/created "2024-02-20T16:42:25Z" xsd:dateTime
+
