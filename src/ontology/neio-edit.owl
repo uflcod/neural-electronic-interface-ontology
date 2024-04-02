@@ -28,6 +28,7 @@ Annotation(<http://purl.org/dc/terms/title> "Neural Electronic Interface Ontolog
 Annotation(<http://xmlns.com/foaf/0.1/homepage> "https://github.com/uflcod/neural-electronic-interface-ontology")
 
 Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-5233-844X>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-7387-7944>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9625-1899>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9990-8331>))
@@ -58,6 +59,10 @@ AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ont
 ############################
 #   Named Individuals
 ############################
+
+# Individual: <https://orcid.org/0000-0001-5233-844X> (Michael Beyeler)
+
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-5233-844X> "Michael Beyeler")
 
 # Individual: <https://orcid.org/0000-0001-7387-7944> (Daniel Rathbun)
 
