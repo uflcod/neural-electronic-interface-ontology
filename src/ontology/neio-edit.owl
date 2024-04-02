@@ -29,7 +29,10 @@ Annotation(<http://xmlns.com/foaf/0.1/homepage> "https://github.com/uflcod/neura
 
 Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001000>))
 Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001001>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001002>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001003>))
 Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100>))
+Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001004>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-7387-7944>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9625-1899>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9990-8331>))
@@ -38,6 +41,7 @@ Declaration(NamedIndividual(<https://orcid.org/0000-0002-5260-9315>))
 Declaration(NamedIndividual(<https://orcid.org/0009-0006-7251-3026>))
 Declaration(NamedIndividual(<https://orcid.org/0009-0008-8150-9779>))
 Declaration(NamedIndividual(<https://orcid.org/0009-0009-9778-4641>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001005>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
@@ -55,11 +59,25 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neu
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> "2024-02-20T16:42:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> "has commercial partner"@en)
 
+# Object Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001004> (has academic partner)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001004> <https://orcid.org/0000-0001-7387-7944>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001004> "2024-04-02T21:10:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001004> "has academic partner"@en)
+
 
 
 ############################
 #   Classes
 ############################
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> (Alpha AMS)
+
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001004> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001005>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> (Alpha IMS)
+
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001004> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001005>))
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001000> (test)
 
@@ -69,6 +87,22 @@ AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ont
 
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001001> "AnotherClass"@en)
 SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001001> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001000>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001002> (Dtest)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001002> "A test that was created by Daniel to learn.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001002> <https://orcid.org/0000-0001-7387-7944>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001002> "04/02/2024")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001002> "Dtest"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001002> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001000>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001003> (Dtest2)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001003> "A test that was created by Daniel to test automatic annotation.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001003> <https://orcid.org/0000-0001-7387-7944>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001003> "2024-04-02T21:00:05Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001003> "Dtest2"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0001003> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001000>)
 
 
 ############################
@@ -106,6 +140,13 @@ AnnotationAssertion(rdfs:label <https://orcid.org/0009-0008-8150-9779> "Jisoo Se
 # Individual: <https://orcid.org/0009-0009-9778-4641> (Sam Smith)
 
 AnnotationAssertion(rdfs:label <https://orcid.org/0009-0009-9778-4641> "Sam Smith"@en)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001005> (Eberhard-Karls University of Tuebingen)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001005> <https://orcid.org/0000-0001-7387-7944>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001005> "2024-04-02T21:11:51Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001005> "Eberhard-Karls University of Tuebingen"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0001005>)
 
 
 )
