@@ -25,6 +25,7 @@ Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0009-9
 Annotation(<http://purl.org/dc/terms/created> "2023-09-17")
 Annotation(<http://purl.org/dc/terms/description> "The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject's external environment, the conditions under which these devices should be employed, the assessment of a subject's sensory ability, and the metrics for evaluating the performance.")
 Annotation(<http://purl.org/dc/terms/title> "Neural Electronic Interface Ontology")
+Annotation(<http://xmlns.com/foaf/0.1/homepage> "https://github.com/uflcod/neural-electronic-interface-ontology")
 
 Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-7387-7944>))
@@ -40,6 +41,7 @@ Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/homepage>))
 
 ############################
 #   Object Properties
