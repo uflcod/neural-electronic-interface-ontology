@@ -14,7 +14,17 @@ Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_i
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/omrse_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/organizations_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl>)
-Annotation(<http://purl.org/dc/elements/1.1/title> "Neural Electronic Interface Ontology")
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-7387-7944>)
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-9625-1899>)
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-9990-8331>)
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-1118-1738>)
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-5260-9315>)
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0006-7251-3026>)
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0008-8150-9779>)
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0009-9778-4641>)
+Annotation(<http://purl.org/dc/terms/created> "2023-09-17")
+Annotation(<http://purl.org/dc/terms/description> "The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject's external environment, the conditions under which these devices should be employed, the assessment of a subject's sensory ability, and the metrics for evaluating the performance.")
+Annotation(<http://purl.org/dc/terms/title> "Neural Electronic Interface Ontology")
 
 Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-7387-7944>))
@@ -22,8 +32,14 @@ Declaration(NamedIndividual(<https://orcid.org/0000-0001-9625-1899>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9990-8331>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-1118-1738>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-5260-9315>))
+Declaration(NamedIndividual(<https://orcid.org/0009-0006-7251-3026>))
 Declaration(NamedIndividual(<https://orcid.org/0009-0008-8150-9779>))
 Declaration(NamedIndividual(<https://orcid.org/0009-0009-9778-4641>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 
 ############################
 #   Object Properties
@@ -60,6 +76,10 @@ AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-1118-1738> "John Bev
 # Individual: <https://orcid.org/0000-0002-5260-9315> (Patrick Ray)
 
 AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-5260-9315> "Patrick Ray"@en)
+
+# Individual: <https://orcid.org/0009-0006-7251-3026> (Gopikrishnan M Chandrasekharan)
+
+AnnotationAssertion(rdfs:label <https://orcid.org/0009-0006-7251-3026> "Gopikrishnan M Chandrasekharan")
 
 # Individual: <https://orcid.org/0009-0008-8150-9779> (Jisoo Seo)
 
