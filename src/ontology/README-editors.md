@@ -134,11 +134,3 @@ In future we will have better tools for auto-generating release notes.
 
 Then click "publish release"
 
-__IMPORTANT__: NO MORE THAN ONE RELEASE PER DAY.
-
-The PURLs are already configured to pull from github. This means that
-BOTH ontology purls and versioned ontology purls will resolve to the
-correct ontologies. Try it!
-
- * https://w3id.org/neural-electronic-interface-ontology/neio.owl <-- current ontology PURL
- * https://w3id.org/neural-electronic-interface-ontology/neio/releases/YYYY-MM-DD.owl <-- change to the release you just made
