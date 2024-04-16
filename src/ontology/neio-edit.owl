@@ -48,11 +48,14 @@ Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/homepage>))
 #   Object Properties
 ############################
 
-# Object Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> (has commercial partner)
+# Object Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> (device commercialized by)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> "The commerical partner conducts clinic trials of the device.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> "The commerical partner sets up the manufacturing workflow.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> "A relation between a device and an organization in which the organization assists in the process of commercializing the device.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> <https://orcid.org/0000-0001-9625-1899>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> "2024-02-20T16:42:25Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> "has commercial partner"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> "device commercialized by"@en)
 
 
 
