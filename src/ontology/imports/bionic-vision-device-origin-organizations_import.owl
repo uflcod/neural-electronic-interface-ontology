@@ -1,0 +1,373 @@
+Prefix(:=<https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-device-origin-organizations_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-device-origin-organizations_import.owl>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000968>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151>))
+Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/created>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> (Alpha AMS)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> "Alpha AMS")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> (Alpha IMS)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> "Alpha IMS")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> (AmazingVision)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> "AmazingVision")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> (Argus I)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> "Argus I")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> (Argus II)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> "Argus II")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> (ASR Artificial Silicon Retina)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> "ASR Artificial Silicon Retina")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> (AV-DONE)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> "AV-DONE")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> (Bar-Ilan Prosthesis)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> "Bar-Ilan Prosthesis")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> (Biohybrid)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> "Biohybrid")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> (Boston Retinal Implant)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> "Boston Retinal Implant")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> (BS01)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> "BS01")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> (C-Sight)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> "C-Sight")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> (CORTIVIS)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> "CORTIVIS")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> (Diamond Eye Implant)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> "Diamond Eye Implant")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> (Electronic Visual Cortical Stimulator)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> "Electronic Visual Cortical Stimulator")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> (ELVIS)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> "ELVIS")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> (EPIRET1)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> "EPIRET1")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> (EPIRET2)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> "EPIRET2")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> (EPIRET3)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> "EPIRET3")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> (Gennaris)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> "Gennaris")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> (HARP)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> "HARP")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> (Intracortical Visual Prosthesis)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> "Intracortical Visual Prosthesis")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> (IMI Retinal Implant System)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> "IMI Retinal Implant System")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> (IMIE 256 Channel Intelligent Micro Implant Eye)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> "IMIE 256 Channel Intelligent Micro Implant Eye")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> (IRIS I)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> "IRIS I")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> (IRIS II)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> "IRIS II")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> (Leuven Optic Nerve Visual Prosthesis)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> "Leuven Optic Nerve Visual Prosthesis")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> (Link N1)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> "Link N1")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> (Newcastle Visual Prosthesis)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> "Newcastle Visual Prosthesis")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> (NR600)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> "NR600")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> (OpticSELINE)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> "OpticSELINE")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> (Optoelectronic Nanowire Retinal Prosthesis)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> "Optoelectronic Nanowire Retinal Prosthesis")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> (OPTOEPIRET)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> "OPTOEPIRET")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> (Orion Cortical Visual Prosthesis System)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> "Orion Cortical Visual Prosthesis System")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> (OUReP)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> "OUReP")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> (Phoenix 99)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> "Phoenix 99")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> (POLYRETINA)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> "POLYRETINA")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> (PolySTIM)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> "PolySTIM")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> (PRIMA)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> "PRIMA")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> (QuantumRetina)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> "QuantumRetina")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> (Science Eye)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> "Science Eye")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> (Seoul Artificial Retina)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> "Seoul Artificial Retina")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> (SiBionics Prosthesis)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> "SiBionics Prosthesis")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> (Stanford Artificial Retina Project)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> "Stanford Artificial Retina Project")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> (STS Retinal Prosthesis)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> "STS Retinal Prosthesis")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> (Suprachoroidal Prosthesis (24-channel))
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> "Suprachoroidal Prosthesis (24-channel)")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> (Suprachoroidal Prosthesis (44-channel))
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> "Suprachoroidal Prosthesis (44-channel)")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> (Thalamic Visual Prosthesis)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> "Thalamic Visual Prosthesis")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149> (Utah Intracortical Electrode Array)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149> "Utah Intracortical Electrode Array")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> (VISNE)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> "VISNE")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> (Brindley Cortical Implant)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> "Brindley Cortical Implant")
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> ObjectHasValue(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004>))
+
+
+
+)
