@@ -49,6 +49,17 @@ Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontolo
 Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000037>))
 Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000038>))
 Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/created>))
 
@@ -337,6 +348,83 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neu
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039> "2024-02-20T18:00:00Z")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039> "Minori Industry Co., Ltd.")
 ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001> (Universität Tübingen)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001> "Universität Tübingen")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002> (National Chiao Tung University)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002> "National Chiao Tung University")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003> (University of Southern California)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003> "University of Southern California")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004> (University of London)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004> "University of London")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005> (Cornell University)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005> "Cornell University")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006> (Shanghai Jiao Tong University)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006> "Shanghai Jiao Tong University")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007> (Dobelle Institute)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007> "Dobelle Institute")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008> (Polytechnique Montréal)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008> "Polytechnique Montréal")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009> (Monash University)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009> "Monash University")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010> (Illinois Institute of Technology)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010> "Illinois Institute of Technology")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011> (Massachusetts General Hospital)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011> "Massachusetts General Hospital")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011>)
 
 
 )

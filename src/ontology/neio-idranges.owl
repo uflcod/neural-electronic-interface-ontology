@@ -65,7 +65,13 @@ Datatype: idrange:7
     EquivalentTo: 
         xsd:integer[>= 6000 , < 7000]
 
-Datatype: idrange:7
+Datatype: idrange:8
+    Annotations: 
+        allocatedto: "Gopikrishnan M. Chandrasekharan"
+    EquivalentTo: 
+        xsd:integer[>= 7000 , < 8000]
+
+Datatype: idrange:9
     Annotations: 
         allocatedto: "ADDITIONAL EDITOR"
     EquivalentTo: 

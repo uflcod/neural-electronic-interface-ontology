@@ -7,7 +7,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://w3id.org/neural-electronic-interface-ontology/neio.owl>
-Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-devices_import.owl>)
+Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-device_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/obi_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/ogms_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl>)
@@ -28,6 +28,7 @@ Annotation(<http://purl.org/dc/terms/title> "Neural Electronic Interface Ontolog
 Annotation(<http://xmlns.com/foaf/0.1/homepage> "https://github.com/uflcod/neural-electronic-interface-ontology")
 
 Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100>))
+Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-5233-844X>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-7387-7944>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9625-1899>))
@@ -56,6 +57,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://w3id.o
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> <https://orcid.org/0000-0001-9625-1899>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> "2024-02-20T16:42:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100> "device commercialized by"@en)
+
+# Object Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> (device origin organization)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> "2024-04-26T18:21:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000> "device origin organization"@en)
 
 
 
@@ -87,9 +94,9 @@ AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-1118-1738> "John Bev
 
 AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-5260-9315> "Patrick Ray"@en)
 
-# Individual: <https://orcid.org/0009-0006-7251-3026> (Gopikrishnan M Chandrasekharan)
+# Individual: <https://orcid.org/0009-0006-7251-3026> (Gopikrishnan M. Chandrasekharan)
 
-AnnotationAssertion(rdfs:label <https://orcid.org/0009-0006-7251-3026> "Gopikrishnan M Chandrasekharan")
+AnnotationAssertion(rdfs:label <https://orcid.org/0009-0006-7251-3026> "Gopikrishnan M. Chandrasekharan")
 
 # Individual: <https://orcid.org/0009-0008-8150-9779> (Jisoo Seo)
 

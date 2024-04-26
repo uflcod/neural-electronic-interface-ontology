@@ -1,52 +1,53 @@
-ID	Enity Type	Label	Commercial Partner	Contributor	Created
-ID	SC %	LABEL	SC 'has commercial partner' value % SPLIT=|	AI dcterms:contributor SPLIT=|	A dcterms:created
-neio:0000101	device	Alpha AMS	Retina Implant AG	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000102	device	Alpha IMS	Retina Implant AG	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000103	device	AmazingVision	A-Neuron Electronic Corp.	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000104	device	Argus I	Second Sight Medical Products	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000105	device	Argus II	Second Sight Medical Products	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000106	device	ASR Artificial Silicon Retina	Optobionics	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000107	device	AV-DONE	"Nidek Co., Ltd."	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000108	device	Bar-Ilan Prosthesis		https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000109	device	Biohybrid	"Nidek Co., Ltd."	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000110	device	Boston Retinal Implant	Bionic Eye Technologies	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000111	device	BS01	"Bionic Sight, LLC"	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000112	device	C-Sight		https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000113	device	CORTIVIS	Biomedical Technologies	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000114	device	Diamond Eye Implant	iBionics	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000115	device	Electronic Visual Cortical Stimulator	Cortivision	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000116	device	ELVIS	Sensor-Tech	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000117	device	EPIRET1	Epi-Ret GmBH	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000118	device	EPIRET2	Epi-Ret GmBH	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000119	device	EPIRET3	Epi-Ret GmBH	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000120	device	Gennaris		https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000121	device	HARP	Iridium Medical Technology Co. Ltd.	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000122	device	Intracortical Visual Prosthesis	MicroProbes for Life Science|Sigenics	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000123	device	IMI Retinal Implant System	IMI Intelligent Medical Implants GmbH	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000124	device	IMIE 256 Channel Intelligent Micro Implant Eye	"Golden Eye Bionics, LLC|IntelliMicro Medical Co., Ltd."	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000125	device	IRIS I	Pixium Vision	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000126	device	IRIS II	Pixium Vision	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000127	device	Leuven Optic Nerve Visual Prosthesis		https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000128	device	Link N1	Neuralink	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000129	device	Newcastle Visual Prosthesis		https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000130	device	NR600	Nano Retina	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000131	device	OpticSELINE		https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000132	device	Optoelectronic Nanowire Retinal Prosthesis	Nanovision Biosciences	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000133	device	OPTOEPIRET	Epi-Ret GmBH	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000134	device	Orion Cortical Visual Prosthesis System	"Cortigent, Inc."	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000135	device	OUReP	"Minori Industry Co., Ltd."	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000136	device	Phoenix 99	Bionic Vision Technologies	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000137	device	POLYRETINA		https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000138	device	PolySTIM	Cortivision	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000139	device	PRIMA	Pixium Vision	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000140	device	QuantumRetina		https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000141	device	Science Eye	Science	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000142	device	Seoul Artificial Retina		https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000143	device	SiBionics Prosthesis	SiBionics	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000144	device	Stanford Artificial Retina Project		https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000145	device	STS Retinal Prosthesis	"Nidek Co., Ltd."	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000146	device	Suprachoroidal Prosthesis (24-channel)	Bionic Vision Technologies	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000147	device	Suprachoroidal Prosthesis (44-channel)	Bionic Vision Technologies	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000148	device	Thalamic Visual Prosthesis	Bionic Eye Technologies	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000149	device	Utah Intracortical Electrode Array	Blackrock Microsystems LLC	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
-neio:0000150	device	VISNE	Nerve Biomed S.L.	https://orcid.org/0000-0001-9625-1899	2024-02-20T18:00:00Z
+ID	Enity Type	Label	Commercial Partner	Origin Organization	Contributor	Created
+ID	SC %	LABEL	SC 'device commercialized by' value % SPLIT=|	SC 'device origin organization' value % SPLIT=|	AI dcterms:contributor SPLIT=|	A dcterms:created
+neio:0000101	device	Alpha AMS	Retina Implant AG	Universität Tübingen	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3026	2024-04-26T18:00:00Z
+neio:0000102	device	Alpha IMS	Retina Implant AG	Universität Tübingen	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3027	2024-04-26T18:00:00Z
+neio:0000103	device	AmazingVision	A-Neuron Electronic Corp.	National Chiao Tung University	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3028	2024-04-26T18:00:00Z
+neio:0000104	device	Argus I	Second Sight Medical Products	University of Southern California	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3029	2024-04-26T18:00:00Z
+neio:0000105	device	Argus II	Second Sight Medical Products		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3030	2024-04-26T18:00:00Z
+neio:0000106	device	ASR Artificial Silicon Retina	Optobionics		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3031	2024-04-26T18:00:00Z
+neio:0000107	device	AV-DONE	"Nidek Co., Ltd."		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3032	2024-04-26T18:00:00Z
+neio:0000108	device	Bar-Ilan Prosthesis			https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3033	2024-04-26T18:00:00Z
+neio:0000109	device	Biohybrid	"Nidek Co., Ltd."		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3034	2024-04-26T18:00:00Z
+neio:0000110	device	Boston Retinal Implant	Bionic Eye Technologies		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3035	2024-04-26T18:00:00Z
+neio:0000111	device	BS01	"Bionic Sight, LLC"	Cornell University	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3036	2024-04-26T18:00:00Z
+neio:0000112	device	C-Sight		Shanghai Jiao Tong University	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3037	2024-04-26T18:00:00Z
+neio:0000113	device	CORTIVIS	Biomedical Technologies		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3038	2024-04-26T18:00:00Z
+neio:0000114	device	Diamond Eye Implant	iBionics		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3039	2024-04-26T18:00:00Z
+neio:0000115	device	Electronic Visual Cortical Stimulator	Cortivision	Polytechnique Montréal	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3040	2024-04-26T18:00:00Z
+neio:0000116	device	ELVIS	Sensor-Tech		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3041	2024-04-26T18:00:00Z
+neio:0000117	device	EPIRET1	Epi-Ret GmBH		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3042	2024-04-26T18:00:00Z
+neio:0000118	device	EPIRET2	Epi-Ret GmBH		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3043	2024-04-26T18:00:00Z
+neio:0000119	device	EPIRET3	Epi-Ret GmBH		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3044	2024-04-26T18:00:00Z
+neio:0000120	device	Gennaris		Monash University	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3045	2024-04-26T18:00:00Z
+neio:0000121	device	HARP	Iridium Medical Technology Co. Ltd.		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3046	2024-04-26T18:00:00Z
+neio:0000122	device	Intracortical Visual Prosthesis	MicroProbes for Life Science|Sigenics	Illinois Institute of Technology	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3047	2024-04-26T18:00:00Z
+neio:0000123	device	IMI Retinal Implant System	IMI Intelligent Medical Implants GmbH		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3048	2024-04-26T18:00:00Z
+neio:0000124	device	IMIE 256 Channel Intelligent Micro Implant Eye	"Golden Eye Bionics, LLC|IntelliMicro Medical Co., Ltd."		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3049	2024-04-26T18:00:00Z
+neio:0000125	device	IRIS I	Pixium Vision		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3050	2024-04-26T18:00:00Z
+neio:0000126	device	IRIS II	Pixium Vision		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3051	2024-04-26T18:00:00Z
+neio:0000127	device	Leuven Optic Nerve Visual Prosthesis			https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3052	2024-04-26T18:00:00Z
+neio:0000128	device	Link N1	Neuralink		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3053	2024-04-26T18:00:00Z
+neio:0000129	device	Newcastle Visual Prosthesis			https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3054	2024-04-26T18:00:00Z
+neio:0000130	device	NR600	Nano Retina		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3055	2024-04-26T18:00:00Z
+neio:0000131	device	OpticSELINE			https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3056	2024-04-26T18:00:00Z
+neio:0000132	device	Optoelectronic Nanowire Retinal Prosthesis	Nanovision Biosciences		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3057	2024-04-26T18:00:00Z
+neio:0000133	device	OPTOEPIRET	Epi-Ret GmBH		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3058	2024-04-26T18:00:00Z
+neio:0000134	device	Orion Cortical Visual Prosthesis System	"Cortigent, Inc."		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3059	2024-04-26T18:00:00Z
+neio:0000135	device	OUReP	"Minori Industry Co., Ltd."		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3060	2024-04-26T18:00:00Z
+neio:0000136	device	Phoenix 99	Bionic Vision Technologies		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3061	2024-04-26T18:00:00Z
+neio:0000137	device	POLYRETINA			https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3062	2024-04-26T18:00:00Z
+neio:0000138	device	PolySTIM	Cortivision		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3063	2024-04-26T18:00:00Z
+neio:0000139	device	PRIMA	Pixium Vision		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3064	2024-04-26T18:00:00Z
+neio:0000140	device	QuantumRetina			https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3065	2024-04-26T18:00:00Z
+neio:0000141	device	Science Eye	Science		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3066	2024-04-26T18:00:00Z
+neio:0000142	device	Seoul Artificial Retina			https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3067	2024-04-26T18:00:00Z
+neio:0000143	device	SiBionics Prosthesis	SiBionics		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3068	2024-04-26T18:00:00Z
+neio:0000144	device	Stanford Artificial Retina Project			https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3069	2024-04-26T18:00:00Z
+neio:0000145	device	STS Retinal Prosthesis	"Nidek Co., Ltd."		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3070	2024-04-26T18:00:00Z
+neio:0000146	device	Suprachoroidal Prosthesis (24-channel)	Bionic Vision Technologies		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3071	2024-04-26T18:00:00Z
+neio:0000147	device	Suprachoroidal Prosthesis (44-channel)	Bionic Vision Technologies		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3072	2024-04-26T18:00:00Z
+neio:0000148	device	Thalamic Visual Prosthesis	Bionic Eye Technologies	Massachusetts General Hospital	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3073	2024-04-26T18:00:00Z
+neio:0000149	device	Utah Intracortical Electrode Array	Blackrock Microsystems LLC		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3074	2024-04-26T18:00:00Z
+neio:0000150	device	VISNE	Nerve Biomed S.L.		https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3075	2024-04-26T18:00:00Z
+neio:0000151	device	Brindley Cortical Implant		University of London	https://orcid.org/0000-0001-9625-1899|https://orcid.org/0009-0006-7251-3076	2024-04-26T18:00:00Z
