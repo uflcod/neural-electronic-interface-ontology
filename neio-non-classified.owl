@@ -13,11 +13,11 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:neural-electronic-interface-ontology="https://w3id.org/neural-electronic-interface-ontology/">
     <owl:Ontology rdf:about="https://w3id.org/neural-electronic-interface-ontology/neio/neio-non-classified.owl">
-        <owl:versionIRI rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-02/neio-non-classified.owl"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-06-25/neio-non-classified.owl"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-7387-7944"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1118-1738"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5260-9315"/>
@@ -25,9 +25,10 @@
         <terms:contributor rdf:resource="https://orcid.org/0009-0008-8150-9779"/>
         <terms:contributor rdf:resource="https://orcid.org/0009-0009-9778-4641"/>
         <terms:created>2023-09-17</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
         <terms:description>The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject&apos;s external environment, the conditions under which these devices should be employed, the assessment of a subject&apos;s sensory ability, and the metrics for evaluating the performance.</terms:description>
         <terms:title>Neural Electronic Interface Ontology</terms:title>
-        <owl:versionInfo>2024-04-02</owl:versionInfo>
+        <owl:versionInfo>2024-06-25</owl:versionInfo>
         <foaf:homepage>https://github.com/uflcod/neural-electronic-interface-ontology</foaf:homepage>
     </owl:Ontology>
     
@@ -1372,6 +1373,126 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T00:59:42Z</terms:created>
+        <rdfs:label xml:lang="en">implant location</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000050 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000050">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:00:24Z</terms:created>
+        <rdfs:label xml:lang="en">implant processor location</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000051 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000051">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:00:54Z</terms:created>
+        <rdfs:label xml:lang="en">electrode layout</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000052 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000052">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:01:12Z</terms:created>
+        <rdfs:label xml:lang="en">electrode pitch</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000053 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000053">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:01:33Z</terms:created>
+        <rdfs:label xml:lang="en">electrode diameter</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000054 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000054">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:02:09Z</terms:created>
+        <rdfs:label xml:lang="en">clinical trial</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000055 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000055">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:02:55Z</terms:created>
+        <rdfs:label xml:lang="en">first patient year</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000056 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000056">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:03:11Z</terms:created>
+        <rdfs:label xml:lang="en">FDA approval year</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000057 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000057">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:03:36Z</terms:created>
+        <rdfs:label xml:lang="en">end of product year</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000058 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000058">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:03:45Z</terms:created>
+        <rdfs:label xml:lang="en">ce mark year</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000059 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000059">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:06:27Z</terms:created>
+        <rdfs:label xml:lang="en">implant type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000060 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000060">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T03:05:36Z</terms:created>
+        <rdfs:label xml:lang="en">electrode number</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1861,9 +1982,22 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100 -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100">
+        <obo:IAO_0000112>The commerical partner conducts clinic trials of the device.</obo:IAO_0000112>
+        <obo:IAO_0000112>The commerical partner sets up the manufacturing workflow.</obo:IAO_0000112>
+        <obo:IAO_0000115>A relation between a device and an organization in which the organization assists in the process of commercializing the device.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-20T16:42:25Z</terms:created>
-        <rdfs:label xml:lang="en">has commercial partner</rdfs:label>
+        <rdfs:label xml:lang="en">device commercialized by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000">
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3026"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-26T18:21:54Z</terms:created>
+        <rdfs:label xml:lang="en">device origin organization</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -5781,19 +5915,138 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     
 
 
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:29:46Z</terms:created>
+        <rdfs:label xml:lang="en">electrode array</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:30:09Z</terms:created>
+        <rdfs:label xml:lang="en">electrode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:39:16Z</terms:created>
+        <rdfs:label xml:lang="en">neural electronic interface device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:39:31Z</terms:created>
+        <rdfs:label xml:lang="en">bionic vision device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000045 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000045">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:41:47Z</terms:created>
+        <rdfs:label xml:lang="en">bionic hearing device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000046 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000046">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:43:31Z</terms:created>
+        <rdfs:label xml:lang="en">brain computer interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000047 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000047">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:43:46Z</terms:created>
+        <rdfs:label xml:lang="en">brain machine interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000048 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000048">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:59:44Z</terms:created>
+        <rdfs:label xml:lang="en">cortical bionic vision device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000049 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000049">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T21:00:00Z</terms:created>
+        <rdfs:label xml:lang="en">retinal bionic vision device</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
                 <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3026"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Alpha AMS is an advanced subretinal implant developed by Retina Implant AG, designed to assist individuals with retinitis pigmentosa, a condition marked by the progressive loss of vision. This implant is an evolution of its predecessor, the [Alpha IMS](/devices/alpha-ims), featuring enhanced functionality with 1,600 light-sensitive photodiodes that more effectively mimic the natural processing of visual signals. Implanted under the retina, the Alpha AMS converts light into electrical signals that are sent to the brain, enabling patients to detect light and dark, and recognize large objects and outlines.</terms:description>
         <rdfs:label>Alpha AMS</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>rectilinear</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000052>70</neural-electronic-interface-ontology:NEIO_0000052>
+        <neural-electronic-interface-ontology:NEIO_0000058>2016</neural-electronic-interface-ontology:NEIO_0000058>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>1600</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -5801,16 +6054,31 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
                 <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3027"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Alpha IMS is a subretinal implant developed by Retina Implant AG, aimed at restoring functional vision for individuals with retinitis pigmentosa, a group of genetic disorders characterized by progressive vision loss. Implanted beneath the retina, the device features a microchip equipped with 1,500 light-sensitive photodiodes, amplifiers, and electrodes. It functions by mimicking the role of photoreceptor cells: capturing light signals and converting them into electrical impulses transmitted to the brain via the optic nerve.
+
+Alpha IMS enables patients to perceive light patterns, assisting in navigation and object recognition. Clinical trials have shown that the implant can enhance visual perception, marking a significant advancement in vision restoration technologies.</terms:description>
         <rdfs:label>Alpha IMS</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>rectilinear</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000052>70</neural-electronic-interface-ontology:NEIO_0000052>
+        <neural-electronic-interface-ontology:NEIO_0000058>2013</neural-electronic-interface-ontology:NEIO_0000058>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -5818,16 +6086,27 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
                 <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3028"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>This technology is an improved version of what the National Chiao Tung University’s Biomedical Electronics Translational Research Center (BETRC) has been developing. The BETRC created an artificial retina that uses two threads to transmit power from the eyewear worn by the user to a chip implanted in the eyeball. Amazing Vision has added a tiny solar panel to the chip that generates power by absorbing infrared light. This improvement reduces inflammation to the eye, reduces infection risk, and gives clearer and wider vision to the patient it was implanted in. Animal tests have already been conducted and have proven useful. Human testing was delayed due to the pandemic, but is soon to be conducted.
+</terms:description>
         <rdfs:label>AmazingVision</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -5835,16 +6114,30 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
                 <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3029"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>Argus I was the first-generation prototype of an epiretinal implant manufactured by Second Sight Medical Products.</terms:description>
         <rdfs:label>Argus I</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>4x4</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000052>800</neural-electronic-interface-ontology:NEIO_0000052>
+        <neural-electronic-interface-ontology:NEIO_0000053>250/500</neural-electronic-interface-ontology:NEIO_0000053>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>16</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -5852,7 +6145,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
@@ -5860,8 +6153,21 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3030"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Argus II is a retinal prosthesis device developed by Second Sight Medical Products, designed for individuals with retinitis pigmentosa, a condition characterized by severe vision impairment. As an epiretinal implant, it is placed directly on the retina&apos;s surface and consists of a small camera on eyeglasses that captures visual data. This data is processed by a portable unit and transmitted wirelessly to an electrode array in the eye, stimulating the retina&apos;s remaining cells to send visual information to the brain.
+
+Approved by the FDA in 2013 and previously granted the CE Mark in 2011 in Europe, the Argus II was the first retinal implant to receive these certifications, allowing users to perform basic visual tasks.
+
+However, in 2019, Second Sight discontinued the Argus II due to financial challenges, shifting their focus to the development of the [Orion Visual Cortical Prosthesis System](/devices/orion), intended to stimulate the brain&apos;s visual cortex directly.</terms:description>
         <rdfs:label>Argus II</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>6x10</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000052>575</neural-electronic-interface-ontology:NEIO_0000052>
+        <neural-electronic-interface-ontology:NEIO_0000053>225</neural-electronic-interface-ontology:NEIO_0000053>
+        <neural-electronic-interface-ontology:NEIO_0000058>2011</neural-electronic-interface-ontology:NEIO_0000058>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>60</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -5869,7 +6175,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
@@ -5877,8 +6183,18 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3031"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>Optobionics’ Artificial Silicon Retina microchip (ASR) was invented by Dr. Alan Chow and his brother Vincent Chow.  Dr. Chow is an ophthalmic surgeon and assistant professor and his brother Vincent is an electrical engineer.
+
+The ASR was designed to stimulate damaged retinal cells from within the retina to allow the cells to recreate visual signals that are processed and sent to the brain.
+
+The ASR microchip is a silicon chip 2 mm in diameter, 25 microns in thickness and is less than the thickness of a human hair. It fabricated using technology similar to that used in the fabrication of computer chips and contains approximately 5,000 microscopic solar cells called “microphotodiodes,” each with its own stimulating electrode.</terms:description>
         <rdfs:label>ASR Artificial Silicon Retina</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000053>25</neural-electronic-interface-ontology:NEIO_0000053>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>5000 microphotodiodes</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -5886,7 +6202,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
@@ -5894,8 +6210,14 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3032"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>AV-DONE is a direct optic nerve electrode that produces artificial vision in blind patients with retinitis pigmentosa. </terms:description>
         <rdfs:label>AV-DONE</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>optic nerve</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000053>50</neural-electronic-interface-ontology:NEIO_0000053>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>7-Mar</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -5903,10 +6225,14 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Bar-Ilan Prosthesis</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3033"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Hybrid Retinal Prosthesis is a novel device that combines an implantable high density electrode array integrated with neurons. The electrode-neuron coupling allows for an increase in phosphene density while preserving retinal circuitry.</terms:description>
+        <rdfs:label>Bar-Ilan Hybrid Retinal Prosthesis</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -5914,7 +6240,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
@@ -5922,8 +6248,11 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3034"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
         <rdfs:label>Biohybrid</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>optic nerve</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -5931,7 +6260,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
@@ -5939,8 +6268,12 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3035"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Boston Retinal Implant Project has developed a subretinal, hermetically-enclosed, chronically-implantable vision prosthesis to restore some useful vision to people with degenerative retinal diseases, especially retinitis pigmentosa and age-related macular degeneration. The prosthesis offers advantages over the competing epiretinal devices by providing a lower risk of eye infection, reduced erosion through the delicate tissues that cover the front of the eye (i.e. the conjunctiva), and the ability to place stimulating electrodes closer to retinal nerve cells. </terms:description>
         <rdfs:label>Boston Retinal Implant</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -5948,16 +6281,20 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000005"/>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>BS01</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3035"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <rdfs:label>Brindley Cortical Implant</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>78</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -5965,10 +6302,26 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>C-Sight</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3036"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>BS01 is an optogenetic prosthesis.</terms:description>
+        <rdfs:label>BS01</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>optogenetic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -5976,16 +6329,22 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000003"/>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>CORTIVIS</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3037"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The C-Sight group proposed an implantable visual prosthesis based on optic nerve stimulation with an electrode array. (Chai et al. 2013)</terms:description>
+        <rdfs:label>C-Sight</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>optic nerve</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>hexagonal</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>13</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -5993,16 +6352,23 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000014"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Diamond Eye Implant</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3038"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>CORTIVIS is a cortical visual neuroprosthesis that is based on the Utah Electrode Array. It will be used to improve the quality of life of profoundly blind people.</terms:description>
+        <rdfs:label>CORTIVIS</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>10x10</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000053>25</neural-electronic-interface-ontology:NEIO_0000053>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>100</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6010,16 +6376,21 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000010"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Electronic Visual Cortical Stimulator</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3039"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>iBionics has developed the Diamond Eye implant with a high density of hermatically-enclosed electrodes, allowing for higher spatial resolution. </terms:description>
+        <rdfs:label>Diamond Eye Implant</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>256</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6027,16 +6398,19 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000034"/>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>ELVIS</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3035"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <rdfs:label>Dobelle Eye</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -6044,16 +6418,26 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>EPIRET1</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3040"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Cortivision team from Polystim neurotechnologies developed a visual cortical stimulator which consists of image sensing, image processing, and brain cortex stimulation to help blind patients acquire a sense of visual perception (Ghannoum 2010). They hope to elaborate a model of the layer 4 of the visual cortex V1 using a large-scale network of biologically realistic neurons.</terms:description>
+        <rdfs:label>Electronic Visual Cortical Stimulator</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -6061,16 +6445,21 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>EPIRET2</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3041"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>ELVIS, or &apos;Electronic Vision,&apos; is a cortical implant that utilizes small currents to stimulate the visual cortex to produce vision. A microcomputer attached to the belt processes the outdoor scene and uses an AI algoirthm to help simplify objects for the user. Sensor Tech expects human trials to begin in 2023 and implants to be made available to the public in 2027.</terms:description>
+        <rdfs:label>ELVIS</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>100</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6078,7 +6467,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
@@ -6086,8 +6475,12 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>EPIRET3</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3042"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <rdfs:label>EPIRET1</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>hexagonal</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -6095,10 +6488,20 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Gennaris</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3043"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <rdfs:label>EPIRET2</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>hexagonal</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -6106,16 +6509,24 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000017"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>HARP</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3044"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The EPIRET3 implant is a remotely controlled, fully intraocular wireless device consisting of a receiver and a stimulator module. The stimulator is placed on the retinal surface. Data and energy are transmitted via an inductive link from outside the eye to the implant. Surgery included removal of the lens, vitrectomy, and implantation of the EPIRET3 device through a corneal incision.</terms:description>
+        <rdfs:label>EPIRET3</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>hexagonal</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000052>500</neural-electronic-interface-ontology:NEIO_0000052>
+        <neural-electronic-interface-ontology:NEIO_0000053>100</neural-electronic-interface-ontology:NEIO_0000053>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>25</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6123,7 +6534,101 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3045"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>Gennaris is a cortical visual prosthesis. It has been designed to bypass damage to the eye and optic nerve, to restore functional vision to people who have lost their sight through traumatic injury and conditions such as glaucoma and acquired retinal disease. Gennaris is currently preparing to undergo human clinical trials in Australia.</terms:description>
+        <rdfs:label>Gennaris</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>hexagonal</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>473</neural-electronic-interface-ontology:NEIO_0000060>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3046"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>HARP is a proprietary contact lens-shaped, 4000 pixel retinal prostheses currently in development by Iridium Medical Technologies. HARP is made for patients with Retinitis Pigmentosa and Age-Related Macular Degeneration.</terms:description>
+        <rdfs:label>HARP High-Acuity Retinal Prosthesis</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3047"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <rdfs:label>IMI Retinal Implant System</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>49</neural-electronic-interface-ontology:NEIO_0000060>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3048"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The 256 Channel Intelligent Micro Eye Implant is an epiretinal implant developed by IntelliMicro Micro Co and Golden Eye Bionic. The implant features advanced technology for a micro implant with an extended electrode array.</terms:description>
+        <rdfs:label>IMIE 256 Channel Intelligent Micro Implant Eye</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000053>210</neural-electronic-interface-ontology:NEIO_0000053>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>256</neural-electronic-interface-ontology:NEIO_0000060>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
@@ -6132,87 +6637,18 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000036"/>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3049"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Intracortical Visual Prosthesis is currently being developed at the Illinois Institute of Technology and is being prepared for clinical testing.</terms:description>
         <rdfs:label>Intracortical Visual Prosthesis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000015"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>IMI Retinal Implant System</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000016"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>IMIE 256 Channel Intelligent Micro Implant Eye</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>IRIS I</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>IRIS II</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>16</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6220,187 +6656,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Leuven Optic Nerve Visual Prosthesis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000022"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Link N1</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Newcastle Visual Prosthesis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>NR600</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>OpticSELINE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000020"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Optoelectronic Nanowire Retinal Prosthesis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>OPTOEPIRET</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000009"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Orion Cortical Visual Prosthesis System</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>OUReP</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Phoenix 99</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>POLYRETINA</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>PolySTIM</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139 -->
-
-    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
@@ -6408,8 +6664,254 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>PRIMA</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3050"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>Pixium&apos;s first device, IRIS1 (Intelligent Retinal Implantable System), used an epi-retinal implant (on the retinal surface) and made it to clinical trials with the goal of obtaining CE Mark.</terms:description>
+        <rdfs:label>IRIS I</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000052>120</neural-electronic-interface-ontology:NEIO_0000052>
+        <neural-electronic-interface-ontology:NEIO_0000053>250</neural-electronic-interface-ontology:NEIO_0000053>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>49</neural-electronic-interface-ontology:NEIO_0000060>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3051"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The IRIS II is a second generation epiretinal implant developed by Pixium vision to deliver light and shape perception, and to localize objects giving the patient the ability to negotiate unfamiliar environments. It consists of a 150 electrode array which allows for a better perceieved visual resolution by the user. The IRIS implant also uses asynchronous time-based image sensor technology resulting in faster, real-time image processing. </terms:description>
+        <rdfs:label>IRIS II</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000058>2016</neural-electronic-interface-ontology:NEIO_0000058>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>150</neural-electronic-interface-ontology:NEIO_0000060>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3052"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The optic nerve visual prosthesis (ONVP) uses a self-sizing spiral cuff electrode to electrically stimulate the optic nerve and thus create the perception of phosphenes. </terms:description>
+        <rdfs:label>Leuven Optic Nerve Visual Prosthesis</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>optic nerve</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>1</neural-electronic-interface-ontology:NEIO_0000060>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3053"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The N1 implant consists of 1024 electrodes distributed across 64 threads, composed mostly of polyimide with a thin gold or platinum conductor, which are inserted into the brain through an automated process performed by a surgical robot (R1). Each thread consists of an area of wires that contains electrodes capable of locating electrical signals in the brain, and a sensory area where the wire interacts with an electronic system that allows amplification and acquisition of the brain signal.
+
+Neuralink received FDA approval for human clinical trials with the N1 in May 2023. On January 29, 2024, [Musk said](https://twitter.com/elonmusk/status/1752098683024220632) that Neuralink had successfully implanted a Neuralink device in a human on the day prior, and that the patient was recovering:&quot;Initial results show promising neuron spike detection&quot;.</terms:description>
+        <rdfs:label>Link N1</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>1024</neural-electronic-interface-ontology:NEIO_0000060>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3054"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Optogenetic Retinal Prostheses uses an optoelectronic headset to capture the visual scene, have an LED array display the image onto photosensitized retinal cells and stimulate them with light. A key advantage of this approach is that it is possible to target ON and OFF bipolar cells.</terms:description>
+        <rdfs:label>Newcastle Visual Prosthesis</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>optogenetic</neural-electronic-interface-ontology:NEIO_0000059>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3055"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The miniature Nano Retina device, the NR600 Implant, replaces the functionality of the damaged photoreceptor cells and creates the electrical stimulation required to activate the remaining healthy retinal cells. NR600 consists of two components; a miniature implantable chip and a set of eyeglasses worn by the patient.</terms:description>
+        <rdfs:label>NR600</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>26x26</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3056"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>OpticSELENE is a device with intraneural electrodes that stimulates the optic nerve with light sensation to promote activation of the visual cortex-in to try to restore the sight of the blind. </terms:description>
+        <rdfs:label>OpticSELINE</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>optic nerve</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3057"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <rdfs:label>Optoelectronic Nanowire Retinal Prosthesis</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>optogenetic</neural-electronic-interface-ontology:NEIO_0000059>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3058"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>OPTOEPIRET extends the EPIRET implant with an integrated epiretinal recording of the image produced by the eye lens onto the retina.</terms:description>
+        <rdfs:label>OPTOEPIRET</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3059"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Orion Visual Cortical Prosthesis System is an implanted cortical stimulation device intended to provide useful artificial vision to individuals who are blind due to a wide range of causes, including glaucoma, diabetic retinopathy, optic nerve injury or disease, and eye injury. (Eyewire, 2019).</terms:description>
+        <rdfs:label>Orion Cortical Visual Prosthesis System</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3060"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>Okayama University-type retinal prosthesis (OUReP) is a photoelectric dye-coupled polyethylene film which generates electric potential in response to light and stimulates nearby neurons.</terms:description>
+        <rdfs:label>OUReP</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3061"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The new Phoenix99 bionic eye being developed by engineers at the University of Sydney uses a camera linked to a retinal implant to help people with a debilitating problem with their vision to see again.</terms:description>
+        <rdfs:label>Phoenix 99</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>suprachoroidal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>98</neural-electronic-interface-ontology:NEIO_0000060>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3062"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>POLYRETINA is a foldable, wide-field, epiretinal prosthesis that can wirelessly stimulate retinal ganglion cells. The current prototype, POLYRETINA β, features 10,498 Titanium-Nitride electrodes (80μm diameter, 120μm pitch) distributed in a tiled fashion over a 13mm-diameter active area. Future prototypes are planned to miniaturize the electrode design and increase the number of electrodes (POLYRETINA γ: 18,693 electrodes, 60μm diameter, 90μm pitch; POLYRETINA δ: 42,235 electrodes, 60μm diameter, 90μm pitch). So far, device safety and efficacy has been assessed &lt;emph&gt;ex vivo&lt;/emph&gt; and &lt;emph&gt;in vitro&lt;/emph&gt;.</terms:description>
+        <rdfs:label>POLYRETINA</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>hexagonal</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000052>120</neural-electronic-interface-ontology:NEIO_0000052>
+        <neural-electronic-interface-ontology:NEIO_0000053>80</neural-electronic-interface-ontology:NEIO_0000053>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>10,498</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6417,10 +6919,20 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>QuantumRetina</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3063"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>PolySTIM is an implantable wireless intracortical interface designed to aid the visually impaired. It uses a multi-chip intracortical microstimulation system for wireless data and power transmission. </terms:description>
+        <rdfs:label>PolySTIM</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -6428,16 +6940,21 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000032"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Science Eye</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3064"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Prima System is intended to partially replace the normal physiological function of the eyes photoreceptor cells by electrically stimulating the nerve cells of the inner retina, which then transmit the visual information to the brain via the optic nerve.</terms:description>
+        <rdfs:label>PRIMA</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>subretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>378</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6445,10 +6962,13 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Seoul Artificial Retina</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3065"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <rdfs:label>QuantumRetina</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -6456,16 +6976,20 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000035"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000032"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>SiBionics Prosthesis</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3066"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The Science Eye is a visual prosthesis targeted at retinitis pigmentosa (RP) and dry age-related macular degeneration (AMD), two forms of serious blindness presently without good options for patients. The Science Eye is a combination device that uses an optogenetic gene therapy targeted at the cells of the optic nerve (the retinal ganglion cells) in conjunction with an implanted flexible thin-film, ultradense microLED display panel inserted directly over the retina. </terms:description>
+        <rdfs:label>Science Eye</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>optogenetic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -6473,10 +6997,17 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Stanford Artificial Retina Project</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3067"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>Seoul Artificial Retina Project started since the year 2000 at National University Seoul in Korea, aiming to develop a safe retinal prothesis implant for sight restoration. </terms:description>
+        <rdfs:label>Seoul Artificial Retina</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>suprachoroidal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>4x4</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000052>100</neural-electronic-interface-ontology:NEIO_0000052>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>16</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6484,16 +7015,21 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000023"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>STS Retinal Prosthesis</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3068"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The SIBionics prostheses features 60 electrodes, high system complexity, and an integrated circuit. </terms:description>
+        <rdfs:label>SiBionics Prosthesis</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>80</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6501,16 +7037,14 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Suprachoroidal Prosthesis (24-channel)</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3069"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The goal of the Stanford Artificial Retina Project is to develop an advanced artificial retina that will reproduce the precise retinal code at a cellular resolution with cell-type specificity, resulting in high-fidelity artificial vision.</terms:description>
+        <rdfs:label>Stanford Artificial Retina Project</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>epiretinal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -6518,16 +7052,24 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Suprachoroidal Prosthesis (44-channel)</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3070"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The semichronic suprachoroid transscleral (STS) prosthesis is developed by Fujikado et al. in Japan. In 2011 and 2016, this retinal prosthesis was reported to be able to elicit phosphenes in all five patients with advanced RP without major complications. </terms:description>
+        <rdfs:label>STS Retinal Prosthesis</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>suprachoroidal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>7x7</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000052>700</neural-electronic-interface-ontology:NEIO_0000052>
+        <neural-electronic-interface-ontology:NEIO_0000053>500</neural-electronic-interface-ontology:NEIO_0000053>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>49</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6535,16 +7077,20 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000004"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Thalamic Visual Prosthesis</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3071"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The BVT Bionic Eye System is a suprachoroidal implant manufactured by Bionic Vision Technologies. The Gen1 Bionic Eye System was previously known as BVA 24 and was manufactured by the Bionic Vision Australia consortium in 2012. The commercialization rights and research rights of BVA were then taken over by Bionic Vision Technologies (BVT) in 2017. The Gen1 Bionic Eye System used a non-implantable percutaneous connector whereas the Gen2 Bionic Eye System is fully implantable. BVT is now developing the Gen3 Bionic Eye System.</terms:description>
+        <rdfs:label>Suprachoroidal Prosthesis (24-channel)</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>suprachoroidal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
     </owl:Class>
     
 
@@ -6552,16 +7098,21 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
-                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
-        <rdfs:label>Utah Intracortical Electrode Array</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3072"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The 44 Channel Suprachoroidal Retinal Prosthesis is a second generation device boasting a higher electrode array and larger field of view than the first generation device launched by Bionic Vision Technologies. Since launching a 4-patient clinical trial in 2018, the results have indicated that the device offers functional benefits to patients while providing a safe and reproducible surgical procedure.</terms:description>
+        <rdfs:label>Suprachoroidal Prosthesis (44-channel)</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>suprachoroidal</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>44</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6569,7 +7120,57 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150 -->
 
     <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3073"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>The goal of the MGH Thalamic Visual Prosthesis project is to build a machine-brain interface that can convey information from an external visual source directly to the visual parts of the brain for image processing. </terms:description>
+        <rdfs:label>Thalamic Visual Prosthesis</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>thalamic</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
+                <owl:hasValue rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3074"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
+        <terms:description>Utah intracortical Electrode Array (UIEA) is a fixed geometry penetrating intracortical microelectrode array developed by a team at the University of Utah in the 1990s, aiming to provide a solid foundation for creating a cortically based visual prosthesis.</terms:description>
+        <rdfs:label>Utah Intracortical Electrode Array</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>cortical</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>10x10</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>100</neural-electronic-interface-ontology:NEIO_0000060>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100"/>
@@ -6577,8 +7178,13 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
-        <terms:created>2024-02-20T18:00:00Z</terms:created>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3075"/>
+        <terms:created>2024-06-25T18:00:00Z</terms:created>
         <rdfs:label>VISNE</rdfs:label>
+        <neural-electronic-interface-ontology:NEIO_0000044>thalamic</neural-electronic-interface-ontology:NEIO_0000044>
+        <neural-electronic-interface-ontology:NEIO_0000051>4x6</neural-electronic-interface-ontology:NEIO_0000051>
+        <neural-electronic-interface-ontology:NEIO_0000059>electronic</neural-electronic-interface-ontology:NEIO_0000059>
+        <neural-electronic-interface-ontology:NEIO_0000060>24</neural-electronic-interface-ontology:NEIO_0000060>
     </owl:Class>
     
 
@@ -6818,6 +7424,14 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     
 
 
+    <!-- https://orcid.org/0000-0001-5233-844X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5233-844X">
+        <rdfs:label>Michael Beyeler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://orcid.org/0000-0001-7387-7944 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7387-7944">
@@ -6829,7 +7443,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://orcid.org/0000-0001-9625-1899 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9625-1899">
-        <rdfs:label xml:lang="en">Bill Duncan</rdfs:label>
+        <rdfs:label>Bill Duncan</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6837,7 +7451,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://orcid.org/0000-0001-9990-8331 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9990-8331">
-        <rdfs:label xml:lang="en">Alex Diehl</rdfs:label>
+        <rdfs:label>Alexander D. Diehl</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6861,7 +7475,10 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     <!-- https://orcid.org/0009-0006-7251-3026 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0009-0006-7251-3026">
-        <rdfs:label>Gopikrishnan M Chandrasekharan</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T03:46:56Z</terms:created>
+        <rdfs:label xml:lang="en">Gopikrishnan M Chandrasekharan</rdfs:label>
+        <rdfs:label>Gopikrishnan M. Chandrasekharan</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -7322,6 +7939,127 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     
 
 
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>Universität Tübingen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>National Chiao Tung University</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>University of Southern California</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>University of London</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>Cornell University</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>Shanghai Jiao Tong University</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>Dobelle Institute</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>Polytechnique Montréal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>Monash University</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>Illinois Institute of Technology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <terms:contributor>https://orcid.org/0009-0006-7251-3026</terms:contributor>
+        <terms:created>2024-04-26T18:00:00Z</terms:created>
+        <rdfs:label>Massachusetts General Hospital</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -7416,5 +8154,5 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

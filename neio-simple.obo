@@ -1,323 +1,755 @@
 format-version: 1.2
-data-version: https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-02/neio-simple.owl
+data-version: https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-06-25/neio-simple.owl
+subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
+subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
+subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
+idspace: dc http://purl.org/dc/elements/1.1/ 
+idspace: foaf http://xmlns.com/foaf/0.1/ 
+idspace: neural-electronic-interface-ontology https://w3id.org/neural-electronic-interface-ontology/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: terms http://purl.org/dc/terms/ 
 ontology: https://w3id.org/neural-electronic-interface-ontology/neio/neio-simple.owl
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-7387-7944
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9990-8331
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-1118-1738
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-5260-9315
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0009-0006-7251-3026
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0009-0008-8150-9779
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0009-0009-9778-4641
-property_value: http://purl.org/dc/terms/created "2023-09-17" xsd:string
-property_value: http://purl.org/dc/terms/description "The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject's external environment, the conditions under which these devices should be employed, the assessment of a subject's sensory ability, and the metrics for evaluating the performance." xsd:string
-property_value: http://purl.org/dc/terms/title "Neural Electronic Interface Ontology" xsd:string
-property_value: http://xmlns.com/foaf/0.1/homepage "https://github.com/uflcod/neural-electronic-interface-ontology" xsd:string
-property_value: owl:versionInfo "2024-04-02" xsd:string
+property_value: foaf:homepage "https://github.com/uflcod/neural-electronic-interface-ontology" xsd:string
+property_value: owl:versionInfo "2024-06-25" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-7387-7944
+property_value: terms:contributor https://orcid.org/0000-0001-9990-8331
+property_value: terms:contributor https://orcid.org/0000-0002-1118-1738
+property_value: terms:contributor https://orcid.org/0000-0002-5260-9315
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3026
+property_value: terms:contributor https://orcid.org/0009-0008-8150-9779
+property_value: terms:contributor https://orcid.org/0009-0009-9778-4641
+property_value: terms:created "2023-09-17" xsd:string
+property_value: terms:creator https://orcid.org/0000-0001-9625-1899
+property_value: terms:description "The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject's external environment, the conditions under which these devices should be employed, the assessment of a subject's sensory ability, and the metrics for evaluating the performance." xsd:string
+property_value: terms:title "Neural Electronic Interface Ontology" xsd:string
 
 [Term]
-id: NEIO:0000101
+id: neural-electronic-interface-ontology:NEIO_0000040
+name: electrode array
+relationship: has_part neural-electronic-interface-ontology:NEIO_0000041 ! electrode
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:29:46Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000041
+name: electrode
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:30:09Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000042
+name: neural electronic interface device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:39:16Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000043
+name: bionic vision device
+is_a: neural-electronic-interface-ontology:NEIO_0000042 ! neural electronic interface device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:39:31Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000045
+name: bionic hearing device
+is_a: neural-electronic-interface-ontology:NEIO_0000042 ! neural electronic interface device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:41:47Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000046
+name: brain computer interface
+is_a: neural-electronic-interface-ontology:NEIO_0000042 ! neural electronic interface device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:43:31Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000047
+name: brain machine interface
+is_a: neural-electronic-interface-ontology:NEIO_0000042 ! neural electronic interface device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:43:46Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000048
+name: cortical bionic vision device
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:59:44Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000049
+name: retinal bionic vision device
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T21:00:00Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000101
 name: Alpha AMS
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "rectilinear" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "70" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000058 "2016" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "1600" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3026
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Alpha AMS is an advanced subretinal implant developed by Retina Implant AG, designed to assist individuals with retinitis pigmentosa, a condition marked by the progressive loss of vision. This implant is an evolution of its predecessor, the [Alpha IMS](/devices/alpha-ims), featuring enhanced functionality with 1,600 light-sensitive photodiodes that more effectively mimic the natural processing of visual signals. Implanted under the retina, the Alpha AMS converts light into electrical signals that are sent to the brain, enabling patients to detect light and dark, and recognize large objects and outlines." xsd:string
 
 [Term]
-id: NEIO:0000102
+id: neural-electronic-interface-ontology:NEIO_0000102
 name: Alpha IMS
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "rectilinear" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "70" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000058 "2013" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3027
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Alpha IMS is a subretinal implant developed by Retina Implant AG, aimed at restoring functional vision for individuals with retinitis pigmentosa, a group of genetic disorders characterized by progressive vision loss. Implanted beneath the retina, the device features a microchip equipped with 1,500 light-sensitive photodiodes, amplifiers, and electrodes. It functions by mimicking the role of photoreceptor cells: capturing light signals and converting them into electrical impulses transmitted to the brain via the optic nerve.\n\nAlpha IMS enables patients to perceive light patterns, assisting in navigation and object recognition. Clinical trials have shown that the implant can enhance visual perception, marking a significant advancement in vision restoration technologies." xsd:string
 
 [Term]
-id: NEIO:0000103
+id: neural-electronic-interface-ontology:NEIO_0000103
 name: AmazingVision
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3028
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "This technology is an improved version of what the National Chiao Tung University’s Biomedical Electronics Translational Research Center (BETRC) has been developing. The BETRC created an artificial retina that uses two threads to transmit power from the eyewear worn by the user to a chip implanted in the eyeball. Amazing Vision has added a tiny solar panel to the chip that generates power by absorbing infrared light. This improvement reduces inflammation to the eye, reduces infection risk, and gives clearer and wider vision to the patient it was implanted in. Animal tests have already been conducted and have proven useful. Human testing was delayed due to the pandemic, but is soon to be conducted.\n" xsd:string
 
 [Term]
-id: NEIO:0000104
+id: neural-electronic-interface-ontology:NEIO_0000104
 name: Argus I
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "4x4" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "800" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "250/500" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "16" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3029
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Argus I was the first-generation prototype of an epiretinal implant manufactured by Second Sight Medical Products." xsd:string
 
 [Term]
-id: NEIO:0000105
+id: neural-electronic-interface-ontology:NEIO_0000105
 name: Argus II
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "6x10" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "575" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "225" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000058 "2011" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "60" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3030
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Argus II is a retinal prosthesis device developed by Second Sight Medical Products, designed for individuals with retinitis pigmentosa, a condition characterized by severe vision impairment. As an epiretinal implant, it is placed directly on the retina's surface and consists of a small camera on eyeglasses that captures visual data. This data is processed by a portable unit and transmitted wirelessly to an electrode array in the eye, stimulating the retina's remaining cells to send visual information to the brain.\n\nApproved by the FDA in 2013 and previously granted the CE Mark in 2011 in Europe, the Argus II was the first retinal implant to receive these certifications, allowing users to perform basic visual tasks.\n\nHowever, in 2019, Second Sight discontinued the Argus II due to financial challenges, shifting their focus to the development of the [Orion Visual Cortical Prosthesis System](/devices/orion), intended to stimulate the brain's visual cortex directly." xsd:string
 
 [Term]
-id: NEIO:0000106
+id: neural-electronic-interface-ontology:NEIO_0000106
 name: ASR Artificial Silicon Retina
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "25" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "5000 microphotodiodes" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3031
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Optobionics’ Artificial Silicon Retina microchip (ASR) was invented by Dr. Alan Chow and his brother Vincent Chow.  Dr. Chow is an ophthalmic surgeon and assistant professor and his brother Vincent is an electrical engineer.\n\nThe ASR was designed to stimulate damaged retinal cells from within the retina to allow the cells to recreate visual signals that are processed and sent to the brain.\n\nThe ASR microchip is a silicon chip 2 mm in diameter, 25 microns in thickness and is less than the thickness of a human hair. It fabricated using technology similar to that used in the fabrication of computer chips and contains approximately 5,000 microscopic solar cells called “microphotodiodes,” each with its own stimulating electrode." xsd:string
 
 [Term]
-id: NEIO:0000107
+id: neural-electronic-interface-ontology:NEIO_0000107
 name: AV-DONE
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "optic nerve" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "50" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "7-Mar" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3032
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "AV-DONE is a direct optic nerve electrode that produces artificial vision in blind patients with retinitis pigmentosa. " xsd:string
 
 [Term]
-id: NEIO:0000108
-name: Bar-Ilan Prosthesis
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+id: neural-electronic-interface-ontology:NEIO_0000108
+name: Bar-Ilan Hybrid Retinal Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3033
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Hybrid Retinal Prosthesis is a novel device that combines an implantable high density electrode array integrated with neurons. The electrode-neuron coupling allows for an increase in phosphene density while preserving retinal circuitry." xsd:string
 
 [Term]
-id: NEIO:0000109
+id: neural-electronic-interface-ontology:NEIO_0000109
 name: Biohybrid
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "optic nerve" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3034
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
 
 [Term]
-id: NEIO:0000110
+id: neural-electronic-interface-ontology:NEIO_0000110
 name: Boston Retinal Implant
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3035
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Boston Retinal Implant Project has developed a subretinal, hermetically-enclosed, chronically-implantable vision prosthesis to restore some useful vision to people with degenerative retinal diseases, especially retinitis pigmentosa and age-related macular degeneration. The prosthesis offers advantages over the competing epiretinal devices by providing a lower risk of eye infection, reduced erosion through the delicate tissues that cover the front of the eye (i.e. the conjunctiva), and the ability to place stimulating electrodes closer to retinal nerve cells. " xsd:string
 
 [Term]
-id: NEIO:0000111
+id: neural-electronic-interface-ontology:NEIO_0000111
+name: Brindley Cortical Implant
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "78" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3035
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000112
 name: BS01
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "optogenetic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3036
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "BS01 is an optogenetic prosthesis." xsd:string
 
 [Term]
-id: NEIO:0000112
+id: neural-electronic-interface-ontology:NEIO_0000113
 name: C-Sight
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "optic nerve" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "13" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3037
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The C-Sight group proposed an implantable visual prosthesis based on optic nerve stimulation with an electrode array. (Chai et al. 2013)" xsd:string
 
 [Term]
-id: NEIO:0000113
+id: neural-electronic-interface-ontology:NEIO_0000114
 name: CORTIVIS
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "10x10" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "25" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "100" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3038
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "CORTIVIS is a cortical visual neuroprosthesis that is based on the Utah Electrode Array. It will be used to improve the quality of life of profoundly blind people." xsd:string
 
 [Term]
-id: NEIO:0000114
+id: neural-electronic-interface-ontology:NEIO_0000115
 name: Diamond Eye Implant
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "256" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3039
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "iBionics has developed the Diamond Eye implant with a high density of hermatically-enclosed electrodes, allowing for higher spatial resolution. " xsd:string
 
 [Term]
-id: NEIO:0000115
+id: neural-electronic-interface-ontology:NEIO_0000116
+name: Dobelle Eye
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3035
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000117
 name: Electronic Visual Cortical Stimulator
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3040
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Cortivision team from Polystim neurotechnologies developed a visual cortical stimulator which consists of image sensing, image processing, and brain cortex stimulation to help blind patients acquire a sense of visual perception (Ghannoum 2010). They hope to elaborate a model of the layer 4 of the visual cortex V1 using a large-scale network of biologically realistic neurons." xsd:string
 
 [Term]
-id: NEIO:0000116
+id: neural-electronic-interface-ontology:NEIO_0000118
 name: ELVIS
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "100" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3041
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "ELVIS, or 'Electronic Vision,' is a cortical implant that utilizes small currents to stimulate the visual cortex to produce vision. A microcomputer attached to the belt processes the outdoor scene and uses an AI algoirthm to help simplify objects for the user. Sensor Tech expects human trials to begin in 2023 and implants to be made available to the public in 2027." xsd:string
 
 [Term]
-id: NEIO:0000117
+id: neural-electronic-interface-ontology:NEIO_0000119
 name: EPIRET1
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3042
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
 
 [Term]
-id: NEIO:0000118
+id: neural-electronic-interface-ontology:NEIO_0000120
 name: EPIRET2
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3043
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
 
 [Term]
-id: NEIO:0000119
+id: neural-electronic-interface-ontology:NEIO_0000121
 name: EPIRET3
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "500" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "100" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "25" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3044
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The EPIRET3 implant is a remotely controlled, fully intraocular wireless device consisting of a receiver and a stimulator module. The stimulator is placed on the retinal surface. Data and energy are transmitted via an inductive link from outside the eye to the implant. Surgery included removal of the lens, vitrectomy, and implantation of the EPIRET3 device through a corneal incision." xsd:string
 
 [Term]
-id: NEIO:0000120
+id: neural-electronic-interface-ontology:NEIO_0000122
 name: Gennaris
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "473" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3045
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Gennaris is a cortical visual prosthesis. It has been designed to bypass damage to the eye and optic nerve, to restore functional vision to people who have lost their sight through traumatic injury and conditions such as glaucoma and acquired retinal disease. Gennaris is currently preparing to undergo human clinical trials in Australia." xsd:string
 
 [Term]
-id: NEIO:0000121
-name: HARP
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+id: neural-electronic-interface-ontology:NEIO_0000123
+name: HARP High-Acuity Retinal Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3046
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "HARP is a proprietary contact lens-shaped, 4000 pixel retinal prostheses currently in development by Iridium Medical Technologies. HARP is made for patients with Retinitis Pigmentosa and Age-Related Macular Degeneration." xsd:string
 
 [Term]
-id: NEIO:0000122
-name: Intracortical Visual Prosthesis
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000123
+id: neural-electronic-interface-ontology:NEIO_0000124
 name: IMI Retinal Implant System
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "49" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3047
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
 
 [Term]
-id: NEIO:0000124
+id: neural-electronic-interface-ontology:NEIO_0000125
 name: IMIE 256 Channel Intelligent Micro Implant Eye
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "210" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "256" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3048
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The 256 Channel Intelligent Micro Eye Implant is an epiretinal implant developed by IntelliMicro Micro Co and Golden Eye Bionic. The implant features advanced technology for a micro implant with an extended electrode array." xsd:string
 
 [Term]
-id: NEIO:0000125
+id: neural-electronic-interface-ontology:NEIO_0000126
+name: Intracortical Visual Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "16" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3049
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Intracortical Visual Prosthesis is currently being developed at the Illinois Institute of Technology and is being prepared for clinical testing." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000127
 name: IRIS I
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "120" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "250" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "49" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3050
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Pixium's first device, IRIS1 (Intelligent Retinal Implantable System), used an epi-retinal implant (on the retinal surface) and made it to clinical trials with the goal of obtaining CE Mark." xsd:string
 
 [Term]
-id: NEIO:0000126
+id: neural-electronic-interface-ontology:NEIO_0000128
 name: IRIS II
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000058 "2016" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "150" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3051
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The IRIS II is a second generation epiretinal implant developed by Pixium vision to deliver light and shape perception, and to localize objects giving the patient the ability to negotiate unfamiliar environments. It consists of a 150 electrode array which allows for a better perceieved visual resolution by the user. The IRIS implant also uses asynchronous time-based image sensor technology resulting in faster, real-time image processing. " xsd:string
 
 [Term]
-id: NEIO:0000127
+id: neural-electronic-interface-ontology:NEIO_0000129
 name: Leuven Optic Nerve Visual Prosthesis
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "optic nerve" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "1" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3052
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The optic nerve visual prosthesis (ONVP) uses a self-sizing spiral cuff electrode to electrically stimulate the optic nerve and thus create the perception of phosphenes. " xsd:string
 
 [Term]
-id: NEIO:0000128
+id: neural-electronic-interface-ontology:NEIO_0000130
 name: Link N1
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "1024" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3053
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The N1 implant consists of 1024 electrodes distributed across 64 threads, composed mostly of polyimide with a thin gold or platinum conductor, which are inserted into the brain through an automated process performed by a surgical robot (R1). Each thread consists of an area of wires that contains electrodes capable of locating electrical signals in the brain, and a sensory area where the wire interacts with an electronic system that allows amplification and acquisition of the brain signal.\n\nNeuralink received FDA approval for human clinical trials with the N1 in May 2023. On January 29, 2024, [Musk said](https://twitter.com/elonmusk/status/1752098683024220632) that Neuralink had successfully implanted a Neuralink device in a human on the day prior, and that the patient was recovering:\"Initial results show promising neuron spike detection\"." xsd:string
 
 [Term]
-id: NEIO:0000129
+id: neural-electronic-interface-ontology:NEIO_0000131
 name: Newcastle Visual Prosthesis
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "optogenetic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3054
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Optogenetic Retinal Prostheses uses an optoelectronic headset to capture the visual scene, have an LED array display the image onto photosensitized retinal cells and stimulate them with light. A key advantage of this approach is that it is possible to target ON and OFF bipolar cells." xsd:string
 
 [Term]
-id: NEIO:0000130
+id: neural-electronic-interface-ontology:NEIO_0000132
 name: NR600
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "26x26" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3055
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The miniature Nano Retina device, the NR600 Implant, replaces the functionality of the damaged photoreceptor cells and creates the electrical stimulation required to activate the remaining healthy retinal cells. NR600 consists of two components; a miniature implantable chip and a set of eyeglasses worn by the patient." xsd:string
 
 [Term]
-id: NEIO:0000131
+id: neural-electronic-interface-ontology:NEIO_0000133
 name: OpticSELINE
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "optic nerve" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3056
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "OpticSELENE is a device with intraneural electrodes that stimulates the optic nerve with light sensation to promote activation of the visual cortex-in to try to restore the sight of the blind. " xsd:string
 
 [Term]
-id: NEIO:0000132
+id: neural-electronic-interface-ontology:NEIO_0000134
 name: Optoelectronic Nanowire Retinal Prosthesis
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "optogenetic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3057
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
 
 [Term]
-id: NEIO:0000133
+id: neural-electronic-interface-ontology:NEIO_0000135
 name: OPTOEPIRET
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3058
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "OPTOEPIRET extends the EPIRET implant with an integrated epiretinal recording of the image produced by the eye lens onto the retina." xsd:string
 
 [Term]
-id: NEIO:0000134
+id: neural-electronic-interface-ontology:NEIO_0000136
 name: Orion Cortical Visual Prosthesis System
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3059
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Orion Visual Cortical Prosthesis System is an implanted cortical stimulation device intended to provide useful artificial vision to individuals who are blind due to a wide range of causes, including glaucoma, diabetic retinopathy, optic nerve injury or disease, and eye injury. (Eyewire, 2019)." xsd:string
 
 [Term]
-id: NEIO:0000135
+id: neural-electronic-interface-ontology:NEIO_0000137
 name: OUReP
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3060
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Okayama University-type retinal prosthesis (OUReP) is a photoelectric dye-coupled polyethylene film which generates electric potential in response to light and stimulates nearby neurons." xsd:string
 
 [Term]
-id: NEIO:0000136
+id: neural-electronic-interface-ontology:NEIO_0000138
 name: Phoenix 99
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "suprachoroidal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "98" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3061
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The new Phoenix99 bionic eye being developed by engineers at the University of Sydney uses a camera linked to a retinal implant to help people with a debilitating problem with their vision to see again." xsd:string
 
 [Term]
-id: NEIO:0000137
+id: neural-electronic-interface-ontology:NEIO_0000139
 name: POLYRETINA
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "120" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "80" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "10,498" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3062
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "POLYRETINA is a foldable, wide-field, epiretinal prosthesis that can wirelessly stimulate retinal ganglion cells. The current prototype, POLYRETINA β, features 10,498 Titanium-Nitride electrodes (80μm diameter, 120μm pitch) distributed in a tiled fashion over a 13mm-diameter active area. Future prototypes are planned to miniaturize the electrode design and increase the number of electrodes (POLYRETINA γ: 18,693 electrodes, 60μm diameter, 90μm pitch; POLYRETINA δ: 42,235 electrodes, 60μm diameter, 90μm pitch). So far, device safety and efficacy has been assessed <emph>ex vivo</emph> and <emph>in vitro</emph>." xsd:string
 
 [Term]
-id: NEIO:0000138
+id: neural-electronic-interface-ontology:NEIO_0000140
 name: PolySTIM
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3063
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "PolySTIM is an implantable wireless intracortical interface designed to aid the visually impaired. It uses a multi-chip intracortical microstimulation system for wireless data and power transmission. " xsd:string
 
 [Term]
-id: NEIO:0000139
+id: neural-electronic-interface-ontology:NEIO_0000141
 name: PRIMA
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "378" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3064
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Prima System is intended to partially replace the normal physiological function of the eyes photoreceptor cells by electrically stimulating the nerve cells of the inner retina, which then transmit the visual information to the brain via the optic nerve." xsd:string
 
 [Term]
-id: NEIO:0000140
+id: neural-electronic-interface-ontology:NEIO_0000142
 name: QuantumRetina
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3065
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
 
 [Term]
-id: NEIO:0000141
+id: neural-electronic-interface-ontology:NEIO_0000143
 name: Science Eye
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "optogenetic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3066
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Science Eye is a visual prosthesis targeted at retinitis pigmentosa (RP) and dry age-related macular degeneration (AMD), two forms of serious blindness presently without good options for patients. The Science Eye is a combination device that uses an optogenetic gene therapy targeted at the cells of the optic nerve (the retinal ganglion cells) in conjunction with an implanted flexible thin-film, ultradense microLED display panel inserted directly over the retina. " xsd:string
 
 [Term]
-id: NEIO:0000142
+id: neural-electronic-interface-ontology:NEIO_0000144
 name: Seoul Artificial Retina
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "suprachoroidal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "4x4" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "100" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "16" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3067
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Seoul Artificial Retina Project started since the year 2000 at National University Seoul in Korea, aiming to develop a safe retinal prothesis implant for sight restoration. " xsd:string
 
 [Term]
-id: NEIO:0000143
+id: neural-electronic-interface-ontology:NEIO_0000145
 name: SiBionics Prosthesis
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "80" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3068
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The SIBionics prostheses features 60 electrodes, high system complexity, and an integrated circuit. " xsd:string
 
 [Term]
-id: NEIO:0000144
+id: neural-electronic-interface-ontology:NEIO_0000146
 name: Stanford Artificial Retina Project
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3069
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The goal of the Stanford Artificial Retina Project is to develop an advanced artificial retina that will reproduce the precise retinal code at a cellular resolution with cell-type specificity, resulting in high-fidelity artificial vision." xsd:string
 
 [Term]
-id: NEIO:0000145
+id: neural-electronic-interface-ontology:NEIO_0000147
 name: STS Retinal Prosthesis
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "suprachoroidal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "7x7" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "700" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "500" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "49" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3070
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The semichronic suprachoroid transscleral (STS) prosthesis is developed by Fujikado et al. in Japan. In 2011 and 2016, this retinal prosthesis was reported to be able to elicit phosphenes in all five patients with advanced RP without major complications. " xsd:string
 
 [Term]
-id: NEIO:0000146
+id: neural-electronic-interface-ontology:NEIO_0000148
 name: Suprachoroidal Prosthesis (24-channel)
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "suprachoroidal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3071
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The BVT Bionic Eye System is a suprachoroidal implant manufactured by Bionic Vision Technologies. The Gen1 Bionic Eye System was previously known as BVA 24 and was manufactured by the Bionic Vision Australia consortium in 2012. The commercialization rights and research rights of BVA were then taken over by Bionic Vision Technologies (BVT) in 2017. The Gen1 Bionic Eye System used a non-implantable percutaneous connector whereas the Gen2 Bionic Eye System is fully implantable. BVT is now developing the Gen3 Bionic Eye System." xsd:string
 
 [Term]
-id: NEIO:0000147
+id: neural-electronic-interface-ontology:NEIO_0000149
 name: Suprachoroidal Prosthesis (44-channel)
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "suprachoroidal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "44" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3072
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The 44 Channel Suprachoroidal Retinal Prosthesis is a second generation device boasting a higher electrode array and larger field of view than the first generation device launched by Bionic Vision Technologies. Since launching a 4-patient clinical trial in 2018, the results have indicated that the device offers functional benefits to patients while providing a safe and reproducible surgical procedure." xsd:string
 
 [Term]
-id: NEIO:0000148
+id: neural-electronic-interface-ontology:NEIO_0000150
 name: Thalamic Visual Prosthesis
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "thalamic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3073
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The goal of the MGH Thalamic Visual Prosthesis project is to build a machine-brain interface that can convey information from an external visual source directly to the visual parts of the brain for image processing. " xsd:string
 
 [Term]
-id: NEIO:0000149
+id: neural-electronic-interface-ontology:NEIO_0000151
 name: Utah Intracortical Electrode Array
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "10x10" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "100" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3074
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Utah intracortical Electrode Array (UIEA) is a fixed geometry penetrating intracortical microelectrode array developed by a team at the University of Utah in the 1990s, aiming to provide a solid foundation for creating a cortically based visual prosthesis." xsd:string
 
 [Term]
-id: NEIO:0000150
+id: neural-electronic-interface-ontology:NEIO_0000152
 name: VISNE
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "thalamic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "4x6" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "24" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3075
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
 
 [Typedef]
-id: NEIO:0000100
-name: has commercial partner
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T16:42:25Z" xsd:dateTime
+id: has_part
+name: has part
+name: has_part
+namespace: quality
+namespace: spatial
+namespace: uberon
+def: "a core relation that holds between a whole and its part" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+xref: BFO:0000051
+property_value: IAO:0000111 "has part" xsd:string
+property_value: IAO:0000112 "my body has part my brain (continuant parthood, two material entities)" xsd:string
+property_value: IAO:0000112 "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)" xsd:string
+property_value: IAO:0000112 "this year has part this day (occurrent parthood)" xsd:string
+property_value: IAO:0000116 "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part." xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
+property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string
+property_value: IAO:0000118 "has_part" xsd:string
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
+property_value: RO:0001900 RO:0001901
+is_transitive: true
+
+[Typedef]
+id: neural-electronic-interface-ontology:NEIO_0000100
+name: device commercialized by
+def: "A relation between a device and an organization in which the organization assists in the process of commercializing the device." []
+property_value: IAO:0000112 "The commerical partner conducts clinic trials of the device." xsd:string
+property_value: IAO:0000112 "The commerical partner sets up the manufacturing workflow." xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-02-20T16:42:25Z" xsd:dateTime
+
+[Typedef]
+id: neural-electronic-interface-ontology:NEIO_0007000
+name: device origin organization
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3026
+property_value: terms:created "2024-04-26T18:21:54Z" xsd:dateTime
 

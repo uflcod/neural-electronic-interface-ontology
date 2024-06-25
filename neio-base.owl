@@ -2,18 +2,19 @@
 <rdf:RDF xmlns="https://w3id.org/neural-electronic-interface-ontology/neio/neio-base.owl#"
      xml:base="https://w3id.org/neural-electronic-interface-ontology/neio/neio-base.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:neural-electronic-interface-ontology="https://w3id.org/neural-electronic-interface-ontology/">
     <owl:Ontology rdf:about="https://w3id.org/neural-electronic-interface-ontology/neio/neio-base.owl">
-        <owl:versionIRI rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-02/neio-base.owl"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-06-25/neio-base.owl"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-7387-7944"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1118-1738"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5260-9315"/>
@@ -21,9 +22,10 @@
         <terms:contributor rdf:resource="https://orcid.org/0009-0008-8150-9779"/>
         <terms:contributor rdf:resource="https://orcid.org/0009-0009-9778-4641"/>
         <terms:created>2023-09-17</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
         <terms:description>The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject&apos;s external environment, the conditions under which these devices should be employed, the assessment of a subject&apos;s sensory ability, and the metrics for evaluating the performance.</terms:description>
         <terms:title>Neural Electronic Interface Ontology</terms:title>
-        <owl:versionInfo>2024-04-02</owl:versionInfo>
+        <owl:versionInfo>2024-06-25</owl:versionInfo>
         <foaf:homepage>https://github.com/uflcod/neural-electronic-interface-ontology</foaf:homepage>
     </owl:Ontology>
     
@@ -37,6 +39,18 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
@@ -88,6 +102,126 @@
     
 
 
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T00:59:42Z</terms:created>
+        <rdfs:label xml:lang="en">implant location</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000050 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000050">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:00:24Z</terms:created>
+        <rdfs:label xml:lang="en">implant processor location</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000051 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000051">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:00:54Z</terms:created>
+        <rdfs:label xml:lang="en">electrode layout</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000052 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000052">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:01:12Z</terms:created>
+        <rdfs:label xml:lang="en">electrode pitch</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000053 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000053">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:01:33Z</terms:created>
+        <rdfs:label xml:lang="en">electrode diameter</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000054 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000054">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:02:09Z</terms:created>
+        <rdfs:label xml:lang="en">clinical trial</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000055 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000055">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:02:55Z</terms:created>
+        <rdfs:label xml:lang="en">first patient year</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000056 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000056">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:03:11Z</terms:created>
+        <rdfs:label xml:lang="en">FDA approval year</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000057 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000057">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:03:36Z</terms:created>
+        <rdfs:label xml:lang="en">end of product year</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000058 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000058">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:03:45Z</terms:created>
+        <rdfs:label xml:lang="en">ce mark year</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000059 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000059">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T01:06:27Z</terms:created>
+        <rdfs:label xml:lang="en">implant type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000060 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000060">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T03:05:36Z</terms:created>
+        <rdfs:label xml:lang="en">electrode number</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -99,13 +233,154 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
     <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100 -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100">
+        <obo:IAO_0000112>The commerical partner conducts clinic trials of the device.</obo:IAO_0000112>
+        <obo:IAO_0000112>The commerical partner sets up the manufacturing workflow.</obo:IAO_0000112>
+        <obo:IAO_0000115>A relation between a device and an organization in which the organization assists in the process of commercializing the device.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-20T16:42:25Z</terms:created>
-        <rdfs:label xml:lang="en">has commercial partner</rdfs:label>
+        <rdfs:label xml:lang="en">device commercialized by</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000">
+        <terms:contributor rdf:resource="https://orcid.org/0009-0006-7251-3026"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-26T18:21:54Z</terms:created>
+        <rdfs:label xml:lang="en">device origin organization</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000968"/>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:29:46Z</terms:created>
+        <rdfs:label xml:lang="en">electrode array</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:30:09Z</terms:created>
+        <rdfs:label xml:lang="en">electrode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:39:16Z</terms:created>
+        <rdfs:label xml:lang="en">neural electronic interface device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:39:31Z</terms:created>
+        <rdfs:label xml:lang="en">bionic vision device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000045 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000045">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:41:47Z</terms:created>
+        <rdfs:label xml:lang="en">bionic hearing device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000046 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000046">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:43:31Z</terms:created>
+        <rdfs:label xml:lang="en">brain computer interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000047 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000047">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:43:46Z</terms:created>
+        <rdfs:label xml:lang="en">brain machine interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000048 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000048">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T20:59:44Z</terms:created>
+        <rdfs:label xml:lang="en">cortical bionic vision device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/neural-electronic-interface-ontology/NEIO_0000049 -->
+
+    <owl:Class rdf:about="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000049">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-14T21:00:00Z</terms:created>
+        <rdfs:label xml:lang="en">retinal bionic vision device</rdfs:label>
+    </owl:Class>
     
 
 
@@ -120,6 +395,14 @@
     
 
 
+    <!-- https://orcid.org/0000-0001-5233-844X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5233-844X">
+        <rdfs:label>Michael Beyeler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://orcid.org/0000-0001-7387-7944 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7387-7944">
@@ -131,7 +414,7 @@
     <!-- https://orcid.org/0000-0001-9625-1899 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9625-1899">
-        <rdfs:label xml:lang="en">Bill Duncan</rdfs:label>
+        <rdfs:label>Bill Duncan</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -139,7 +422,7 @@
     <!-- https://orcid.org/0000-0001-9990-8331 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9990-8331">
-        <rdfs:label xml:lang="en">Alex Diehl</rdfs:label>
+        <rdfs:label>Alexander D. Diehl</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -163,7 +446,10 @@
     <!-- https://orcid.org/0009-0006-7251-3026 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0009-0006-7251-3026">
-        <rdfs:label>Gopikrishnan M Chandrasekharan</rdfs:label>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9625-1899"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T03:46:56Z</terms:created>
+        <rdfs:label xml:lang="en">Gopikrishnan M Chandrasekharan</rdfs:label>
+        <rdfs:label>Gopikrishnan M. Chandrasekharan</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -185,5 +471,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

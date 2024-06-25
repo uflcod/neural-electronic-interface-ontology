@@ -1,19 +1,27 @@
 format-version: 1.2
-data-version: https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-04-02/neio.owl
+data-version: https://w3id.org/neural-electronic-interface-ontology/neio/releases/2024-06-25/neio.owl
+idspace: dc http://purl.org/dc/elements/1.1/ 
+idspace: foaf http://xmlns.com/foaf/0.1/ 
+idspace: neural-electronic-interface-ontology https://w3id.org/neural-electronic-interface-ontology/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: protege http://protege.stanford.edu/plugins/owl/protege# 
+idspace: swrl http://www.w3.org/2003/11/swrl# 
+idspace: swrlb http://www.w3.org/2003/11/swrlb# 
+idspace: terms http://purl.org/dc/terms/ 
 ontology: https://w3id.org/neural-electronic-interface-ontology/neio.owl
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-7387-7944
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9990-8331
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-1118-1738
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-5260-9315
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0009-0006-7251-3026
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0009-0008-8150-9779
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0009-0009-9778-4641
-property_value: http://purl.org/dc/terms/created "2023-09-17" xsd:string
-property_value: http://purl.org/dc/terms/description "The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject's external environment, the conditions under which these devices should be employed, the assessment of a subject's sensory ability, and the metrics for evaluating the performance." xsd:string
-property_value: http://purl.org/dc/terms/title "Neural Electronic Interface Ontology" xsd:string
-property_value: http://xmlns.com/foaf/0.1/homepage "https://github.com/uflcod/neural-electronic-interface-ontology" xsd:string
-property_value: owl:versionInfo "2024-04-02" xsd:string
+property_value: foaf:homepage "https://github.com/uflcod/neural-electronic-interface-ontology" xsd:string
+property_value: owl:versionInfo "2024-06-25" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-7387-7944
+property_value: terms:contributor https://orcid.org/0000-0001-9990-8331
+property_value: terms:contributor https://orcid.org/0000-0002-1118-1738
+property_value: terms:contributor https://orcid.org/0000-0002-5260-9315
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3026
+property_value: terms:contributor https://orcid.org/0009-0008-8150-9779
+property_value: terms:contributor https://orcid.org/0009-0009-9778-4641
+property_value: terms:created "2023-09-17" xsd:string
+property_value: terms:creator https://orcid.org/0000-0001-9625-1899
+property_value: terms:description "The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject's external environment, the conditions under which these devices should be employed, the assessment of a subject's sensory ability, and the metrics for evaluating the performance." xsd:string
+property_value: terms:title "Neural Electronic Interface Ontology" xsd:string
 
 [Term]
 id: BFO:0000001
@@ -272,28 +280,28 @@ xref: VHOG:0001533
 xref: WBbt:0004017
 xref: XAO:0003012
 is_a: UBERON:0000061 ! anatomical structure
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: CL:0000211
 name: electrically active cell
 def: "A cell whose function is determined by the generation or the reception of an electric signal." [FB:ma]
 is_a: CL:0000000 ! cell
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: CL:0000393
 name: electrically responsive cell
 def: "A cell whose function is determined by its response to an electric signal." [FB:ma]
 is_a: CL:0000211 ! electrically active cell
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: CL:0000404
 name: electrically signaling cell
 def: "A cell that initiates an electrical signal and passes that signal to another cell." [FB:ma]
 is_a: CL:0000211 ! electrically active cell
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: CL:0000540
@@ -312,8 +320,8 @@ xref: WBbt:0003679
 is_a: CL:0000393 ! electrically responsive cell
 is_a: CL:0000404 ! electrically signaling cell
 is_a: CL:0002319 ! neural cell
-property_value: http://xmlns.com/foaf/0.1/depiction "https://www.swissbiopics.org/api/image/Neuron_cells.svg" xsd:anyURI
-property_value: isDefinedBy uberon:import.owl
+property_value: foaf:depiction "https://www.swissbiopics.org/api/image/Neuron_cells.svg" xsd:anyURI
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -326,8 +334,8 @@ is_a: CL:0000000 ! cell
 intersection_of: CL:0000000 ! cell
 intersection_of: part_of UBERON:0001016 ! nervous system
 relationship: part_of UBERON:0001016 ! nervous system
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0003-1980-3228
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
+property_value: terms:contributor https://orcid.org/0000-0003-1980-3228
 creation_date: 2010-09-15T01:34:57Z
 
 [Term]
@@ -337,8 +345,8 @@ is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: capable_of_part_of GO:0007601 ! visual perception
 relationship: capable_of_part_of GO:0007601 ! visual perception
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-7073-9172
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
+property_value: terms:contributor https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-07-09T19:12:36Z
 
 [Term]
@@ -348,7 +356,7 @@ def: "Any cell in the compound eye, a light sensing organ composed of ommatidia.
 xref: GOC:pr
 xref: PMID:12021768
 is_a: CL:0009004 ! retinal cell
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: CL:0009004
@@ -360,7 +368,7 @@ is_a: CL:0002319 ! neural cell
 intersection_of: CL:0002319 ! neural cell
 intersection_of: part_of UBERON:0005388 ! photoreceptor array
 relationship: part_of UBERON:0005388 ! photoreceptor array
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0003008
@@ -369,7 +377,7 @@ namespace: biological_process
 def: "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective." [GOC:mtg_cardio]
 synonym: "organ system process" EXACT []
 is_a: GO:0032501 ! multicellular organismal process
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0007600
@@ -379,7 +387,7 @@ def: "The series of events required for an organism to receive a sensory stimulu
 subset: goslim_drosophila
 xref: Wikipedia:Perception
 is_a: GO:0050877 ! nervous system process
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0007601
@@ -391,7 +399,7 @@ synonym: "sensory visual perception" EXACT []
 synonym: "vision" EXACT []
 xref: Wikipedia:Visual_perception
 is_a: GO:0050953 ! sensory perception of light stimulus
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0008150
@@ -416,7 +424,7 @@ synonym: "single-organism process" RELATED []
 xref: Wikipedia:Biological_process
 is_a: BFO:0000015 ! process
 property_value: IAO:0000233 "https://github.com/geneontology/go-ontology/issues/24968" xsd:anyURI
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 created_by: jl
 creation_date: 2012-09-19T15:05:24Z
 
@@ -429,7 +437,7 @@ comment: Note that 'radiation' refers to electromagnetic radiation of any wavele
 synonym: "response to electromagnetic radiation stimulus" EXACT []
 synonym: "response to radiation stimulus" EXACT []
 is_a: GO:0009628 ! response to abiotic stimulus
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0009416
@@ -438,7 +446,7 @@ namespace: biological_process
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light." [GOC:go_curators, ISBN:0582227089]
 subset: goslim_plant
 is_a: GO:0009314 ! response to radiation
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0009581
@@ -448,7 +456,7 @@ def: "The series of events in which an external stimulus is received by a cell a
 synonym: "perception of external stimulus" RELATED []
 is_a: GO:0009605 ! response to external stimulus
 is_a: GO:0051606 ! detection of stimulus
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0009582
@@ -458,7 +466,7 @@ def: "The series of events in which an (non-living) abiotic stimulus is received
 synonym: "perception of abiotic stimulus" RELATED []
 is_a: GO:0009628 ! response to abiotic stimulus
 is_a: GO:0051606 ! detection of stimulus
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0009583
@@ -470,7 +478,7 @@ synonym: "perception of light" RELATED []
 is_a: GO:0009416 ! response to light stimulus
 is_a: GO:0009581 ! detection of external stimulus
 is_a: GO:0009582 ! detection of abiotic stimulus
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0009584
@@ -479,7 +487,7 @@ namespace: biological_process
 def: "The series of events in which a visible light stimulus is received by a cell and converted into a molecular signal. A visible light stimulus is electromagnetic radiation that can be perceived visually by an organism; for organisms lacking a visual system, this can be defined as light with a wavelength within the range 380 to 780 nm." [GOC:go_curators, ISBN:0198506732]
 synonym: "perception of visible light" RELATED []
 is_a: GO:0009583 ! detection of light stimulus
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0009605
@@ -492,7 +500,7 @@ subset: goslim_drosophila
 subset: goslim_plant
 synonym: "response to environmental stimulus" EXACT []
 is_a: GO:0050896 ! response to stimulus
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0009628
@@ -506,7 +514,7 @@ subset: goslim_plant
 synonym: "response to abiotic stress" NARROW []
 is_a: GO:0050896 ! response to stimulus
 property_value: IAO:0000233 "https://github.com/geneontology/go-ontology/issues/16572" xsd:anyURI
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0032501
@@ -520,7 +528,7 @@ subset: goslim_pir
 synonym: "organismal physiological process" EXACT []
 synonym: "single-multicellular organism process" RELATED []
 is_a: GO:0008150 ! biological_process
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002161 NCBITaxon:2
 property_value: RO:0002161 NCBITaxon:2157
 property_value: RO:0002161 NCBITaxon:4896
@@ -543,7 +551,7 @@ synonym: "neurophysiological process" EXACT []
 synonym: "pan-neural process" RELATED []
 is_a: GO:0003008 ! system process
 property_value: IAO:0000233 "https://github.com/geneontology/go-ontology/issues/13824" xsd:anyURI
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0050896
@@ -560,7 +568,7 @@ subset: goslim_pir
 subset: prokaryote_subset
 synonym: "physiological response to stimulus" EXACT []
 is_a: GO:0008150 ! biological_process
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0050953
@@ -568,7 +576,7 @@ name: sensory perception of light stimulus
 namespace: biological_process
 def: "The series of events required for an organism to receive a sensory light stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process." [GOC:ai]
 is_a: GO:0007600 ! sensory perception
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: GO:0051606
@@ -580,7 +588,7 @@ synonym: "perception of stimulus" RELATED []
 synonym: "stimulus detection" EXACT []
 synonym: "stimulus sensing" RELATED []
 is_a: GO:0050896 ! response to stimulus
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: IAO:0000027
@@ -589,7 +597,7 @@ def: "An information content entity that is intended to be a truthful statement 
 is_a: IAO:0000030 ! information content entity
 property_value: IAO:0000111 "data item" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: IAO:0000030
@@ -598,7 +606,7 @@ def: "A generically dependent continuant that is about some thing." []
 is_a: BFO:0000031 ! generically dependent continuant
 property_value: IAO:0000111 "information content entity" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: IDO:0000504
@@ -606,7 +614,7 @@ name: infectious disorder
 def: "An infection that is clinically abnormal." []
 is_a: OGMS:0000045 ! disorder
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: IDO:0000586
@@ -614,7 +622,7 @@ name: infection
 def: "A part of an extended organism that itself has as part a population of one or more infectious agents and that (1) exists as a result of processes initiated by members of the infectious agent population and is (2) clinically abnormal in virtue of the presence of this infectious agent population, or (3) has a disposition to bring clinical abnormality to immunocompetent organisms of the same Species as the host (the organism corresponding to the extended organism) through transmission of a member or offspring of a member of the infectious agent population." []
 is_a: BFO:0000040 ! material entity
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: NCBITaxon:9606
@@ -623,357 +631,7 @@ is_a: OBI:0100026 ! organism
 property_value: IAO:0000111 "Homo sapiens" xsd:string
 property_value: IAO:0000118 "human being" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
-property_value: isDefinedBy omrse:import.owl
-
-[Term]
-id: NEIO:0000101
-name: Alpha AMS
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000102
-name: Alpha IMS
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000103
-name: AmazingVision
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000104
-name: Argus I
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000105
-name: Argus II
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000106
-name: ASR Artificial Silicon Retina
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000107
-name: AV-DONE
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000108
-name: Bar-Ilan Prosthesis
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000109
-name: Biohybrid
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000110
-name: Boston Retinal Implant
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000111
-name: BS01
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000112
-name: C-Sight
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000113
-name: CORTIVIS
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000114
-name: Diamond Eye Implant
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000115
-name: Electronic Visual Cortical Stimulator
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000116
-name: ELVIS
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000117
-name: EPIRET1
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000118
-name: EPIRET2
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000119
-name: EPIRET3
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000120
-name: Gennaris
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000121
-name: HARP
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000122
-name: Intracortical Visual Prosthesis
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000123
-name: IMI Retinal Implant System
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000124
-name: IMIE 256 Channel Intelligent Micro Implant Eye
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000125
-name: IRIS I
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000126
-name: IRIS II
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000127
-name: Leuven Optic Nerve Visual Prosthesis
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000128
-name: Link N1
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000129
-name: Newcastle Visual Prosthesis
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000130
-name: NR600
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000131
-name: OpticSELINE
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000132
-name: Optoelectronic Nanowire Retinal Prosthesis
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000133
-name: OPTOEPIRET
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000134
-name: Orion Cortical Visual Prosthesis System
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000135
-name: OUReP
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000136
-name: Phoenix 99
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000137
-name: POLYRETINA
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000138
-name: PolySTIM
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000139
-name: PRIMA
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000140
-name: QuantumRetina
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000141
-name: Science Eye
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000142
-name: Seoul Artificial Retina
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000143
-name: SiBionics Prosthesis
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000144
-name: Stanford Artificial Retina Project
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000145
-name: STS Retinal Prosthesis
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000146
-name: Suprachoroidal Prosthesis (24-channel)
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000147
-name: Suprachoroidal Prosthesis (44-channel)
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000148
-name: Thalamic Visual Prosthesis
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000149
-name: Utah Intracortical Electrode Array
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
-
-[Term]
-id: NEIO:0000150
-name: VISNE
-is_a: OBI:0000968 ! device
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T18:00:00Z" xsd:string
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OBI:0000047
@@ -984,7 +642,7 @@ property_value: IAO:0000111 "processed material" xsd:string
 property_value: IAO:0000112 "Examples include gel matrices, filter paper, parafilm and buffer solutions, mass spectrometer, tissue samples" xsd:string
 property_value: IAO:0000114 IAO:0000122
 property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string
-property_value: isDefinedBy obi:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/obi_import.owl
 
 [Term]
 id: OBI:0000245
@@ -1000,7 +658,7 @@ property_value: IAO:0000117 "PERSON: Bjoern Peters" xsd:string
 property_value: IAO:0000117 "PERSON: Philippe Rocca-Serra" xsd:string
 property_value: IAO:0000117 "PERSON: Susanna Sansone" xsd:string
 property_value: IAO:0000119 "GROUP: OBI" xsd:string
-property_value: isDefinedBy obi:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/obi_import.owl
 
 [Term]
 id: OBI:0000968
@@ -1015,7 +673,7 @@ property_value: IAO:0000116 "2012-12-17 JAO: In common lab usage, there is a dis
 property_value: IAO:0000117 "PERSON: Helen Parkinson" xsd:string
 property_value: IAO:0000118 "instrument" xsd:string
 property_value: IAO:0000119 "OBI development call 2012-12-17." xsd:string
-property_value: isDefinedBy obi:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/obi_import.owl
 
 [Term]
 id: OBI:0100026
@@ -1033,7 +691,7 @@ property_value: IAO:0000116 "10/21/09: This is a placeholder term, that should i
 property_value: IAO:0000116 "13-02-2009:\nOBI doesn't take position as to  when an organism starts or ends being an organism - e.g. sperm, foetus.\nThis issue is outside the scope of OBI." xsd:string
 property_value: IAO:0000117 "GROUP: OBI Biomaterial Branch" xsd:string
 property_value: IAO:0000119 "WEB: http://en.wikipedia.org/wiki/Organism" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OGMS:0000014
@@ -1043,7 +701,7 @@ is_a: OGMS:0000123 ! clinical data item
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2010-07-19T10:18:02Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000015
@@ -1053,7 +711,7 @@ is_a: OGMS:0000123 ! clinical data item
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2010-07-19T10:18:59Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000016
@@ -1063,7 +721,7 @@ is_a: OGMS:0000123 ! clinical data item
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2010-07-19T10:20:20Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000017
@@ -1073,7 +731,7 @@ is_a: OGMS:0000014 ! clinical finding
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T10:21:10Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000018
@@ -1083,7 +741,7 @@ is_a: OGMS:0000014 ! clinical finding
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T10:21:58Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000030
@@ -1093,7 +751,7 @@ is_a: BFO:0000016 ! disposition
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:20:25Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000031
@@ -1103,7 +761,7 @@ is_a: BFO:0000016 ! disposition
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:21:20Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000032
@@ -1111,7 +769,7 @@ name: homeostasis
 is_a: BFO:0000016 ! disposition
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:22:01Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000033
@@ -1121,7 +779,7 @@ is_a: OGMS:0000030 ! predisposition to disease of type X
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:23:07Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000034
@@ -1131,7 +789,7 @@ is_a: OGMS:0000031 ! disease
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:24:05Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000035
@@ -1141,7 +799,7 @@ is_a: OGMS:0000031 ! disease
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:24:59Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000037
@@ -1151,7 +809,7 @@ is_a: OGMS:0000032 ! homeostasis
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:26:44Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000038
@@ -1161,7 +819,7 @@ is_a: OGMS:0000032 ! homeostasis
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:27:28Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000045
@@ -1171,7 +829,7 @@ is_a: BFO:0000040 ! material entity
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:39:44Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000046
@@ -1181,7 +839,7 @@ is_a: OGMS:0000045 ! disorder
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:40:27Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000047
@@ -1191,7 +849,7 @@ is_a: OGMS:0000045 ! disorder
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:41:14Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000050
@@ -1201,7 +859,7 @@ is_a: OGMS:0000047 ! genetic disorder
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:43:09Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000051
@@ -1211,7 +869,7 @@ is_a: OGMS:0000047 ! genetic disorder
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T11:43:44Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000073
@@ -1221,7 +879,7 @@ is_a: OGMS:0000123 ! clinical data item
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-06-23T12:42:23Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000078
@@ -1231,7 +889,7 @@ is_a: BFO:0000040 ! material entity
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://ontology.buffalo.edu/bio/ISMB/ISMB_Bio-ontologies.pdf" xsd:string
 property_value: IAO:0000232 "creation date: 2009-07-13T02:14:05Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000083
@@ -1241,7 +899,7 @@ is_a: OGMS:0000014 ! clinical finding
 property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000119 "http://code.google.com/p/ogms/issues/detail?id=26" xsd:string
 property_value: IAO:0000232 "creation date: 2009-11-24T04:51:11Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000089
@@ -1252,7 +910,7 @@ property_value: IAO:0000117 "Albert Goldfain" xsd:string
 property_value: IAO:0000118 "congenital malformation" xsd:string
 property_value: IAO:0000119 "http://code.google.com/p/ogms/issues/detail?id=28" xsd:string
 property_value: IAO:0000232 "creation date: 2010-03-31T04:51:11Z" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000102
@@ -1263,7 +921,7 @@ property_value: IAO:0000116 "At the scale of organism (as opposed to the cellula
 property_value: IAO:0000117 "Albert Goldfain\nSagar Jain" xsd:string
 property_value: IAO:0000119 "http://groups.google.com/group/ogms-discuss/browse_thread/thread/ca0ad373f27774c5\n\nOGMS call adoption- 16 SEPT 2015\nhttps://docs.google.com/document/d/1iiV1-fTS7BUUSzDw3N_Afx42698YWf54-FOTY2NkAxo/edit" xsd:string
 property_value: IAO:0000232 "creation date: 2011-09-20T09:57:44Z\nedited date: 30 SEPT 2015" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000123
@@ -1271,14 +929,14 @@ name: clinical data item
 def: "A data item that is about a patient and is the specified output of a health care process assay or diagnostic process" []
 is_a: IAO:0000027 ! data item
 property_value: IAO:0000232 "creation date: 2018-11-27" xsd:string
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OGMS:0000146
 name: tissue disorder
 def: "A disorder of some macroscopic part of a tissue" []
 is_a: OGMS:0000045 ! disorder
-property_value: isDefinedBy ogms:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/ogms_import.owl
 
 [Term]
 id: OMRSE:00000007
@@ -1287,7 +945,7 @@ def: "A human social role borne by a human being being realized in behaviour whi
 is_a: OMRSE:00000049 ! organism role
 property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
 property_value: IAO:0000119 "http://en.wikipedia.org/wiki/Gender_role" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OMRSE:00000008
@@ -1297,7 +955,7 @@ is_a: OMRSE:00000007 ! gender role
 relationship: RO:0000052 OBI:0100026 ! characteristic of organism
 property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
 property_value: IAO:0000118 "male gender" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OMRSE:00000009
@@ -1307,7 +965,7 @@ is_a: OMRSE:00000007 ! gender role
 relationship: RO:0000052 OBI:0100026 ! characteristic of organism
 property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
 property_value: IAO:0000118 "female gender" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OMRSE:00000010
@@ -1317,7 +975,7 @@ is_a: OMRSE:00002072 ! role in human social processes
 property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
 property_value: IAO:0000117 "William R. Hogan" xsd:string
 property_value: IAO:0000118 "health care role" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OMRSE:00000011
@@ -1330,7 +988,7 @@ property_value: IAO:0000117 "Amanda Hicks" xsd:string
 property_value: IAO:0000117 "Mathias Brochhausen" xsd:string
 property_value: IAO:0000118 "patient" xsd:string
 property_value: IAO:0000119 "CAFE domain expert working group." xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OMRSE:00000030
@@ -1340,7 +998,7 @@ is_a: OMRSE:00000011 ! patient role
 is_a: OMRSE:00000050 ! Homo sapiens role
 intersection_of: OMRSE:00000011 ! patient role
 intersection_of: RO:0000052 NCBITaxon:9606 ! characteristic of Homo sapiens
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OMRSE:00000048
@@ -1350,7 +1008,7 @@ intersection_of: BFO:0000023 ! role
 intersection_of: RO:0000052 BFO:0000040 ! characteristic of material entity
 relationship: RO:0000052 BFO:0000040 {all_only="true"} ! characteristic of material entity
 relationship: RO:0000052 BFO:0000040 ! characteristic of material entity
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OMRSE:00000049
@@ -1360,7 +1018,7 @@ intersection_of: OMRSE:00000048 ! material entity role
 intersection_of: RO:0000052 OBI:0100026 ! characteristic of organism
 relationship: RO:0000052 OBI:0100026 {all_only="true"} ! characteristic of organism
 relationship: RO:0000052 OBI:0100026 ! characteristic of organism
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OMRSE:00000050
@@ -1370,7 +1028,7 @@ intersection_of: OMRSE:00000049 ! organism role
 intersection_of: RO:0000052 NCBITaxon:9606 ! characteristic of Homo sapiens
 relationship: RO:0000052 NCBITaxon:9606 ! characteristic of Homo sapiens
 relationship: RO:0000052 NCBITaxon:9606 {all_only="true"} ! characteristic of Homo sapiens
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: OMRSE:00002072
@@ -1379,9 +1037,9 @@ def: "A role that inheres in some entity that is realized in a social act." []
 comment: Previous definition: A role played by an entity in human social processes.
 is_a: OMRSE:00000048 ! material entity role
 relationship: RO:0000052 BFO:0000040 {all_only="true"} ! characteristic of material entity
-property_value: http://purl.org/dc/elements/1.1/contributor "Mathias Brochhausen" xsd:string
+property_value: dc:contributor "Mathias Brochhausen" xsd:string
 property_value: IAO:0000117 "Matthew Diller" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 
 [Term]
 id: UBERON:0000020
@@ -1418,9 +1076,9 @@ xref: VHOG:0001407
 xref: WBbt:0006929
 is_a: UBERON:0000062 ! organ
 relationship: part_of UBERON:0001032 ! sensory system
-property_value: http://purl.org/dc/elements/1.1/contributor https://github.com/cmungall
-property_value: http://xmlns.com/foaf/0.1/depiction "http://upload.wikimedia.org/wikipedia/commons/c/c0/Gray722.png" xsd:anyURI
-property_value: isDefinedBy uberon:import.owl
+property_value: dc:contributor https://github.com/cmungall
+property_value: foaf:depiction "http://upload.wikimedia.org/wikipedia/commons/c/c0/Gray722.png" xsd:anyURI
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: UBERON:0000061
@@ -1452,7 +1110,7 @@ xref: VHOG:0001759
 xref: XAO:0003000
 xref: ZFA:0000037
 is_a: UBERON:0000465 ! material anatomical entity
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -1482,7 +1140,7 @@ xref: Wikipedia:Organ_(anatomy)
 is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: capable_of GO:0008150 ! biological_process
 relationship: part_of UBERON:0000467 ! anatomical system
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002161 NCBITaxon:110815 {source="Wikipedia"}
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
@@ -1510,7 +1168,7 @@ xref: SCTID:91717005
 is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: part_of UBERON:0000062 ! organ
 property_value: IAO:0000232 "currently defined in a very broad sense, may be replaced by more specific classes in the future" xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -1529,7 +1187,7 @@ xref: FBbt:00005099
 xref: NLX:147821
 is_a: UBERON:0005162 ! multi cell part structure
 relationship: part_of UBERON:0001016 ! nervous system
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: UBERON:0000465
@@ -1551,7 +1209,7 @@ xref: TGMA:0001826
 xref: VHOG:0001721
 is_a: BFO:0000040 ! material entity
 is_a: UBERON:0001062 ! anatomical entity
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -1585,7 +1243,7 @@ xref: FBbt:00004856
 xref: FMA:7149
 xref: galen:AnatomicalSystem
 xref: HAO:0000011
-xref: IDOMAL:0002460 {http://purl.org/dc/terms/contributor="https://orcid.org/0000-0003-4423-4370"}
+xref: IDOMAL:0002460 {terms:contributor="https://orcid.org/0000-0003-4423-4370"}
 xref: MA:0000003
 xref: NCIT:C12919
 xref: SCTID:278195005
@@ -1600,7 +1258,7 @@ xref: XAO:0003002
 xref: ZFA:0001439
 is_a: UBERON:0000061 ! anatomical structure
 relationship: has_part UBERON:0000062 ! organ
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -1658,7 +1316,7 @@ is_a: UBERON:0011215 ! central nervous system cell part cluster
 is_a: UBERON:0034713 ! cranial neuron projection bundle
 relationship: part_of UBERON:0002104 ! visual system
 property_value: IAO:0000116 "Do not classify under 'cranial nerve', as this is not a true nerve - should be classified as evaginated sensory afferent[ISBN:0471888893]" xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: UBPROP:0000001 "A collection of nerve cells that project visual information from the eyes to the brain. (Source: BioGlossary, www.Biology-Text.com)[TAO]" xsd:string {date_retrieved="2012-08-14", external_class="TAO:0000435", ontology="TAO", source="ZFIN:curator"}
 property_value: UBPROP:0000001 "Fibrous, somatic sensory element covered by a fibrous connective-tissue sheath and is continuous with the layer of nerve cells on the inner surface of the eye.[AAO]" xsd:string {date_retrieved="2012-06-20", external_class="AAO:0010345", ontology="AAO", source="AAO:EJS"}
 property_value: UBPROP:0000003 "(...) an essentially similar sequence of events occurs during the embryonic development of the vertebrate eye. The eye initially develops as a single median evagination of the diencephalon that soon bifurcates to form the paired optic vesicles. As each optic vesicle grows towards the body surface, its proximal part narrows as the optic stalk, and its distal part invaginates to form a two-layered optic cup (reference 1); The (optic) stalk persists as the optic nerve (reference 2).[well established][VHOG]" xsd:string {date_retrieved="2012-09-17", external_class="VHOG:0000543", ontology="VHOG", source="ISBN:978-0030223693 Liem KF, Bemis WE, Walker WF, Grande L, Functional Anatomy of the Vertebrates: An Evolutionary Perspective (2001) p.429, http://medical-dictionary.thefreedictionary.com/optic+stalk", source="http://bgee.unil.ch/"}
@@ -1710,8 +1368,8 @@ xref: XAO:0000009
 xref: ZFA:0000152
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0005388 ! photoreceptor array
-property_value: http://xmlns.com/foaf/0.1/depiction "http://upload.wikimedia.org/wikipedia/commons/e/ed/Human_eye_cross-sectional_view_grayscale.png" xsd:anyURI
-property_value: isDefinedBy uberon:import.owl
+property_value: foaf:depiction "http://upload.wikimedia.org/wikipedia/commons/e/ed/Human_eye_cross-sectional_view_grayscale.png" xsd:anyURI
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002161 NCBITaxon:6656
 property_value: RO:0002175 NCBITaxon:9606
 property_value: UBPROP:0000001 "The portion of the eye developing from the optic primordium and including the neural retina and the retinal pigment layer. Kimmel et al, 1995.[TAO]" xsd:string {date_retrieved="2012-08-14", external_class="TAO:0000152", ontology="TAO", source="ZFIN:curator"}
@@ -1746,7 +1404,7 @@ is_a: UBERON:0000020 ! sense organ
 relationship: capable_of GO:0009584 ! detection of visible light
 relationship: part_of UBERON:0002104 ! visual system
 property_value: IAO:0000232 "This class encompasses a variety of light-detecting structures from different phyla with no implication of homology, from the compound insect eye to the vertebrate camera-type eye (distinct classes are provided for each)" xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:9606
 property_value: UBPROP:0000007 "ocular" xsd:string
 property_value: UBPROP:0000007 "optic" xsd:string
@@ -1795,9 +1453,9 @@ xref: ZFA:0000396
 is_a: UBERON:0000467 ! anatomical system
 relationship: capable_of GO:0050877 ! nervous system process
 relationship: has_part CL:0000540 ! neuron
-property_value: http://xmlns.com/foaf/0.1/depiction "http://upload.wikimedia.org/wikipedia/commons/b/b2/TE-Nervous_system_diagram.svg" xsd:anyURI
-property_value: http://xmlns.com/foaf/0.1/depiction "http://upload.wikimedia.org/wikipedia/commons/b/ba/Nervous_system_diagram.png" xsd:anyURI
-property_value: isDefinedBy uberon:import.owl
+property_value: foaf:depiction "http://upload.wikimedia.org/wikipedia/commons/b/b2/TE-Nervous_system_diagram.svg" xsd:anyURI
+property_value: foaf:depiction "http://upload.wikimedia.org/wikipedia/commons/b/ba/Nervous_system_diagram.png" xsd:anyURI
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002161 NCBITaxon:6040
 property_value: UBPROP:0000001 "A regulatory system of the body that consists of neurons and neuroglial cells. The nervous system is divided into two parts, the central nervous system (CNS) and the peripheral nervous system (PNS). (Source: BioGlossary, www.Biology-Text.com)[TAO]" xsd:string {date_retrieved="2012-08-14", external_class="TAO:0000396", ontology="TAO", source="ZFIN:curator"}
 property_value: UBPROP:0000001 "Anatomical system consisting of nerve bodies and nerve fibers which regulate the response of the body to external and internal stimuli.[AAO]" xsd:string {date_retrieved="2012-06-20", external_class="AAO:0000324", ontology="AAO", source="AAO:BJB"}
@@ -1842,8 +1500,8 @@ xref: ZFA:0000282
 is_a: UBERON:0015203 ! non-connected functional system
 relationship: capable_of_part_of GO:0007600 ! sensory perception
 relationship: overlaps UBERON:0001016 ! nervous system
-property_value: http://xmlns.com/foaf/0.1/depiction "http://upload.wikimedia.org/wikipedia/commons/c/c0/Gray722.png" xsd:anyURI
-property_value: isDefinedBy uberon:import.owl
+property_value: foaf:depiction "http://upload.wikimedia.org/wikipedia/commons/c/c0/Gray722.png" xsd:anyURI
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: UBPROP:0000003 "An early step in the evolution of neural crest, therefore, may have been the origin of a specific dorsal neural cell population contributing to sensory processing; this would predate the divergence of the amphioxus and vertebrate lineages.[well established][VHOG]" xsd:string {date_retrieved="2012-09-17", external_class="VHOG:0001674", ontology="VHOG", source="DOI:10.1073/pnas.97.9.4449 Shimeld SM and Holland PW. Vertebrate innovations. PNAS (2000)", source="http://bgee.unil.ch/"}
 property_value: UBPROP:0000012 "note the distinct between entire sensory system and individual system. this reconciles is_a and part_of distinctions between ssAOs" xsd:string
 
@@ -1872,7 +1530,7 @@ xref: WBbt:0000100
 xref: XAO:0000000
 xref: ZFA:0100000
 is_a: BFO:0000004 ! independent continuant
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -1903,7 +1561,7 @@ xref: XAO:0003198
 xref: ZFA:0001127
 is_a: UBERON:0001032 ! sensory system
 relationship: capable_of_part_of GO:0007601 ! visual perception
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: UBPROP:0000001 "The sensory system used for sight.[AAO]" xsd:string {date_retrieved="2012-06-20", external_class="AAO:0000632", ontology="AAO", source="AAO:EJS"}
 
 [Term]
@@ -1915,7 +1573,7 @@ subset: grouping_class
 synonym: "ectodermal deriviative" EXACT [FBbt:00025990]
 is_a: UBERON:0000061 ! anatomical structure
 property_value: IAO:0000232 "Grouping term for query purposes" xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: UBERON:0004529
@@ -1958,10 +1616,10 @@ xref: Wikipedia:Process_(anatomy)
 xref: XAO:0004020
 is_a: UBERON:0034768 ! morphological feature
 relationship: part_of UBERON:0000062 ! organ
-property_value: http://purl.org/dc/elements/1.1/contributor https://github.com/cmungall
-property_value: http://purl.org/dc/elements/1.1/contributor https://github.com/wdahdul
+property_value: dc:contributor https://github.com/cmungall
+property_value: dc:contributor https://github.com/wdahdul
 property_value: IAO:0000116 "should be declared disjoint from organ, but in some ontologies (e.g. ZFA), structures such as neural spines are classified as bones (and hence organs)" xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -1977,7 +1635,7 @@ def: "A part of a wall of an organ that forms a layer." [http://orcid.org/0000-0
 subset: upper_level
 xref: FMA:82485
 is_a: UBERON:0000064 ! organ part
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: UBERON:0005162
@@ -1993,7 +1651,7 @@ xref: CARO:0001000
 xref: FBbt:00007060
 xref: FMA:83115
 is_a: UBERON:0000061 ! anatomical structure
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: UBPROP:0000012 "we go with the FMA classification rather than the CARO one. FMA def: 'Anatomical cluster which has as direct parts cell parts from two or more cells.'" xsd:string {external_ontology="CARO", external_ontology="FMA"}
 
 [Term]
@@ -2006,7 +1664,7 @@ xref: FBbt:00004200
 is_a: UBERON:0004923 ! organ component layer
 relationship: part_of UBERON:0000970 ! eye
 relationship: part_of UBERON:0001016 ! nervous system
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: UBERON:0010000
@@ -2020,7 +1678,7 @@ xref: CARO:0010000
 xref: FBbt:00100313
 is_a: UBERON:0000061 ! anatomical structure
 relationship: has_part CL:0000000 ! cell
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -2036,7 +1694,7 @@ synonym: "neuraxis layer" EXACT [FMA:83143]
 xref: FMA:83143
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0005162 ! multi cell part structure
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: UBERON:0015203
@@ -2046,7 +1704,7 @@ def: "An anatomical group whose component structures share a common function." [
 xref: AEO:0000093
 xref: FBbt:00007278
 is_a: UBERON:0034923 ! disconnected anatomical group
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: UBERON:0015212
@@ -2058,7 +1716,7 @@ subset: non_informative
 is_a: UBERON:0000061 ! anatomical structure
 relationship: part_of UBERON:0000465 ! material anatomical entity
 property_value: IAO:0000232 "This class is primarily to implement taxon constraints. It may be removed in the future." xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: UBERON:0016930
@@ -2070,7 +1728,7 @@ synonym: "tooth ridge" EXACT []
 xref: SCTID:245699009
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:4100000 ! skeletal element projection
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: UBERON:0017295
@@ -2084,7 +1742,7 @@ xref: FMA:56731
 xref: SCTID:245650005
 xref: Wikipedia:Cingulum_(tooth)
 is_a: UBERON:0016930 ! ridge of tooth
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: UBPROP:0000012 "FMA has no definition but places this generically with upper, lower, canine, incisor subclasses. Wiktionary states cingulum is lower jaw molar only, and cingulid is upper molar only" xsd:string
 
 [Term]
@@ -2094,7 +1752,7 @@ namespace: uberon
 synonym: "canine tooth cingulum" EXACT [FMA:56734]
 xref: FMA:56734
 is_a: UBERON:0017295 ! cingulum of tooth
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Term]
 id: UBERON:0034713
@@ -2108,7 +1766,7 @@ synonym: "cranial nerve or tract" RELATED [http://orcid.org/0000-0002-6601-2165]
 synonym: "neuron projection bundle from brain" RELATED [http://orcid.org/0000-0002-6601-2165]
 is_a: UBERON:0000122 ! neuron projection bundle
 is_a: UBERON:0015212 ! lateral structure
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -2118,7 +1776,7 @@ namespace: uberon
 def: "A part of an organism or organ that is continuous with its surroundings and distinguished from its surroundings based on morphology." [http://orcid.org/0000-0002-6601-2165]
 subset: common_anatomy
 is_a: UBERON:0000061 ! anatomical structure
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -2132,7 +1790,7 @@ subset: common_anatomy
 xref: CARO:0020000
 xref: FBbt:00007276
 is_a: UBERON:0000465 ! material anatomical entity
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -2143,13 +1801,701 @@ name: skeletal element projection
 namespace: uberon
 def: "Anatomical projection that is composed of bone or cartilage tissue." [PHENOSCAPE]
 is_a: UBERON:0004529 ! anatomical projection
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
-[Typedef]
-id: NEIO:0000100
-name: has commercial partner
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/created "2024-02-20T16:42:25Z" xsd:dateTime
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000040
+name: electrode array
+is_a: OBI:0000968 ! device
+relationship: has_part neural-electronic-interface-ontology:NEIO_0000041 ! electrode
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:29:46Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000041
+name: electrode
+is_a: OBI:0000968 ! device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:30:09Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000042
+name: neural electronic interface device
+is_a: OBI:0000968 ! device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:39:16Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000043
+name: bionic vision device
+is_a: neural-electronic-interface-ontology:NEIO_0000042 ! neural electronic interface device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:39:31Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000045
+name: bionic hearing device
+is_a: neural-electronic-interface-ontology:NEIO_0000042 ! neural electronic interface device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:41:47Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000046
+name: brain computer interface
+is_a: neural-electronic-interface-ontology:NEIO_0000042 ! neural electronic interface device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:43:31Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000047
+name: brain machine interface
+is_a: neural-electronic-interface-ontology:NEIO_0000042 ! neural electronic interface device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:43:46Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000048
+name: cortical bionic vision device
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T20:59:44Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000049
+name: retinal bionic vision device
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-05-14T21:00:00Z" xsd:dateTime
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000101
+name: Alpha AMS
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "rectilinear" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "70" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000058 "2016" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "1600" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3026
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Alpha AMS is an advanced subretinal implant developed by Retina Implant AG, designed to assist individuals with retinitis pigmentosa, a condition marked by the progressive loss of vision. This implant is an evolution of its predecessor, the [Alpha IMS](/devices/alpha-ims), featuring enhanced functionality with 1,600 light-sensitive photodiodes that more effectively mimic the natural processing of visual signals. Implanted under the retina, the Alpha AMS converts light into electrical signals that are sent to the brain, enabling patients to detect light and dark, and recognize large objects and outlines." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000102
+name: Alpha IMS
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "rectilinear" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "70" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000058 "2013" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3027
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Alpha IMS is a subretinal implant developed by Retina Implant AG, aimed at restoring functional vision for individuals with retinitis pigmentosa, a group of genetic disorders characterized by progressive vision loss. Implanted beneath the retina, the device features a microchip equipped with 1,500 light-sensitive photodiodes, amplifiers, and electrodes. It functions by mimicking the role of photoreceptor cells: capturing light signals and converting them into electrical impulses transmitted to the brain via the optic nerve.\n\nAlpha IMS enables patients to perceive light patterns, assisting in navigation and object recognition. Clinical trials have shown that the implant can enhance visual perception, marking a significant advancement in vision restoration technologies." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000103
+name: AmazingVision
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3028
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "This technology is an improved version of what the National Chiao Tung University’s Biomedical Electronics Translational Research Center (BETRC) has been developing. The BETRC created an artificial retina that uses two threads to transmit power from the eyewear worn by the user to a chip implanted in the eyeball. Amazing Vision has added a tiny solar panel to the chip that generates power by absorbing infrared light. This improvement reduces inflammation to the eye, reduces infection risk, and gives clearer and wider vision to the patient it was implanted in. Animal tests have already been conducted and have proven useful. Human testing was delayed due to the pandemic, but is soon to be conducted.\n" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000104
+name: Argus I
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "4x4" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "800" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "250/500" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "16" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3029
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Argus I was the first-generation prototype of an epiretinal implant manufactured by Second Sight Medical Products." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000105
+name: Argus II
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "6x10" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "575" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "225" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000058 "2011" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "60" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3030
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Argus II is a retinal prosthesis device developed by Second Sight Medical Products, designed for individuals with retinitis pigmentosa, a condition characterized by severe vision impairment. As an epiretinal implant, it is placed directly on the retina's surface and consists of a small camera on eyeglasses that captures visual data. This data is processed by a portable unit and transmitted wirelessly to an electrode array in the eye, stimulating the retina's remaining cells to send visual information to the brain.\n\nApproved by the FDA in 2013 and previously granted the CE Mark in 2011 in Europe, the Argus II was the first retinal implant to receive these certifications, allowing users to perform basic visual tasks.\n\nHowever, in 2019, Second Sight discontinued the Argus II due to financial challenges, shifting their focus to the development of the [Orion Visual Cortical Prosthesis System](/devices/orion), intended to stimulate the brain's visual cortex directly." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000106
+name: ASR Artificial Silicon Retina
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "25" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "5000 microphotodiodes" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3031
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Optobionics’ Artificial Silicon Retina microchip (ASR) was invented by Dr. Alan Chow and his brother Vincent Chow.  Dr. Chow is an ophthalmic surgeon and assistant professor and his brother Vincent is an electrical engineer.\n\nThe ASR was designed to stimulate damaged retinal cells from within the retina to allow the cells to recreate visual signals that are processed and sent to the brain.\n\nThe ASR microchip is a silicon chip 2 mm in diameter, 25 microns in thickness and is less than the thickness of a human hair. It fabricated using technology similar to that used in the fabrication of computer chips and contains approximately 5,000 microscopic solar cells called “microphotodiodes,” each with its own stimulating electrode." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000107
+name: AV-DONE
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "optic nerve" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "50" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "7-Mar" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3032
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "AV-DONE is a direct optic nerve electrode that produces artificial vision in blind patients with retinitis pigmentosa. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000108
+name: Bar-Ilan Hybrid Retinal Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3033
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Hybrid Retinal Prosthesis is a novel device that combines an implantable high density electrode array integrated with neurons. The electrode-neuron coupling allows for an increase in phosphene density while preserving retinal circuitry." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000109
+name: Biohybrid
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "optic nerve" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3034
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000110
+name: Boston Retinal Implant
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3035
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Boston Retinal Implant Project has developed a subretinal, hermetically-enclosed, chronically-implantable vision prosthesis to restore some useful vision to people with degenerative retinal diseases, especially retinitis pigmentosa and age-related macular degeneration. The prosthesis offers advantages over the competing epiretinal devices by providing a lower risk of eye infection, reduced erosion through the delicate tissues that cover the front of the eye (i.e. the conjunctiva), and the ability to place stimulating electrodes closer to retinal nerve cells. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000111
+name: Brindley Cortical Implant
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "78" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3035
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000112
+name: BS01
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "optogenetic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3036
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "BS01 is an optogenetic prosthesis." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000113
+name: C-Sight
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "optic nerve" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "13" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3037
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The C-Sight group proposed an implantable visual prosthesis based on optic nerve stimulation with an electrode array. (Chai et al. 2013)" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000114
+name: CORTIVIS
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "10x10" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "25" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "100" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3038
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "CORTIVIS is a cortical visual neuroprosthesis that is based on the Utah Electrode Array. It will be used to improve the quality of life of profoundly blind people." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000115
+name: Diamond Eye Implant
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "256" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3039
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "iBionics has developed the Diamond Eye implant with a high density of hermatically-enclosed electrodes, allowing for higher spatial resolution. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000116
+name: Dobelle Eye
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3035
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000117
+name: Electronic Visual Cortical Stimulator
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3040
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Cortivision team from Polystim neurotechnologies developed a visual cortical stimulator which consists of image sensing, image processing, and brain cortex stimulation to help blind patients acquire a sense of visual perception (Ghannoum 2010). They hope to elaborate a model of the layer 4 of the visual cortex V1 using a large-scale network of biologically realistic neurons." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000118
+name: ELVIS
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "100" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3041
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "ELVIS, or 'Electronic Vision,' is a cortical implant that utilizes small currents to stimulate the visual cortex to produce vision. A microcomputer attached to the belt processes the outdoor scene and uses an AI algoirthm to help simplify objects for the user. Sensor Tech expects human trials to begin in 2023 and implants to be made available to the public in 2027." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000119
+name: EPIRET1
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3042
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000120
+name: EPIRET2
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3043
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000121
+name: EPIRET3
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "500" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "100" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "25" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3044
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The EPIRET3 implant is a remotely controlled, fully intraocular wireless device consisting of a receiver and a stimulator module. The stimulator is placed on the retinal surface. Data and energy are transmitted via an inductive link from outside the eye to the implant. Surgery included removal of the lens, vitrectomy, and implantation of the EPIRET3 device through a corneal incision." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000122
+name: Gennaris
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "473" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3045
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Gennaris is a cortical visual prosthesis. It has been designed to bypass damage to the eye and optic nerve, to restore functional vision to people who have lost their sight through traumatic injury and conditions such as glaucoma and acquired retinal disease. Gennaris is currently preparing to undergo human clinical trials in Australia." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000123
+name: HARP High-Acuity Retinal Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3046
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "HARP is a proprietary contact lens-shaped, 4000 pixel retinal prostheses currently in development by Iridium Medical Technologies. HARP is made for patients with Retinitis Pigmentosa and Age-Related Macular Degeneration." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000124
+name: IMI Retinal Implant System
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "49" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3047
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000125
+name: IMIE 256 Channel Intelligent Micro Implant Eye
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "210" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "256" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3048
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The 256 Channel Intelligent Micro Eye Implant is an epiretinal implant developed by IntelliMicro Micro Co and Golden Eye Bionic. The implant features advanced technology for a micro implant with an extended electrode array." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000126
+name: Intracortical Visual Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "16" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3049
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Intracortical Visual Prosthesis is currently being developed at the Illinois Institute of Technology and is being prepared for clinical testing." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000127
+name: IRIS I
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "120" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "250" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "49" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3050
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Pixium's first device, IRIS1 (Intelligent Retinal Implantable System), used an epi-retinal implant (on the retinal surface) and made it to clinical trials with the goal of obtaining CE Mark." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000128
+name: IRIS II
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000058 "2016" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "150" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3051
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The IRIS II is a second generation epiretinal implant developed by Pixium vision to deliver light and shape perception, and to localize objects giving the patient the ability to negotiate unfamiliar environments. It consists of a 150 electrode array which allows for a better perceieved visual resolution by the user. The IRIS implant also uses asynchronous time-based image sensor technology resulting in faster, real-time image processing. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000129
+name: Leuven Optic Nerve Visual Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "optic nerve" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "1" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3052
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The optic nerve visual prosthesis (ONVP) uses a self-sizing spiral cuff electrode to electrically stimulate the optic nerve and thus create the perception of phosphenes. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000130
+name: Link N1
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "1024" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3053
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The N1 implant consists of 1024 electrodes distributed across 64 threads, composed mostly of polyimide with a thin gold or platinum conductor, which are inserted into the brain through an automated process performed by a surgical robot (R1). Each thread consists of an area of wires that contains electrodes capable of locating electrical signals in the brain, and a sensory area where the wire interacts with an electronic system that allows amplification and acquisition of the brain signal.\n\nNeuralink received FDA approval for human clinical trials with the N1 in May 2023. On January 29, 2024, [Musk said](https://twitter.com/elonmusk/status/1752098683024220632) that Neuralink had successfully implanted a Neuralink device in a human on the day prior, and that the patient was recovering:\"Initial results show promising neuron spike detection\"." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000131
+name: Newcastle Visual Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "optogenetic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3054
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Optogenetic Retinal Prostheses uses an optoelectronic headset to capture the visual scene, have an LED array display the image onto photosensitized retinal cells and stimulate them with light. A key advantage of this approach is that it is possible to target ON and OFF bipolar cells." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000132
+name: NR600
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "26x26" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3055
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The miniature Nano Retina device, the NR600 Implant, replaces the functionality of the damaged photoreceptor cells and creates the electrical stimulation required to activate the remaining healthy retinal cells. NR600 consists of two components; a miniature implantable chip and a set of eyeglasses worn by the patient." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000133
+name: OpticSELINE
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "optic nerve" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3056
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "OpticSELENE is a device with intraneural electrodes that stimulates the optic nerve with light sensation to promote activation of the visual cortex-in to try to restore the sight of the blind. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000134
+name: Optoelectronic Nanowire Retinal Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "optogenetic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3057
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000135
+name: OPTOEPIRET
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3058
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "OPTOEPIRET extends the EPIRET implant with an integrated epiretinal recording of the image produced by the eye lens onto the retina." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000136
+name: Orion Cortical Visual Prosthesis System
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3059
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Orion Visual Cortical Prosthesis System is an implanted cortical stimulation device intended to provide useful artificial vision to individuals who are blind due to a wide range of causes, including glaucoma, diabetic retinopathy, optic nerve injury or disease, and eye injury. (Eyewire, 2019)." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000137
+name: OUReP
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3060
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Okayama University-type retinal prosthesis (OUReP) is a photoelectric dye-coupled polyethylene film which generates electric potential in response to light and stimulates nearby neurons." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000138
+name: Phoenix 99
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "suprachoroidal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "98" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3061
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The new Phoenix99 bionic eye being developed by engineers at the University of Sydney uses a camera linked to a retinal implant to help people with a debilitating problem with their vision to see again." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000139
+name: POLYRETINA
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "hexagonal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "120" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "80" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "10,498" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3062
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "POLYRETINA is a foldable, wide-field, epiretinal prosthesis that can wirelessly stimulate retinal ganglion cells. The current prototype, POLYRETINA β, features 10,498 Titanium-Nitride electrodes (80μm diameter, 120μm pitch) distributed in a tiled fashion over a 13mm-diameter active area. Future prototypes are planned to miniaturize the electrode design and increase the number of electrodes (POLYRETINA γ: 18,693 electrodes, 60μm diameter, 90μm pitch; POLYRETINA δ: 42,235 electrodes, 60μm diameter, 90μm pitch). So far, device safety and efficacy has been assessed <emph>ex vivo</emph> and <emph>in vitro</emph>." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000140
+name: PolySTIM
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3063
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "PolySTIM is an implantable wireless intracortical interface designed to aid the visually impaired. It uses a multi-chip intracortical microstimulation system for wireless data and power transmission. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000141
+name: PRIMA
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "subretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "378" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3064
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Prima System is intended to partially replace the normal physiological function of the eyes photoreceptor cells by electrically stimulating the nerve cells of the inner retina, which then transmit the visual information to the brain via the optic nerve." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000142
+name: QuantumRetina
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3065
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000143
+name: Science Eye
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "optogenetic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3066
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The Science Eye is a visual prosthesis targeted at retinitis pigmentosa (RP) and dry age-related macular degeneration (AMD), two forms of serious blindness presently without good options for patients. The Science Eye is a combination device that uses an optogenetic gene therapy targeted at the cells of the optic nerve (the retinal ganglion cells) in conjunction with an implanted flexible thin-film, ultradense microLED display panel inserted directly over the retina. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000144
+name: Seoul Artificial Retina
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "suprachoroidal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "4x4" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "100" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "16" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3067
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Seoul Artificial Retina Project started since the year 2000 at National University Seoul in Korea, aiming to develop a safe retinal prothesis implant for sight restoration. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000145
+name: SiBionics Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "80" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3068
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The SIBionics prostheses features 60 electrodes, high system complexity, and an integrated circuit. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000146
+name: Stanford Artificial Retina Project
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "epiretinal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3069
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The goal of the Stanford Artificial Retina Project is to develop an advanced artificial retina that will reproduce the precise retinal code at a cellular resolution with cell-type specificity, resulting in high-fidelity artificial vision." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000147
+name: STS Retinal Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "suprachoroidal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "7x7" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000052 "700" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000053 "500" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "49" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3070
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The semichronic suprachoroid transscleral (STS) prosthesis is developed by Fujikado et al. in Japan. In 2011 and 2016, this retinal prosthesis was reported to be able to elicit phosphenes in all five patients with advanced RP without major complications. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000148
+name: Suprachoroidal Prosthesis (24-channel)
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "suprachoroidal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3071
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The BVT Bionic Eye System is a suprachoroidal implant manufactured by Bionic Vision Technologies. The Gen1 Bionic Eye System was previously known as BVA 24 and was manufactured by the Bionic Vision Australia consortium in 2012. The commercialization rights and research rights of BVA were then taken over by Bionic Vision Technologies (BVT) in 2017. The Gen1 Bionic Eye System used a non-implantable percutaneous connector whereas the Gen2 Bionic Eye System is fully implantable. BVT is now developing the Gen3 Bionic Eye System." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000149
+name: Suprachoroidal Prosthesis (44-channel)
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "suprachoroidal" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "44" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3072
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The 44 Channel Suprachoroidal Retinal Prosthesis is a second generation device boasting a higher electrode array and larger field of view than the first generation device launched by Bionic Vision Technologies. Since launching a 4-patient clinical trial in 2018, the results have indicated that the device offers functional benefits to patients while providing a safe and reproducible surgical procedure." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000150
+name: Thalamic Visual Prosthesis
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "thalamic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3073
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "The goal of the MGH Thalamic Visual Prosthesis project is to build a machine-brain interface that can convey information from an external visual source directly to the visual parts of the brain for image processing. " xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000151
+name: Utah Intracortical Electrode Array
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "cortical" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "10x10" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "100" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3074
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
+property_value: terms:description "Utah intracortical Electrode Array (UIEA) is a fixed geometry penetrating intracortical microelectrode array developed by a team at the University of Utah in the 1990s, aiming to provide a solid foundation for creating a cortically based visual prosthesis." xsd:string
+
+[Term]
+id: neural-electronic-interface-ontology:NEIO_0000152
+name: VISNE
+is_a: neural-electronic-interface-ontology:NEIO_0000043 ! bionic vision device
+property_value: neural-electronic-interface-ontology:NEIO_0000044 "thalamic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000051 "4x6" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000059 "electronic" xsd:string
+property_value: neural-electronic-interface-ontology:NEIO_0000060 "24" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3075
+property_value: terms:created "2024-06-25T18:00:00Z" xsd:string
 
 [Typedef]
 id: OBI:0000304
@@ -2162,7 +2508,7 @@ property_value: IAO:0000117 "Alan Ruttenberg" xsd:string
 property_value: IAO:0000117 "Liju Fan" xsd:string
 property_value: IAO:0000118 "has_make" xsd:string
 property_value: IAO:0000118 "has_manufacturer" xsd:string
-property_value: isDefinedBy obi:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/obi_import.owl
 
 [Typedef]
 id: RO:0000052
@@ -2173,7 +2519,7 @@ property_value: IAO:0000111 "inheres in" xsd:string
 property_value: IAO:0000112 "this fragility is a characteristic of this vase" xsd:string
 property_value: IAO:0000112 "this red color is a characteristic of this apple" xsd:string
 property_value: IAO:0000118 "inheres_in" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 property_value: RO:0001900 RO:0001901
 is_functional: true
 is_a: RO:0002314 ! characteristic of part of
@@ -2190,7 +2536,7 @@ property_value: IAO:0000112 "this vase is bearer of this fragility" xsd:string
 property_value: IAO:0000116 "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist." xsd:string
 property_value: IAO:0000118 "bearer_of" xsd:string
 property_value: IAO:0000118 "is bearer of" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 property_value: RO:0001900 RO:0001901
 range: BFO:0000020 ! specifically dependent continuant
 is_inverse_functional: true
@@ -2202,7 +2548,7 @@ def: "a relation between an independent continuant (the bearer) and a function, 
 property_value: IAO:0000112 "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)" xsd:string
 property_value: IAO:0000116 "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists." xsd:string
 property_value: IAO:0000118 "has_function" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 domain: BFO:0000004 ! independent continuant
 is_a: RO:0000053 ! bearer_of
 
@@ -2213,7 +2559,7 @@ def: "a relation between an independent continuant (the bearer) and a quality, i
 property_value: IAO:0000112 "this apple has quality this red color" xsd:string
 property_value: IAO:0000116 "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist." xsd:string
 property_value: IAO:0000118 "has_quality" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 is_a: RO:0000053 ! bearer_of
 
 [Typedef]
@@ -2223,7 +2569,7 @@ def: "a relation between an independent continuant (the bearer) and a role, in w
 property_value: IAO:0000112 "this person has role this investigator role (more colloquially: this person has this role of investigator)" xsd:string
 property_value: IAO:0000116 "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists." xsd:string
 property_value: IAO:0000118 "has_role" xsd:string
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 domain: BFO:0000004 ! independent continuant
 range: BFO:0000023 ! role
 is_a: RO:0000053 ! bearer_of
@@ -2232,7 +2578,7 @@ is_a: RO:0000053 ! bearer_of
 id: RO:0000091
 name: has disposition
 def: "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence" []
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 domain: BFO:0000004 ! independent continuant
 is_a: RO:0000053 ! bearer_of
 
@@ -2244,7 +2590,7 @@ property_value: IAO:0000116 "Because part_of is transitive, inheres in is a sub-
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "inheres in part of" xsd:string
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20064205
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 property_value: RO:0001900 RO:0001901
 property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
 is_a: RO:0002502 ! depends on
@@ -2253,7 +2599,7 @@ is_a: RO:0002502 ! depends on
 id: RO:0002502
 name: depends on
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: isDefinedBy omrse:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/omrse_import.owl
 property_value: seeAlso BFO:0000169
 
 [Typedef]
@@ -2270,7 +2616,7 @@ property_value: IAO:0000118 "has function realized in" xsd:string
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20123131
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/21208450
 property_value: IAO:0000232 "For compatibility with BFO, this relation has a shortcut definition in which the expression \"capable of some P\" expands to \"bearer_of (some realized_by only P)\"." xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 domain: BFO:0000004 ! independent continuant
 range: BFO:0000015 ! process
 is_a: capable_of_part_of ! capable of part of
@@ -2283,7 +2629,7 @@ def: "c stands in this relationship to p if and only if there exists some p' suc
 xref: RO:0002216
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "has function in" xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
 holds_over_chain: capable_of part_of
 is_a: causal_agent_in_process ! causal agent in process
@@ -2295,7 +2641,7 @@ name: causal agent in process
 def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
 xref: RO:0002500
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 is_a: causal_relation_between_material_entity_and_a_process ! causal relation between material entity and a process
 
 [Typedef]
@@ -2306,7 +2652,7 @@ xref: RO:0002595
 property_value: IAO:0000116 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 domain: BFO:0000040 ! material entity
 range: BFO:0000015 ! process
 is_a: causally_related_to ! causally related to
@@ -2319,7 +2665,7 @@ xref: RO:0002410
 property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate? \n * Is the causal relation regulatory?\n * Is the influence positive or negative?\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Typedef]
 id: functionally_related_to
@@ -2329,7 +2675,7 @@ def: "A grouping relationship for any relationship directly involving a function
 xref: RO:0002328
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "This is a grouping relation that collects relations used for the purpose of connecting structure and function" xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 
 [Typedef]
 id: has_part
@@ -2351,7 +2697,7 @@ property_value: IAO:0000116 "Everything has itself as a part. Any part of any pa
 property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string
 property_value: IAO:0000118 "has_part" xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0001900 RO:0001901
 is_transitive: true
 is_a: overlaps ! overlaps
@@ -2363,8 +2709,23 @@ def: "A mereological relationship or a topological relationship" []
 xref: RO:0002323
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships" xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0001900 RO:0001901
+
+[Typedef]
+id: neural-electronic-interface-ontology:NEIO_0000100
+name: device commercialized by
+def: "A relation between a device and an organization in which the organization assists in the process of commercializing the device." []
+property_value: IAO:0000112 "The commerical partner conducts clinic trials of the device." xsd:string
+property_value: IAO:0000112 "The commerical partner sets up the manufacturing workflow." xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:created "2024-02-20T16:42:25Z" xsd:dateTime
+
+[Typedef]
+id: neural-electronic-interface-ontology:NEIO_0007000
+name: device origin organization
+property_value: terms:contributor https://orcid.org/0009-0006-7251-3026
+property_value: terms:created "2024-04-26T18:21:54Z" xsd:dateTime
 
 [Typedef]
 id: overlaps
@@ -2379,7 +2740,7 @@ subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: ro-eco
 xref: RO:0002131
 property_value: IAO:0000114 IAO:0000125
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0001900 RO:0001901
 holds_over_chain: has_part overlaps
 holds_over_chain: has_part part_of
@@ -2410,7 +2771,7 @@ property_value: IAO:0000116 "Everything is part of itself. Any part of any part 
 property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
 property_value: IAO:0000118 "part_of" xsd:string
-property_value: isDefinedBy uberon:import.owl
+property_value: isDefinedBy neural-electronic-interface-ontology:neio/imports/uberon_import.owl
 property_value: RO:0001900 RO:0001901
 property_value: RO:0040042 BFO:0000002
 property_value: RO:0040042 BFO:0000003
