@@ -1,0 +1,430 @@
+Prefix(:=<https://w3id.org/neural-electronic-interface-ontology/neio/components/device-organizations.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<https://w3id.org/neural-electronic-interface-ontology/neio/components/device-organizations.owl>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000245>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000000>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000001>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000002>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000003>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000004>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000005>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000007>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000009>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000010>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000012>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000013>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000014>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000015>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000016>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000017>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000018>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000019>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000020>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000021>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000022>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000023>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000024>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000025>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000026>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000027>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000028>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000029>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000030>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000031>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000032>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000033>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000034>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000035>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000036>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000037>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000038>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010>))
+Declaration(NamedIndividual(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/created>))
+
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000000> (A-Neuron Electronic Corp.)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000000> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000000> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000000> "A-Neuron Electronic Corp.")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000000>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000001> (ATLAS Neuroengineering)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000001> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000001> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000001> "ATLAS Neuroengineering")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000001>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000002> (Avery Laboratories)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000002> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000002> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000002> "Avery Laboratories")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000002>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000003> (Biomedical Technologies)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000003> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000003> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000003> "Biomedical Technologies")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000003>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000004> (Bionic Eye Technologies)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000004> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000004> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000004> "Bionic Eye Technologies")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000004>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000005> (Bionic Sight, LLC)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000005> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000005> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000005> "Bionic Sight, LLC")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000005>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006> (Bionic Vision Technologies)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006> "Bionic Vision Technologies")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000006>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000007> (Blackrock Microsystems Europe GmbH)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000007> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000007> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000007> "Blackrock Microsystems Europe GmbH")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000007>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008> (Blackrock Microsystems LLC)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008> "Blackrock Microsystems LLC")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000008>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000009> (Cortigent, Inc.)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000009> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000009> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000009> "Cortigent, Inc.")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000009>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000010> (Cortivision)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000010> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000010> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000010> "Cortivision")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000010>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011> (Epi-Ret GmBH)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011> "Epi-Ret GmBH")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000011>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000012> (Golden Eye Bionics, LLC)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000012> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000012> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000012> "Golden Eye Bionics, LLC")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000012>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000013> (Grey Innovations)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000013> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000013> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000013> "Grey Innovations")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000013>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000014> (iBionics)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000014> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000014> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000014> "iBionics")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000014>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000015> (IMI Intelligent Medical Implants GmbH)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000015> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000015> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000015> "IMI Intelligent Medical Implants GmbH")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000015>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000016> (IntelliMicro Medical Co., Ltd.)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000016> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000016> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000016> "IntelliMicro Medical Co., Ltd.")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000016>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000017> (Iridium Medical Technology Co. Ltd.)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000017> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000017> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000017> "Iridium Medical Technology Co. Ltd.")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000017>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000018> (MicroProbes for Life Science)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000018> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000018> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000018> "MicroProbes for Life Science")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000018>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000019> (Nano Retina)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000019> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000019> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000019> "Nano Retina")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000019>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000020> (Nanovision Biosciences)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000020> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000020> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000020> "Nanovision Biosciences")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000020>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000021> (Nerve Biomed S.L.)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000021> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000021> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000021> "Nerve Biomed S.L.")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000021>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000022> (Neuralink)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000022> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000022> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000022> "Neuralink")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000022>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000023> (Nidek Co., Ltd.)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000023> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000023> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000023> "Nidek Co., Ltd.")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000023>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000024> (Nurotron Biotechnology Co., Ltd.)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000024> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000024> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000024> "Nurotron Biotechnology Co., Ltd.")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000024>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000025> (Optobionics)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000025> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000025> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000025> "Optobionics")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000025>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000026> (Phosphoenix)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000026> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000026> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000026> "Phosphoenix")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000026>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000027> (Pixium Vision)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000027> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000027> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000027> "Pixium Vision")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000027>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000028> (Polystim Neurotechnologies)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000028> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000028> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000028> "Polystim Neurotechnologies")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000028>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000029> (Retina Implant AG)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000029> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000029> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000029> "Retina Implant AG")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000029>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000030> (ReVision Implant)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000030> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000030> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000030> "ReVision Implant")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000030>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000031> (SCHOTT MiniFab)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000031> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000031> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000031> "SCHOTT MiniFab")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000031>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000032> (Science)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000032> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000032> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000032> "Science")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000032>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000033> (Second Sight Medical Products)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000033> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000033> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000033> "Second Sight Medical Products")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000033>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000034> (Sensor-Tech)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000034> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000034> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000034> "Sensor-Tech")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000034>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000035> (SiBionics)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000035> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000035> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000035> "SiBionics")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000035>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000036> (Sigenics)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000036> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000036> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000036> "Sigenics")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000036>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000037> (Visus Technology, Inc.)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000037> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000037> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000037> "Visus Technology, Inc.")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000037>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000038> (Vivani Medical)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000038> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000038> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000038> "Vivani Medical")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000038>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039> (Minori Industry Co., Ltd.)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039> "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039> "2024-02-20T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039> "Minori Industry Co., Ltd.")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000039>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001> (Universität Tübingen)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001> "Universität Tübingen")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007001>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002> (National Chiao Tung University)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002> "National Chiao Tung University")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007002>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003> (University of Southern California)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003> "University of Southern California")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007003>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004> (University of London)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004> "University of London")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007004>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005> (Cornell University)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005> "Cornell University")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007005>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006> (Shanghai Jiao Tong University)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006> "Shanghai Jiao Tong University")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007006>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007> (Dobelle Institute)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007> "Dobelle Institute")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007007>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008> (Polytechnique Montréal)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008> "Polytechnique Montréal")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007008>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009> (Monash University)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009> "Monash University")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007009>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010> (Illinois Institute of Technology)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010> "Illinois Institute of Technology")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007010>)
+
+# Individual: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011> (Massachusetts General Hospital)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011> "https://orcid.org/0009-0006-7251-3026")
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011> "2024-04-26T18:00:00Z")
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011> "Massachusetts General Hospital")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0007011>)
+
+
+)
