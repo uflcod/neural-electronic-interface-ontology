@@ -10,8 +10,12 @@
 # These live in the imports/ folder
 # This pattern uses ROBOT to generate an import module
 
-IMPORTS =  omo uberon ogms obi organizations bionic-vision-devices
+COMPONENTS = organizations bionic-vision-devices
+COMPONENT_ROOTS = $(patsubst %, $(COMPONENTSDIR)/%, $(COMPONENTS))
+COMPONENT_OWL_FILES = $(foreach n,$(COMPONENT_ROOTS), $(n).owl)
+COMPONENT_FILES = $(COMPONENT_OWL_FILES)
 
+IMPORTS =  omo uberon ogms obi
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
 IMPORT_FILES = $(IMPORT_OWL_FILES)
@@ -22,8 +26,9 @@ IMP_LARGE=true # Global parameter to bypass handling of large imports
 
 .PRECIOUS: $(IMPORTDIR)/%_import.owl
 
-.PHONY: all_imports
+.PHONY: all_imports all_components
 all_imports: $(IMPORT_FILES)
+all_components: $(COMPONENT_FILES)
 
 .PHONY: refresh-imports
 refresh-imports:
@@ -45,11 +50,14 @@ refresh-%:
 no-mirror-refresh-%:
 	$(MAKE) IMP=true IMP_LARGE=true MIR=false PAT=false $(IMPORTDIR)/$*_import.owl -B
 
-.PHONY: all-imports
+.PHONY: all-imports all-components
 all-imports:
 #	@echo $(patsubst %, $(IMPORTDIR)/%_import.owl, $(IMPORTS)) # testing
 	make $(patsubst %, $(IMPORTDIR)/%_import.owl, $(IMPORTS))
-#	make  imports/omo_import.owl
+
+all-components:
+#	@echo $(patsubst %, $(COMPONENTSDIR)/%_import.owl, $(COMPONENTS)) # testing
+	make $(patsubst %, $(COMPONENTSDIR)/%.owl, $(COMPONENTS))
 
 $(IMPORTDIR)/omo_import.owl: $(MIRRORDIR)/omo.owl
 	$(ROBOT) \
@@ -156,7 +164,7 @@ $(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms.txt
 # When using templates (e.g. robot templates)
 # you need to use the template goal
 
-$(IMPORTDIR)/organizations_import.owl: $(TEMPLATEDIR)/organizations.tsv 
+$(COMPONENTSDIR)/device-organizations.owl: $(TEMPLATEDIR)/device-organizations.tsv 
 	$(ROBOT) merge --input $(SRC) \
 		template \
 			--prefix "neio: https://w3id.org/neural-electronic-interface-ontology/NEIO_" \
@@ -168,7 +176,7 @@ $(IMPORTDIR)/organizations_import.owl: $(TEMPLATEDIR)/organizations.tsv
 
 # NOTE: There is an implicit dependency between devices and organizations.
 # If you add an organization to devices, you need to make sure it is in organizations.
-$(IMPORTDIR)/bionic-vision-devices_import.owl: $(TEMPLATEDIR)/bionic-vision-devices.tsv
+$(COMPONENTSDIR)/bionic-vision-devices.owl: $(TEMPLATEDIR)/bionic-vision-devices.tsv
 	$(ROBOT) merge --input $(SRC) \
 		template \
 			--prefix "neio: https://w3id.org/neural-electronic-interface-ontology/NEIO_" \

@@ -7,15 +7,14 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://w3id.org/neural-electronic-interface-ontology/neio.owl>
-Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-device_import.owl>)
+Import(<https://w3id.org/neural-electronic-interface-ontology/neio/components/bionic-vision-devices.owl>)
+Import(<https://w3id.org/neural-electronic-interface-ontology/neio/components/device-organizations.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/obi_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/ogms_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/omo_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/omrse_import.owl>)
-Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/organizations_import.owl>)
 Import(<https://w3id.org/neural-electronic-interface-ontology/neio/imports/uberon_import.owl>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-7387-7944>)
-Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-9625-1899>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-9990-8331>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-1118-1738>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-5260-9315>)
@@ -23,10 +22,20 @@ Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0006-7
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0008-8150-9779>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0009-9778-4641>)
 Annotation(<http://purl.org/dc/terms/created> "2023-09-17")
+Annotation(<http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-9625-1899>)
 Annotation(<http://purl.org/dc/terms/description> "The Neural Electronic Interface Ontology represents the types of devices used to interface with the central nervous system to enhance (or augment) stimuli from a subject's external environment, the conditions under which these devices should be employed, the assessment of a subject's sensory ability, and the metrics for evaluating the performance.")
 Annotation(<http://purl.org/dc/terms/title> "Neural Electronic Interface Ontology")
 Annotation(<http://xmlns.com/foaf/0.1/homepage> "https://github.com/uflcod/neural-electronic-interface-ontology")
 
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000045>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000046>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000047>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000048>))
+Declaration(Class(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000049>))
 Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000100>))
 Declaration(ObjectProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0007000>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-5233-844X>))
@@ -44,6 +53,94 @@ Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/homepage>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000050>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000051>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000052>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000053>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000054>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000055>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000056>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000057>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000058>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000059>))
+Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000060>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> (implant location)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> "2024-06-25T00:59:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> "implant location"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000050> (implant processor location)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000050> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000050> "2024-06-25T01:00:24Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000050> "implant processor location"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000051> (electrode layout)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000051> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000051> "2024-06-25T01:00:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000051> "electrode layout"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000052> (electrode pitch)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000052> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000052> "2024-06-25T01:01:12Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000052> "electrode pitch"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000053> (electrode diameter)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000053> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000053> "2024-06-25T01:01:33Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000053> "electrode diameter"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000054> (clinical trial)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000054> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000054> "2024-06-25T01:02:09Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000054> "clinical trial"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000055> (first patient year)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000055> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000055> "2024-06-25T01:02:55Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000055> "first patient year"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000056> (FDA approval year)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000056> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000056> "2024-06-25T01:03:11Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000056> "FDA approval year"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000057> (end of product year)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000057> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000057> "2024-06-25T01:03:36Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000057> "end of product year"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000058> (ce mark year)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000058> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000058> "2024-06-25T01:03:45Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000058> "ce mark year"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000059> (implant type)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000059> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000059> "2024-06-25T01:06:27Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000059> "implant type"@en)
+
+# Annotation Property: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000060> (electrode number)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000060> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000060> "2024-06-25T03:05:36Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000060> "electrode number"@en)
+
 
 ############################
 #   Object Properties
@@ -67,6 +164,75 @@ AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ont
 
 
 ############################
+#   Classes
+############################
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040> (electrode array)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040> "2024-05-14T20:29:46Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040> "electrode array"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041>))
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041> (electrode)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041> "2024-05-14T20:30:09Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041> "electrode"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000041> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042> (neural electronic interface device)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042> "2024-05-14T20:39:16Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042> "neural electronic interface device"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043> (bionic vision device)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043> "2024-05-14T20:39:31Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043> "bionic vision device"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000045> (bionic hearing device)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000045> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000045> "2024-05-14T20:41:47Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000045> "bionic hearing device"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000045> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000046> (brain computer interface)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000046> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000046> "2024-05-14T20:43:31Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000046> "brain computer interface"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000046> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000047> (brain machine interface)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000047> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000047> "2024-05-14T20:43:46Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000047> "brain machine interface"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000047> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000042>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000048> (cortical bionic vision device)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000048> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000048> "2024-05-14T20:59:44Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000048> "cortical bionic vision device"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000048> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043>)
+
+# Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000049> (retinal bionic vision device)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000049> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000049> "2024-05-14T21:00:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000049> "retinal bionic vision device"@en)
+SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000049> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000043>)
+
+
+############################
 #   Named Individuals
 ############################
 
@@ -80,11 +246,11 @@ AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-7387-7944> "Daniel R
 
 # Individual: <https://orcid.org/0000-0001-9625-1899> (Bill Duncan)
 
-AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-9625-1899> "Bill Duncan"@en)
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-9625-1899> "Bill Duncan")
 
-# Individual: <https://orcid.org/0000-0001-9990-8331> (Alex Diehl)
+# Individual: <https://orcid.org/0000-0001-9990-8331> (Alexander D. Diehl)
 
-AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-9990-8331> "Alex Diehl"@en)
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-9990-8331> "Alexander D. Diehl")
 
 # Individual: <https://orcid.org/0000-0002-1118-1738> (John Beverley)
 
@@ -94,8 +260,11 @@ AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-1118-1738> "John Bev
 
 AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-5260-9315> "Patrick Ray"@en)
 
-# Individual: <https://orcid.org/0009-0006-7251-3026> (Gopikrishnan M. Chandrasekharan)
+# Individual: <https://orcid.org/0009-0006-7251-3026> (Gopikrishnan M Chandrasekharan)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0006-7251-3026> <https://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://orcid.org/0009-0006-7251-3026> "2024-06-25T03:46:56Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://orcid.org/0009-0006-7251-3026> "Gopikrishnan M Chandrasekharan"@en)
 AnnotationAssertion(rdfs:label <https://orcid.org/0009-0006-7251-3026> "Gopikrishnan M. Chandrasekharan")
 
 # Individual: <https://orcid.org/0009-0008-8150-9779> (Jisoo Seo)

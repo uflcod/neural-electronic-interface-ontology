@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-device_import.owl" uri="imports/bionic-vision-device_import.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-device-origin-organizations_import.owl" uri="imports/bionic-vision-device-origin-organizations_import.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-device-commercial-partners_import.owl" uri="imports/bionic-vision-device-commercial-partners_import.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
-        <uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/organizations_import.owl" uri="imports/organizations_import.owl"/>
-        <uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/bionic-vision-devices_import.owl" uri="imports/bionic-vision-devices_import.owl"/>
+        <uri name="https://w3id.org/neural-electronic-interface-ontology/neio/components/device-organizations.owl" uri="components/device-organizations.owl"/>
+        <uri name="https://w3id.org/neural-electronic-interface-ontology/neio/components/bionic-vision-devices.owl" uri="components/bionic-vision-devices.owl"/>
         <uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/ogranizations_import.owl" uri="imports/organizations_import.owl"/>
         <uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/obi_import.owl" uri="imports/obi_import.owl"/>
         <uri name="https://w3id.org/neural-electronic-interface-ontology/neio/imports/omrse_import.owl" uri="imports/omrse_import.owl"/>
