@@ -121,8 +121,10 @@ Declaration(AnnotationProperty(<https://w3id.org/neural-electronic-interface-ont
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> (Alpha AMS)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> <https://orcid.org/0009-0006-7251-3026>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> "The Alpha AMS is an advanced subretinal implant developed by Retina Implant AG, designed to assist individuals with retinitis pigmentosa, a condition marked by the progressive loss of vision. This implant is an evolution of its predecessor, the [Alpha IMS](/devices/alpha-ims), featuring enhanced functionality with 1,600 light-sensitive photodiodes that more effectively mimic the natural processing of visual signals. Implanted under the retina, the Alpha AMS converts light into electrical signals that are sent to the brain, enabling patients to detect light and dark, and recognize large objects and outlines.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> "Alpha AMS")
@@ -138,8 +140,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000101> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> (Alpha IMS)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> <https://orcid.org/0009-0006-7251-3027>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> "The Alpha IMS is a subretinal implant developed by Retina Implant AG, aimed at restoring functional vision for individuals with retinitis pigmentosa, a group of genetic disorders characterized by progressive vision loss. Implanted beneath the retina, the device features a microchip equipped with 1,500 light-sensitive photodiodes, amplifiers, and electrodes. It functions by mimicking the role of photoreceptor cells: capturing light signals and converting them into electrical impulses transmitted to the brain via the optic nerve.
 
@@ -156,8 +160,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000102> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> (AmazingVision)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> <https://orcid.org/0009-0006-7251-3028>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> "This technology is an improved version of what the National Chiao Tung University’s Biomedical Electronics Translational Research Center (BETRC) has been developing. The BETRC created an artificial retina that uses two threads to transmit power from the eyewear worn by the user to a chip implanted in the eyeball. Amazing Vision has added a tiny solar panel to the chip that generates power by absorbing infrared light. This improvement reduces inflammation to the eye, reduces infection risk, and gives clearer and wider vision to the patient it was implanted in. Animal tests have already been conducted and have proven useful. Human testing was delayed due to the pandemic, but is soon to be conducted.
 ")
@@ -170,8 +176,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000103> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> (Argus I)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> <https://orcid.org/0009-0006-7251-3029>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> "Argus I was the first-generation prototype of an epiretinal implant manufactured by Second Sight Medical Products.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> "Argus I")
@@ -187,8 +195,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000104> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> (Argus II)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> <https://orcid.org/0009-0006-7251-3030>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> "The Argus II is a retinal prosthesis device developed by Second Sight Medical Products, designed for individuals with retinitis pigmentosa, a condition characterized by severe vision impairment. As an epiretinal implant, it is placed directly on the retina's surface and consists of a small camera on eyeglasses that captures visual data. This data is processed by a portable unit and transmitted wirelessly to an electrode array in the eye, stimulating the retina's remaining cells to send visual information to the brain.
 
@@ -208,8 +218,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000105> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> (ASR Artificial Silicon Retina)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> <https://orcid.org/0009-0006-7251-3031>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> "Optobionics’ Artificial Silicon Retina microchip (ASR) was invented by Dr. Alan Chow and his brother Vincent Chow.  Dr. Chow is an ophthalmic surgeon and assistant professor and his brother Vincent is an electrical engineer.
 
@@ -226,8 +238,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000106> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> (AV-DONE)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> <https://orcid.org/0009-0006-7251-3032>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> "AV-DONE is a direct optic nerve electrode that produces artificial vision in blind patients with retinitis pigmentosa. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> "AV-DONE")
@@ -240,8 +254,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000107> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> (Bar-Ilan Hybrid Retinal Prosthesis)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> <https://orcid.org/0009-0006-7251-3033>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> "The Hybrid Retinal Prosthesis is a novel device that combines an implantable high density electrode array integrated with neurons. The electrode-neuron coupling allows for an increase in phosphene density while preserving retinal circuitry.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> "Bar-Ilan Hybrid Retinal Prosthesis")
@@ -251,8 +267,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000108> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> (Biohybrid)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> <https://orcid.org/0009-0006-7251-3034>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> "2024-06-25T18:00:00Z")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> "Biohybrid")
 AnnotationAssertion(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> "optic nerve")
@@ -262,8 +280,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000109> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> (Boston Retinal Implant)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> <https://orcid.org/0009-0006-7251-3035>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> "The Boston Retinal Implant Project has developed a subretinal, hermetically-enclosed, chronically-implantable vision prosthesis to restore some useful vision to people with degenerative retinal diseases, especially retinitis pigmentosa and age-related macular degeneration. The prosthesis offers advantages over the competing epiretinal devices by providing a lower risk of eye infection, reduced erosion through the delicate tissues that cover the front of the eye (i.e. the conjunctiva), and the ability to place stimulating electrodes closer to retinal nerve cells. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> "Boston Retinal Implant")
@@ -274,8 +294,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000110> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> (Brindley Cortical Implant)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> <https://orcid.org/0009-0006-7251-3035>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> "2024-06-25T18:00:00Z")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> "Brindley Cortical Implant")
 AnnotationAssertion(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> "cortical")
@@ -286,8 +308,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000111> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> (BS01)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> <https://orcid.org/0009-0006-7251-3036>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> "BS01 is an optogenetic prosthesis.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> "BS01")
@@ -299,8 +323,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000112> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> (C-Sight)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> <https://orcid.org/0009-0006-7251-3037>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> "The C-Sight group proposed an implantable visual prosthesis based on optic nerve stimulation with an electrode array. (Chai et al. 2013)")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> "C-Sight")
@@ -313,8 +339,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000113> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> (CORTIVIS)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> <https://orcid.org/0009-0006-7251-3038>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> "CORTIVIS is a cortical visual neuroprosthesis that is based on the Utah Electrode Array. It will be used to improve the quality of life of profoundly blind people.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> "CORTIVIS")
@@ -328,8 +356,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000114> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> (Diamond Eye Implant)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> <https://orcid.org/0009-0006-7251-3039>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> "iBionics has developed the Diamond Eye implant with a high density of hermatically-enclosed electrodes, allowing for higher spatial resolution. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> "Diamond Eye Implant")
@@ -341,8 +371,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000115> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> (Dobelle Eye)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> <https://orcid.org/0009-0006-7251-3035>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> "2024-06-25T18:00:00Z")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> "Dobelle Eye")
 AnnotationAssertion(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> "cortical")
@@ -352,8 +384,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000116> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> (Electronic Visual Cortical Stimulator)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> <https://orcid.org/0009-0006-7251-3040>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> "The Cortivision team from Polystim neurotechnologies developed a visual cortical stimulator which consists of image sensing, image processing, and brain cortex stimulation to help blind patients acquire a sense of visual perception (Ghannoum 2010). They hope to elaborate a model of the layer 4 of the visual cortex V1 using a large-scale network of biologically realistic neurons.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> "Electronic Visual Cortical Stimulator")
@@ -365,8 +399,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000117> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> (ELVIS)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> <https://orcid.org/0009-0006-7251-3041>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> "ELVIS, or 'Electronic Vision,' is a cortical implant that utilizes small currents to stimulate the visual cortex to produce vision. A microcomputer attached to the belt processes the outdoor scene and uses an AI algoirthm to help simplify objects for the user. Sensor Tech expects human trials to begin in 2023 and implants to be made available to the public in 2027.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> "ELVIS")
@@ -378,8 +414,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000118> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> (EPIRET1)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> <https://orcid.org/0009-0006-7251-3042>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> "2024-06-25T18:00:00Z")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> "EPIRET1")
 AnnotationAssertion(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> "epiretinal")
@@ -390,8 +428,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000119> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> (EPIRET2)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> <https://orcid.org/0009-0006-7251-3043>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> "2024-06-25T18:00:00Z")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> "EPIRET2")
 AnnotationAssertion(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> "epiretinal")
@@ -402,8 +442,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000120> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> (EPIRET3)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> <https://orcid.org/0009-0006-7251-3044>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> "The EPIRET3 implant is a remotely controlled, fully intraocular wireless device consisting of a receiver and a stimulator module. The stimulator is placed on the retinal surface. Data and energy are transmitted via an inductive link from outside the eye to the implant. Surgery included removal of the lens, vitrectomy, and implantation of the EPIRET3 device through a corneal incision.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> "EPIRET3")
@@ -418,8 +460,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000121> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> (Gennaris)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> <https://orcid.org/0009-0006-7251-3045>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> "Gennaris is a cortical visual prosthesis. It has been designed to bypass damage to the eye and optic nerve, to restore functional vision to people who have lost their sight through traumatic injury and conditions such as glaucoma and acquired retinal disease. Gennaris is currently preparing to undergo human clinical trials in Australia.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> "Gennaris")
@@ -433,8 +477,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000122> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> (HARP High-Acuity Retinal Prosthesis)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> <https://orcid.org/0009-0006-7251-3046>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> "HARP is a proprietary contact lens-shaped, 4000 pixel retinal prostheses currently in development by Iridium Medical Technologies. HARP is made for patients with Retinitis Pigmentosa and Age-Related Macular Degeneration.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> "HARP High-Acuity Retinal Prosthesis")
@@ -445,8 +491,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000123> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> (IMI Retinal Implant System)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> <https://orcid.org/0009-0006-7251-3047>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> "2024-06-25T18:00:00Z")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> "IMI Retinal Implant System")
 AnnotationAssertion(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> "epiretinal")
@@ -457,8 +505,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000124> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> (IMIE 256 Channel Intelligent Micro Implant Eye)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> <https://orcid.org/0009-0006-7251-3048>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> "The 256 Channel Intelligent Micro Eye Implant is an epiretinal implant developed by IntelliMicro Micro Co and Golden Eye Bionic. The implant features advanced technology for a micro implant with an extended electrode array.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> "IMIE 256 Channel Intelligent Micro Implant Eye")
@@ -471,8 +521,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000125> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> (Intracortical Visual Prosthesis)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> <https://orcid.org/0009-0006-7251-3049>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> "The Intracortical Visual Prosthesis is currently being developed at the Illinois Institute of Technology and is being prepared for clinical testing.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> "Intracortical Visual Prosthesis")
@@ -485,8 +537,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000126> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> (IRIS I)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> <https://orcid.org/0009-0006-7251-3050>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> "Pixium's first device, IRIS1 (Intelligent Retinal Implantable System), used an epi-retinal implant (on the retinal surface) and made it to clinical trials with the goal of obtaining CE Mark.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> "IRIS I")
@@ -500,8 +554,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000127> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> (IRIS II)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> <https://orcid.org/0009-0006-7251-3051>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> "The IRIS II is a second generation epiretinal implant developed by Pixium vision to deliver light and shape perception, and to localize objects giving the patient the ability to negotiate unfamiliar environments. It consists of a 150 electrode array which allows for a better perceieved visual resolution by the user. The IRIS implant also uses asynchronous time-based image sensor technology resulting in faster, real-time image processing. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> "IRIS II")
@@ -514,8 +570,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000128> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> (Leuven Optic Nerve Visual Prosthesis)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> <https://orcid.org/0009-0006-7251-3052>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> "The optic nerve visual prosthesis (ONVP) uses a self-sizing spiral cuff electrode to electrically stimulate the optic nerve and thus create the perception of phosphenes. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> "Leuven Optic Nerve Visual Prosthesis")
@@ -526,8 +584,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000129> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> (Link N1)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> <https://orcid.org/0009-0006-7251-3053>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> "The N1 implant consists of 1024 electrodes distributed across 64 threads, composed mostly of polyimide with a thin gold or platinum conductor, which are inserted into the brain through an automated process performed by a surgical robot (R1). Each thread consists of an area of wires that contains electrodes capable of locating electrical signals in the brain, and a sensory area where the wire interacts with an electronic system that allows amplification and acquisition of the brain signal.
 
@@ -541,8 +601,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000130> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> (Newcastle Visual Prosthesis)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> <https://orcid.org/0009-0006-7251-3054>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> "The Optogenetic Retinal Prostheses uses an optoelectronic headset to capture the visual scene, have an LED array display the image onto photosensitized retinal cells and stimulate them with light. A key advantage of this approach is that it is possible to target ON and OFF bipolar cells.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> "Newcastle Visual Prosthesis")
@@ -552,8 +614,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000131> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> (NR600)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> <https://orcid.org/0009-0006-7251-3055>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> "The miniature Nano Retina device, the NR600 Implant, replaces the functionality of the damaged photoreceptor cells and creates the electrical stimulation required to activate the remaining healthy retinal cells. NR600 consists of two components; a miniature implantable chip and a set of eyeglasses worn by the patient.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> "NR600")
@@ -565,8 +629,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000132> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> (OpticSELINE)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> <https://orcid.org/0009-0006-7251-3056>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> "OpticSELENE is a device with intraneural electrodes that stimulates the optic nerve with light sensation to promote activation of the visual cortex-in to try to restore the sight of the blind. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> "OpticSELINE")
@@ -576,8 +642,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000133> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> (Optoelectronic Nanowire Retinal Prosthesis)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> <https://orcid.org/0009-0006-7251-3057>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> "2024-06-25T18:00:00Z")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> "Optoelectronic Nanowire Retinal Prosthesis")
 AnnotationAssertion(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> "subretinal")
@@ -587,8 +655,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000134> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> (OPTOEPIRET)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> <https://orcid.org/0009-0006-7251-3058>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> "OPTOEPIRET extends the EPIRET implant with an integrated epiretinal recording of the image produced by the eye lens onto the retina.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> "OPTOEPIRET")
@@ -599,8 +669,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000135> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> (Orion Cortical Visual Prosthesis System)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> <https://orcid.org/0009-0006-7251-3059>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> "The Orion Visual Cortical Prosthesis System is an implanted cortical stimulation device intended to provide useful artificial vision to individuals who are blind due to a wide range of causes, including glaucoma, diabetic retinopathy, optic nerve injury or disease, and eye injury. (Eyewire, 2019).")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> "Orion Cortical Visual Prosthesis System")
@@ -611,8 +683,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000136> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> (OUReP)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> <https://orcid.org/0009-0006-7251-3060>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> "Okayama University-type retinal prosthesis (OUReP) is a photoelectric dye-coupled polyethylene film which generates electric potential in response to light and stimulates nearby neurons.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> "OUReP")
@@ -623,8 +697,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000137> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> (Phoenix 99)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> <https://orcid.org/0009-0006-7251-3061>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> "The new Phoenix99 bionic eye being developed by engineers at the University of Sydney uses a camera linked to a retinal implant to help people with a debilitating problem with their vision to see again.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> "Phoenix 99")
@@ -636,8 +712,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000138> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> (POLYRETINA)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> <https://orcid.org/0009-0006-7251-3062>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> "POLYRETINA is a foldable, wide-field, epiretinal prosthesis that can wirelessly stimulate retinal ganglion cells. The current prototype, POLYRETINA β, features 10,498 Titanium-Nitride electrodes (80μm diameter, 120μm pitch) distributed in a tiled fashion over a 13mm-diameter active area. Future prototypes are planned to miniaturize the electrode design and increase the number of electrodes (POLYRETINA γ: 18,693 electrodes, 60μm diameter, 90μm pitch; POLYRETINA δ: 42,235 electrodes, 60μm diameter, 90μm pitch). So far, device safety and efficacy has been assessed <emph>ex vivo</emph> and <emph>in vitro</emph>.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> "POLYRETINA")
@@ -651,8 +729,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000139> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> (PolySTIM)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> <https://orcid.org/0009-0006-7251-3063>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> "PolySTIM is an implantable wireless intracortical interface designed to aid the visually impaired. It uses a multi-chip intracortical microstimulation system for wireless data and power transmission. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> "PolySTIM")
@@ -663,8 +743,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000140> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> (PRIMA)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> <https://orcid.org/0009-0006-7251-3064>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> "The Prima System is intended to partially replace the normal physiological function of the eyes photoreceptor cells by electrically stimulating the nerve cells of the inner retina, which then transmit the visual information to the brain via the optic nerve.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> "PRIMA")
@@ -676,8 +758,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000141> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> (QuantumRetina)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> <https://orcid.org/0009-0006-7251-3065>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> "2024-06-25T18:00:00Z")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> "QuantumRetina")
 AnnotationAssertion(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> "epiretinal")
@@ -686,8 +770,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000142> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> (Science Eye)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> <https://orcid.org/0009-0006-7251-3066>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> "The Science Eye is a visual prosthesis targeted at retinitis pigmentosa (RP) and dry age-related macular degeneration (AMD), two forms of serious blindness presently without good options for patients. The Science Eye is a combination device that uses an optogenetic gene therapy targeted at the cells of the optic nerve (the retinal ganglion cells) in conjunction with an implanted flexible thin-film, ultradense microLED display panel inserted directly over the retina. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> "Science Eye")
@@ -698,8 +784,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000143> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> (Seoul Artificial Retina)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> <https://orcid.org/0009-0006-7251-3067>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> "Seoul Artificial Retina Project started since the year 2000 at National University Seoul in Korea, aiming to develop a safe retinal prothesis implant for sight restoration. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> "Seoul Artificial Retina")
@@ -712,8 +800,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000144> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> (SiBionics Prosthesis)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> <https://orcid.org/0009-0006-7251-3068>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> "The SIBionics prostheses features 60 electrodes, high system complexity, and an integrated circuit. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> "SiBionics Prosthesis")
@@ -725,8 +815,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000145> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> (Stanford Artificial Retina Project)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> <https://orcid.org/0009-0006-7251-3069>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> "The goal of the Stanford Artificial Retina Project is to develop an advanced artificial retina that will reproduce the precise retinal code at a cellular resolution with cell-type specificity, resulting in high-fidelity artificial vision.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> "Stanford Artificial Retina Project")
@@ -736,8 +828,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000146> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> (STS Retinal Prosthesis)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> <https://orcid.org/0009-0006-7251-3070>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> "The semichronic suprachoroid transscleral (STS) prosthesis is developed by Fujikado et al. in Japan. In 2011 and 2016, this retinal prosthesis was reported to be able to elicit phosphenes in all five patients with advanced RP without major complications. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> "STS Retinal Prosthesis")
@@ -752,8 +846,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000147> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> (Suprachoroidal Prosthesis (24-channel))
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> <https://orcid.org/0009-0006-7251-3071>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> "The BVT Bionic Eye System is a suprachoroidal implant manufactured by Bionic Vision Technologies. The Gen1 Bionic Eye System was previously known as BVA 24 and was manufactured by the Bionic Vision Australia consortium in 2012. The commercialization rights and research rights of BVA were then taken over by Bionic Vision Technologies (BVT) in 2017. The Gen1 Bionic Eye System used a non-implantable percutaneous connector whereas the Gen2 Bionic Eye System is fully implantable. BVT is now developing the Gen3 Bionic Eye System.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> "Suprachoroidal Prosthesis (24-channel)")
@@ -764,6 +860,8 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000148> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149> (Suprachoroidal Prosthesis (44-channel))
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149> <https://orcid.org/0000-0001-9625-1899>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149> "2024-06-25T18:00:00Z")
@@ -777,8 +875,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000149> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> (Thalamic Visual Prosthesis)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> <https://orcid.org/0009-0006-7251-3073>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> "The goal of the MGH Thalamic Visual Prosthesis project is to build a machine-brain interface that can convey information from an external visual source directly to the visual parts of the brain for image processing. ")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> "Thalamic Visual Prosthesis")
@@ -790,8 +890,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000150> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> (Utah Intracortical Electrode Array)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> <https://orcid.org/0009-0006-7251-3074>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> "2024-06-25T18:00:00Z")
 AnnotationAssertion(<http://purl.org/dc/terms/description> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> "Utah intracortical Electrode Array (UIEA) is a fixed geometry penetrating intracortical microelectrode array developed by a team at the University of Utah in the 1990s, aiming to provide a solid foundation for creating a cortically based visual prosthesis.")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> "Utah Intracortical Electrode Array")
@@ -804,8 +906,10 @@ SubClassOf(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000151> 
 
 # Class: <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152> (VISNE)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152> <https://orcid.org/0000-0001-5233-844X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152> <https://orcid.org/0000-0001-7387-7944>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152> <https://orcid.org/0000-0001-9625-1899>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152> <https://orcid.org/0009-0006-7251-3075>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152> <https://orcid.org/0009-0006-7251-3072>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152> "2024-06-25T18:00:00Z")
 AnnotationAssertion(rdfs:label <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152> "VISNE")
 AnnotationAssertion(<https://w3id.org/neural-electronic-interface-ontology/NEIO_0000044> <https://w3id.org/neural-electronic-interface-ontology/NEIO_0000152> "thalamic")
